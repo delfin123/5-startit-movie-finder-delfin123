@@ -1,7 +1,7 @@
 import { browser, element, By, $, $$, Key } from 'protractor'
 import { expect } from 'chai';
 
-describe('Protractor searching', function () {
+fdescribe('Protractor searching', function () {
     it('Should return elements by css', async function () {
         await browser.get('/')
         let a = element.all(By.css('movie-card')).first()
