@@ -10,8 +10,7 @@ describe('Movie details', async function () {
         await browser.wait(EC.and(
     EC.visibilityOf($('[class = "col-md-8"] h2')),
     EC.visibilityOf($('.col-md-4 img')),
-    EC.visibilityOf($('img[src*="dvWPaE"]'))
-),3000,'3 elements should appear')
+    EC.visibilityOf($('img[src*="dvWPaE"]'))),3000,'3 elements should appear')
 let name = 'The Maze Runner'
 let frazefordelete = (await $('[class = "col-md-8"] h2 small').getText()).toString().length
 let fullfraze = (await $('[class = "col-md-8"] h2').getText()).toString()
@@ -44,8 +43,7 @@ console.log('Eсли пройден,то' + ' ' +name+'='+ await fullfraze.slice
         await browser.wait(EC.and(
     EC.visibilityOf($('[class = "col-md-8"] h2')),
     EC.visibilityOf($('.col-md-4 img')),
-    EC.visibilityOf($('img[src*="dvWPaE"]'))
-),10000,'3 elements should appear')
+    EC.visibilityOf($('img[src*="dvWPaE"]'))),10000,'3 elements should appear')
     let countofsimilarmovies = $$('[_ngcontent-c2] img')
     expect(await countofsimilarmovies.count()).to.be.above(0)
     console.log("Number of similar movies is" +' '+ await countofsimilarmovies.count())
@@ -54,7 +52,8 @@ console.log('Eсли пройден,то' + ' ' +name+'='+ await fullfraze.slice
     let elementclick = $$('.text-ellipsis a').get(0)
     await browser.executeScript("scroll(250, 0)")
     await elementclick.click()
-    await browser.wait(EC.visibilityOf(element(by.xpath(`//p[contains(.,'In a world divided into factions based on personality')]`))),10000,'Must be visibleimg')
+    await browser.wait(EC.visibilityOf(element(by.xpath(`//p[contains(.,'In a world divided into factions based on personality')]`))),
+    10000,'Must be visibleimg')
     let ganresofsimilarfilm = (await $$('p a.m-r-md').getText()).toString().split(',')
     console.log(await ganresofsimilarfilm)
     async function Intersec(arr1,arr2){
@@ -97,11 +96,10 @@ console.log('Eсли пройден,то' + ' ' +name+'='+ await fullfraze.slice
         await browser.wait(EC.and(
     EC.visibilityOf($('[class = "col-md-8"] h2')),
     EC.visibilityOf($('.col-md-4 img')),
-    EC.visibilityOf($('img[src*="DUM1THKl"]'))
-),10000,'3 elements should appear')
-expect(await $$('.text-justify').count()).to.be.above(0)
-expect(await $$('.text-justify').get(0).getText()).not.to.be.empty
-console.log(await $$('.text-justify').get(0).getText())
+    EC.visibilityOf($('img[src*="DUM1THKl"]'))),10000,'3 elements should appear')
+    expect(await $$('.text-justify').count()).to.be.above(0)
+    expect(await $$('.text-justify').get(0).getText()).not.to.be.empty
+    console.log(await $$('.text-justify').get(0).getText())
         })
 
         it('should have reviewer name as link to source', async function () {
@@ -114,26 +112,24 @@ console.log(await $$('.text-justify').get(0).getText())
         await browser.wait(EC.and(
     EC.visibilityOf($('[class = "col-md-8"] h2')),
     EC.visibilityOf($('.col-md-4 img')),
-    EC.visibilityOf($$('.col-md-3 img').get(0))
-),10000,'3 elements should appear')
-expect(await $$('.text-justify').count()).to.be.above(0)
-expect(await $$('.text-justify+footer a').get(0).getAttribute('href')).to.contain('http')
-await $$('.text-justify+footer a').get(0).click()
-let winHandles=browser.getAllWindowHandles();
-await winHandles.then(async function(handles) 
-{
+    EC.visibilityOf($$('.col-md-3 img').get(0))),10000,'3 elements should appear')
+    expect(await $$('.text-justify').count()).to.be.above(0)
+    expect(await $$('.text-justify+footer a').get(0).getAttribute('href')).to.contain('http')
+    await $$('.text-justify+footer a').get(0).click()
+    let winHandles=browser.getAllWindowHandles();
+    await winHandles.then(async function(handles) 
+    {
     let parentWindow =handles[0];
     let popUpWindow=handles[1];
     await browser.switchTo().window(popUpWindow);
     await browser.waitForAngularEnabled(false)
-await browser.wait(EC.visibilityOf($('.sub-heading')),10000,'Element not found')
-expect(await $('.sub-heading').getText()).to.contain('Written by')
-console.log(await $('.sub-heading+p').getText())
-await browser.close()
-await browser.switchTo().window(parentWindow)
-})
-
+    await browser.wait(EC.visibilityOf($('.sub-heading')),10000,'Element not found')
+    expect(await $('.sub-heading').getText()).to.contain('Written by')
+    console.log(await $('.sub-heading+p').getText())
+    await browser.close()
+    await browser.switchTo().window(parentWindow)
     })
+  })
 })
 
 describe('Popular series', async function () {
