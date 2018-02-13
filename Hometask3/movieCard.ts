@@ -21,7 +21,7 @@ describe('Movie card ', async function(){
 
     it('should open appropriate "movie details" page, after click on "name" field', async function(){
         await browser.get('/')
-        let nameofFilm = await $(`.text-ellipsis a[href*="129"]`).click()
+        await $(`.text-ellipsis a[href*="129"]`).click()
         await browser.sleep(5000)
         await expect(element(by.xpath(`//p[contains(.,'When her parents')]`)).getText()).toContain('courage she never knew she')
         console.log (await element(by.xpath(`//p[contains(.,'When her parents')]`)).getText())
