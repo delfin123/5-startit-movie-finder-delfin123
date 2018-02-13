@@ -9,8 +9,8 @@ describe('Search ', async function(){
         await search.sendKeys(name)
         await search.sendKeys(Key.ENTER)
         await browser.sleep(3000)
-        expect(await $$(`[class*="col-lg-3 col-xs-6"] [class="text-ellipsis"] a`).first().getAttribute('title')).toBe(name)
-        console.log(await $$(`[class*="col-lg-3 col-xs-6"] [class="text-ellipsis"] a`).first().getAttribute('title'))
+        expect(await $$(`[class*="col-lg-3 col-xs-6"] .text-ellipsis a`).first().getAttribute('title')).toBe(name)
+        console.log(await $$(`[class*="col-lg-3 col-xs-6"] .text-ellipsis a`).first().getAttribute('title'))
     })
 
     it('results(all of them) should contain search request', async function(){
@@ -20,11 +20,11 @@ describe('Search ', async function(){
         await search.sendKeys(name)
         await search.sendKeys(Key.ENTER)
         await browser.sleep(3000)
-        let foundTitles = $$(`[_ngcontent-c1]>[class*="flex"] [class*="ellipsis"]>a`);
+        let foundTitles = $$(`[_ngcontent-c1]>.is-flex .text-ellipsis>a`);
         let titles:any = await foundTitles.getAttribute('title')
         titles.forEach(title => expect (title).toContain(name))
-        console.log(await $$(`[_ngcontent-c1]>[class*="flex"] [class*="ellipsis"]>a`).getAttribute('title'))
-        })
+        console.log(await $$(`[_ngcontent-c1]>is-flex .text-ellipsis>a`).getAttribute('title'))
+    })
     
 
     it('result should be empty, after request for nonexistent movie', async function(){
@@ -34,7 +34,7 @@ describe('Search ', async function(){
         await search.sendKeys(name)
         await search.sendKeys(Key.ENTER)
         await browser.sleep(3000)
-        let foundTitles = $$(`[_ngcontent-c1]>[class*="flex"] [class*="ellipsis"]>a`)
+        let foundTitles = $$(`[_ngcontent-c1]>.is-flex .text-ellipsis>a`)
         expect(await foundTitles.count()).toBe(0)
     })
 })
