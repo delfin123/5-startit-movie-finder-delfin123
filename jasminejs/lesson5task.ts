@@ -6,7 +6,11 @@ beforeEach(async function(){
 })
 describe('Movie details', async function () {
    it('should have movie name as header', async function () {
-        await $('.text-ellipsis [title*="Maze"]').click()
+        let search = $(`[name="searchStr"]`)
+        let name1 = 'Maze runner'
+        await search.sendKeys(name1)
+        await search.sendKeys(Key.ENTER)    
+        await $$(`[title*="Maze"][href*='663']`).first().click()
         await browser.wait(EC.and(
         EC.visibilityOf($('[class = "col-md-8"] h2')),
         EC.visibilityOf($('.col-md-4 img')),
@@ -38,7 +42,11 @@ describe('Movie details', async function () {
     })
 
     it('should have simular movies block with atleast one movie', async function () {
-        await $('.text-ellipsis [title*="Maze Runner"]').click()
+        let search = $(`[name="searchStr"]`)
+        let name1 = 'Maze runner'
+        await search.sendKeys(name1)
+        await search.sendKeys(Key.ENTER)    
+        await $$(`[title*="Maze"][href*='663']`).first().click()
         await browser.wait(EC.and(
         EC.visibilityOf($('[class = "col-md-8"] h2')),
         EC.visibilityOf($('.col-md-4 img')),
@@ -51,7 +59,7 @@ describe('Movie details', async function () {
         let elementclick = $$('.text-ellipsis a').get(0)
         await browser.executeScript("scroll(250, 0)")
         await elementclick.click()
-        await browser.wait(EC.visibilityOf(element(by.xpath(`//p[contains(.,'In a world divided into factions based on personality')]`))),
+        await browser.wait(EC.visibilityOf(element(by.xpath(`//p[contains(.,'Katniss Everdeen has returned home')]`))),
         10000,'Must be visibleimg')
         let ganresofsimilarfilm = (await $$('p a.m-r-md').getText()).toString().split(',')
         console.log(await ganresofsimilarfilm)
