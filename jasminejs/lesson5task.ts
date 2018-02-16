@@ -4,7 +4,7 @@ import {expect} from 'chai'
 beforeEach(async function(){
     await browser.sleep(300)
     await browser.get('/')
-    await browser.sleep(300)
+    await browser.sleep(500)
 })
 
 describe('Movie details', async function () {
@@ -177,7 +177,6 @@ describe('Popular series', async function () {
     })
 
     it('should have "First Air Date" instead "Release Date"', async function () {
-        await browser.get('/')
         await $(`a[routerlink*="series"]`).click()
         await browser.wait(EC.and(
             EC.visibilityOf($$('.col-sm-6 img').first()),
