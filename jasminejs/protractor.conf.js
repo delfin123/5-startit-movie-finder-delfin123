@@ -6,9 +6,15 @@ require('ts-node').register();
       capabilities: {
         browserName: 'chrome'
       },
-      specs: [ 'lesson5task.ts' ],
+      specs: ['lesson5task.ts'],
       framework: 'jasmine',
       onPrepare: function() {
+        browser.manage().timeouts().implicitlyWait(1000)
+
+        afterEach(function () {
+        browser.manage().timeouts().implicitlyWait(1000)
+        })
+
         let ConsoleReporter = require('jasmine2-reporter').Jasmine2Reporter
         let console_reporter_options = {
           startingSpec: true

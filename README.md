@@ -6,7 +6,12 @@ Working project for startit students
 To make sure everything works in this initial repo:
 - clone
 - do `npm install` in root of this repo
-- do `npm test`
+- do `npm test` for run Homatask 5
+- do npm run test-H/t3 for run Hometask 3
+- do npm run test-travis for run Hometask 5 using Travis CI
+- do npm run test-cucumber for running tests which use cucumber
+- do npm run test-mocha for running test which use mocha
+
 - you should see chrome browser blinking, and something like this in console:
 ```
 Started
