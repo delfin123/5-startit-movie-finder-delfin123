@@ -59,8 +59,9 @@ describe('Movie details', async function () {
         await browser.wait(EC.and(
         EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
         EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
+        EC.visibilityOf(element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0)),
         EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
-        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'3 elements should appear')
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'5 elements should appear')
         await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0).click()
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),

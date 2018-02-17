@@ -11,7 +11,7 @@ describe('Search ', async function(){
         let name = 'Pacific Rim'
         await search.sendKeys(name)
         await search.sendKeys(Key.ENTER)
-        await browser.sleep(3000)
+        await browser.sleep(5000)
         expect(await $$(`[class*="col-lg-3 col-xs-6"] .text-ellipsis a`).first().getAttribute('title')).toBe(name)
         console.log(await $$(`[class*="col-lg-3 col-xs-6"] .text-ellipsis a`).first().getAttribute('title'))
     })
