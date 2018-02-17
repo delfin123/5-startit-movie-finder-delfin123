@@ -3,9 +3,11 @@ require('ts-node').register();
     module.exports.config = {
       baseUrl: 'https://movies-finder.firebaseapp.com/',
       SELENIUM_PROMISE_MANAGER: false,
-      capabilities: {
-        browserName: 'chrome'
-      },
+      capabilities: { 
+        browserName: 'chrome', 
+        enableVNC: true,
+        name: "Alexander Shtank0"
+        },
       specs: ['lesson5task.ts'],
       framework: 'jasmine',
       onPrepare: function() {

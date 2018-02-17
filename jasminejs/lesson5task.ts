@@ -14,11 +14,11 @@ describe('Movie details', async function () {
         await search.sendKeys(name1)
         await search.sendKeys(Key.ENTER)    
         await browser.wait(EC.and(
-            EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
-            EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
-            EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
-            EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'3 elements should appear')
-        await $$(`[title*="Maze"][href*='663']`).get(0).click()
+        EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
+        EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'3 elements should appear')
+        await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0).click()
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),
         EC.visibilityOf($('.col-md-4 img')),
@@ -37,11 +37,11 @@ describe('Movie details', async function () {
         await search.sendKeys(name)
         await search.sendKeys(Key.ENTER)
         await browser.wait(EC.and(
-            EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
-            EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
-            EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
-            EC.visibilityOf($$('.col-sm-3 movie-card img').last())),10000,'3 elements should appear')
-        await $$('a[title*="Matrix"]').get(0).click()
+        EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
+        EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),10000,'3 elements should appear')
+        await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0).click()
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),
         EC.visibilityOf($('.col-md-4 img')),
@@ -57,11 +57,11 @@ describe('Movie details', async function () {
         await search.sendKeys(name1)
         await search.sendKeys(Key.ENTER)   
         await browser.wait(EC.and(
-            EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
-            EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
-            EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
-            EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'3 elements should appear')
-        await $$(`a[title="Wing Commander"]`).first().click()
+        EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
+        EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'3 elements should appear')
+        await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0).click()
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),
         EC.visibilityOf($('.col-md-4 img')),
@@ -75,12 +75,12 @@ describe('Movie details', async function () {
         await browser.wait(EC.visibilityOf($$('.caption h4.text-ellipsis a').get(0)),15000, 'Not found')
         await $$('.caption h4.text-ellipsis a').first().click()
         await browser.wait(EC.and(
-            EC.visibilityOf($$('.col-md-2 img').first()),
-            EC.visibilityOf($$('.col-md-2 img').last())),10000,'2 elements should')
+        EC.visibilityOf($$('.col-md-2 img').first()),
+        EC.visibilityOf($$('.col-md-2 img').last())),10000,'2 elements should')
         let count = await $$('p a.m-r-md').count()
         await browser.wait(EC.and(
-            EC.visibilityOf($$('p a.m-r-md').get(0)),
-            EC.visibilityOf($$('p a.m-r-md').get(count-1))),10000,'2 elements should appear')
+        EC.visibilityOf($$('p a.m-r-md').get(0)),
+        EC.visibilityOf($$('p a.m-r-md').get(count-1))),10000,'2 elements should appear')
         let ganresofsimilarfilm = (await $$('p a.m-r-md').getText()).toString().split(',')
         console.log(await ganresofsimilarfilm)
         async function Intersec(arr1,arr2){
@@ -102,12 +102,12 @@ describe('cast block', async function () {
         await search.sendKeys(name)
         await search.sendKeys(Key.ENTER)
         await browser.wait(EC.and(
-            EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
-            EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
-            EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
-            EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'3 elements should')
+        EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
+        EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'3 elements should')
         await browser.wait(EC.visibilityOf($('[_ngcontent-c1] .orange-text')),10000,'Element not found')
-        await $$('.text-ellipsis [title*="Lord of the"]').get(0).click()
+        await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0).click()
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),
         EC.visibilityOf($('.col-md-4 img')),
@@ -124,12 +124,12 @@ describe('reviews block', function () {
         await search.sendKeys(name)
         await search.sendKeys(Key.ENTER)
         await browser.wait(EC.and(
-            EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
-            EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
-            EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
-            EC.visibilityOf($$('.text-ellipsis [title*="Thor"]').get(1)),
-            EC.visibilityOf($$('.col-sm-3 movie-card img').last())),10000,'3 elements should ')
-        await $$('.text-ellipsis [title*="Thor"]').get(1).click()
+        EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
+        EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
+        EC.visibilityOf($$('.text-ellipsis [title*="Thor"]').get(1)),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),10000,'3 elements should ')
+        await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(1).click()
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),
         EC.visibilityOf($('.col-md-4 img')),
@@ -140,43 +140,42 @@ describe('reviews block', function () {
     })
 
     it('should have reviewer name as link to source', async function () {
-
-            let search = await $(`[name="searchStr"]`);
-            let name = 'Pacific Rim';
-
-            await search.sendKeys(name)
-            await search.sendKeys(Key.ENTER)
-            await browser.wait(EC.and(
-                EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
-                EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
-                EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
-                EC.visibilityOf($$('.col-sm-3 movie-card img').last())),10000,'3 elements should appear')
-            await $$('a[title*="Pacific Rim"]').get(0).click()
-            await browser.wait(EC.and(
-            EC.visibilityOf($('.col-md-8 h2 .label')),
-            EC.visibilityOf($('.col-md-4 img')),
-            EC.visibilityOf($$('.col-md-3 img').get(0))),10000,'3 elements should appear')
-            expect(await $$('.text-justify').count()).to.be.above(0)
-            expect(await $$('.text-justify+footer a').get(0).getAttribute('href')).to.contain('http')
-            await $$('.text-justify+footer a').get(0).click()
-            let winHandles=browser.getAllWindowHandles();
-            await winHandles.then(async function(handles) {
-                let parentWindow =handles[0];
-                let popUpWindow=handles[1];
-                await browser.switchTo().window(popUpWindow);
-                await browser.waitForAngularEnabled(false)
-                await browser.wait(EC.visibilityOf($('.sub-heading')),10000,'Element not found')
-                expect(await $('.sub-heading').getText()).to.contain('Written by')
-                console.log(await $('.sub-heading+p').getText())
-                await browser.close()
-                await browser.switchTo().window(parentWindow)
-            })
+        let search = await $(`[name="searchStr"]`);
+        let name = 'Pacific Rim';
+        await search.sendKeys(name)
+        await search.sendKeys(Key.ENTER)
+        await browser.wait(EC.and(
+        EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
+        EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),10000,'3 elements should appear')
+        await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0).click()
+        await browser.wait(EC.and(
+        EC.visibilityOf($('.col-md-8 h2 .label')),
+        EC.visibilityOf($('.col-md-4 img')),
+        EC.visibilityOf($$('.col-md-3 img').get(0))),10000,'3 elements should appear')
+        expect(await $$('.text-justify').count()).to.be.above(0)
+        expect(await $$('.text-justify+footer a').get(0).getAttribute('href')).to.contain('http')
+        await $$('.text-justify+footer a').get(0).click()
+        let winHandles=browser.getAllWindowHandles();
+        await winHandles.then(async function(handles) {
+            let parentWindow =handles[0];
+            let popUpWindow=handles[1];
+            await browser.switchTo().window(popUpWindow);
+            await browser.waitForAngularEnabled(false)
+            await browser.wait(EC.visibilityOf($('.sub-heading')),10000,'Element not found')
+            expect(await $('.sub-heading').getText()).to.contain('Written by')
+            console.log(await $('.sub-heading+p').getText())
+            await browser.close()
+            await browser.switchTo().window(parentWindow)
+        })
     })
 })
 
 describe('Popular series', async function () {
     it('shouldnt have search bar', async function () {
-        await browser.wait(EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c1 and child::*[contains(@class,'col-sm-6')]]`))),10000,'Element not appeared')
+        await browser.wait(EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c1 and child::*[contains(@class,'col-sm-6')]]`))),
+        10000,'Element not appeared')
         await $(`[routerlink*="series"]`).click()
         await browser.wait(EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c3][child::h3]'))),10000,'Element not appeared')
         expect (await $('.orange-text').getText()).to.contain('Popular Series')
@@ -184,7 +183,8 @@ describe('Popular series', async function () {
     })
 
     it('should have "First Air Date" instead "Release Date"', async function () {
-        await browser.wait(EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c1 and child::*[contains(@class,'col-sm-6')]]`))),10000,'Element not appeared')
+        await browser.wait(EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c1 and child::*[contains(@class,'col-sm-6')]]`))),
+        10000,'Element not appeared')
         let popularfilms = await $(`a[routerlink*="series"]`).click()
         await browser.wait(EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c3][child::h3]'))),10000,'Element not appeared')
         expect (await $('.orange-text').getText()).to.contain('Popular Series')
