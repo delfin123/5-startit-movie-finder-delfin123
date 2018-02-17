@@ -1,9 +1,12 @@
 import { browser, $, $$, element, by, Key} from 'protractor'
 
 describe('Search ', async function(){
+    beforeEach(async function(){
+        await browser.get('/')
+        await browser.manage().timeouts().implicitlyWait(5000)
+    })
 
     it('by exisiting name, should show first movie with complete name match', async function(){
-        await browser.get('/')
         let search = $(`[name="searchStr"]`)
         let name = 'Pacific Rim'
         await search.sendKeys(name)
@@ -14,7 +17,6 @@ describe('Search ', async function(){
     })
 
     it('results(all of them) should contain search request', async function(){
-        await browser.get('/')
         let search = $(`[name="searchStr"]`)
         let name = 'Lord of the Rings'
         await search.sendKeys(name)
@@ -28,7 +30,6 @@ describe('Search ', async function(){
     
 
     it('result should be empty, after request for nonexistent movie', async function(){
-        await browser.get('/')
         let search = $(`[name="searchStr"]`)
         let name = 'dhcr'
         await search.sendKeys(name)
