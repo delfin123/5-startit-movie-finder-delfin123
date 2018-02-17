@@ -106,7 +106,8 @@ describe('cast block', async function () {
         EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
         EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
         EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
-        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'3 elements should')
+        EC.visibilityOf(element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0)),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'5 elements should appear')
         await browser.wait(EC.visibilityOf($('[_ngcontent-c1] .orange-text')),20000,'Element not found')
         await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0).click()
         await browser.wait(EC.and(
