@@ -17,7 +17,8 @@ describe('Movie details', async function () {
         EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
         EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
         EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
-        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'3 elements should appear')
+        EC.visibilityOf(element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0)),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),20000,'5 elements should appear')
         await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0).click()
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),
@@ -39,8 +40,9 @@ describe('Movie details', async function () {
         await browser.wait(EC.and(
         EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
         EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
+        EC.visibilityOf(element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0)),
         EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
-        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),20000,'3 elements should appear')
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),20000,'5 elements should appear')
         await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0).click()
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),
@@ -48,7 +50,7 @@ describe('Movie details', async function () {
         EC.visibilityOf($$('.col-md-3 img').get(0))),20000,'3 elements should appear')
         let raiting = await $('.col-md-8 h2 .label').getText()
         expect(await raiting).not.to.be.NaN
-        console.log('The raiting of film is'+' '+await raiting)
+        console.log('The raiting of film is '+ await raiting)
     });
 
     it('should have simular movies block with atleast one movie', async function () {
@@ -61,7 +63,7 @@ describe('Movie details', async function () {
         EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
         EC.visibilityOf(element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0)),
         EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
-        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'5 elements should appear')
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),20000,'5 elements should appear')
         await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0).click()
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),
@@ -107,7 +109,7 @@ describe('cast block', async function () {
         EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
         EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
         EC.visibilityOf(element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0)),
-        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),15000,'5 elements should appear')
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),20000,'5 elements should appear')
         await browser.wait(EC.visibilityOf($('[_ngcontent-c1] .orange-text')),20000,'Element not found')
         await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0).click()
         await browser.wait(EC.and(
@@ -129,8 +131,9 @@ describe('reviews block', function () {
         EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
         EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
         EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
+        EC.visibilityOf(element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0)),
         EC.visibilityOf($$('.text-ellipsis [title*="Thor"]').get(1)),
-        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),20000,'3 elements should ')
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),20000,'5 elements should appear')
         await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(1).click()
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),
@@ -150,7 +153,8 @@ describe('reviews block', function () {
         EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
         EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
         EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
-        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),20000,'3 elements should appear')
+        EC.visibilityOf(element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0)),
+        EC.visibilityOf($$('.col-sm-3 movie-card img').last())),20000,'5 elements should appear')
         await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(0).click()
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),
