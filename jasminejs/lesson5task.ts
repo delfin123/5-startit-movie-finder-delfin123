@@ -174,8 +174,10 @@ describe('reviews block', function () {
 
 describe('Popular series', async function () {
     it('shouldnt have search bar', async function () {
-        await browser.wait(EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c1 and child::*[contains(@class,'col-sm-6')]]`))),
-        10000,'Element not appeared')
+        await browser.wait(EC.and(
+        EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c1 and child::*[contains(@class,'col-sm-6')]]`))),
+        EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c1 and child::*[contains(@class,'col-sm-3')]]`)))),
+        20000,'2 elements not appeared')
         await $(`[routerlink*="series"]`).click()
         await browser.wait(EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c3][child::h3]'))),10000,'Element not appeared')
         expect (await $('.orange-text').getText()).to.contain('Popular Series')
@@ -183,8 +185,10 @@ describe('Popular series', async function () {
     })
 
     it('should have "First Air Date" instead "Release Date"', async function () {
-        await browser.wait(EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c1 and child::*[contains(@class,'col-sm-6')]]`))),
-        10000,'Element not appeared')
+        await browser.wait(EC.and(
+        EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c1 and child::*[contains(@class,'col-sm-6')]]`))),
+        EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c1 and child::*[contains(@class,'col-sm-3')]]`)))),
+        20000,'2 elements not appeared')
         let popularfilms = await $(`a[routerlink*="series"]`).click()
         await browser.wait(EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c3][child::h3]'))),10000,'Element not appeared')
         expect (await $('.orange-text').getText()).to.contain('Popular Series')
