@@ -76,16 +76,15 @@ describe('Movie details', async function () {
         let ganresoffilm = (await $$('p a.m-r-md').getText()).toString().split(',')
         console.log(await ganresoffilm)
         await browser.wait(EC.and(
-            EC.visibilityOf($$('.caption h4.text-ellipsis a').first()),
-            EC.visibilityOf(element.all(By.xpath(`//app-movie[child::*[@class='row is-flex']]//div[child::movie-card]`)).first())),20000, 'Not found')
+        EC.visibilityOf($$('.caption h4.text-ellipsis a').first()),
+        EC.visibilityOf(element.all(By.xpath(`//app-movie[child::*[@class='row is-flex']]//div[child::movie-card]`)).first()),
+        EC.visibilityOf(element(By.xpath(`//*[@class='row is-flex' and child::*[@class='col-md-2']]`)))),20000, 'Not found')
         await $$('.caption h4.text-ellipsis a').first().click()
         await browser.wait(EC.and(
-        EC.visibilityOf($$('.col-md-2 img').first()),
-        EC.visibilityOf($$('.col-md-2 img').last())),20000,'2 elements should')
-        let count = await $$('p a.m-r-md').count()
-        await browser.wait(EC.and(
         EC.visibilityOf($$('p a.m-r-md').first()),
-        EC.visibilityOf($$('p a.m-r-md').get(count-1))),20000,'2 elements should appear')
+        EC.visibilityOf($$('p a.m-r-md').last()),
+        EC.visibilityOf(element(By.xpath(`//p[@_ngcontent-c3 and child::a[contains(@class,'label')]]`))),
+        EC.visibilityOf($('.col-md-4+.col-md-8'))),20000,'4 elements should')
         let ganresofsimilarfilm = (await $$('p a.m-r-md').getText()).toString().split(',')
         console.log(await ganresofsimilarfilm)
         async function Intersec(arr1,arr2){
@@ -198,9 +197,11 @@ describe('Popular series', async function () {
         await browser.wait(EC.and(
         EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c1 and child::*[contains(@class,'col-sm-6')]]`))),
         EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c1 and child::*[contains(@class,'col-sm-3')]]`)))),20000,'2 elements not appeared')
-        let popularfilms = await $(`a[routerlink*="series"]`).click()
+        await $(`a[routerlink="popular/series"]`).click()
         await browser.wait(EC.and(
-        EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c3][child::h3]/div'))),
+        EC.visibilityOf(element.all(By.xpath('//div[child::h3]/div/div')).first()),
+        EC.visibilityOf(element.all(By.xpath('//div[child::h3]/div/div')).last()),
+        EC.visibilityOf(element(By.xpath('//div[child::h3]/div'))),
         EC.visibilityOf($('.orange-text'))),20000,'Element not appeared')
         expect (await $('.orange-text').getText()).to.contain('Popular Series')
         let firstairtext:any = await $$(`.text-ellipsis+p strong`).getText()
