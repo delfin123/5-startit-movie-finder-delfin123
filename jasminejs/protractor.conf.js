@@ -11,11 +11,9 @@ require('ts-node').register();
       specs: ['lesson5task.ts'],
       framework: 'jasmine',
       onPrepare: function() {
-        browser.manage().timeouts().implicitlyWait(1000)
 
-        afterEach(function () {
-        browser.manage().timeouts().implicitlyWait(1000)
-        })
+      browser.manage().window().maximize();
+
 
         let ConsoleReporter = require('jasmine2-reporter').Jasmine2Reporter
         let console_reporter_options = {
