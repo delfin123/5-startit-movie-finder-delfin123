@@ -83,7 +83,7 @@ describe('Movie details', async function () {
         EC.visibilityOf($$('p a.m-r-md').last()),
         EC.visibilityOf(element(By.xpath(`//p[@_ngcontent-c3 and child::a[contains(@class,'label')]]`))),
         EC.visibilityOf($('.col-md-4+.col-md-8'))),20000,'4 elements should')
-        let ganresofsimilarfilm = (await $$('p a.m-r-md').getText()).toString().split(',')
+        let ganresofsimilarfilm = await (await $$('p a.m-r-md').getText()).toString().split(',')
         console.log(await ganresofsimilarfilm)
         async function Intersec(arr1,arr2){
             let idx = 0, arr3 = [];
@@ -201,10 +201,8 @@ describe('Popular series', async function () {
         EC.visibilityOf(element.all(By.xpath('//div[child::h3]/div/div')).last()),
         EC.visibilityOf(element(By.xpath('//div[child::h3]/div'))),
         EC.visibilityOf($('.orange-text'))),20000,'Element not appeared')
-        expect (await $('.orange-text').getText()).to.contain('Popular Series')
-        await browser.sleep(1000)
-        let firstairtext = (await $$(`.text-ellipsis+p strong`).getText()).toString().split(',')
-        await firstairtext.forEach(text => expect (text).to.contain('First Air Date'))      
-        console.log("Количество популярных фильмов на сайте "+ await $$(`.text-ellipsis+p strong`).count())   
+        await expect (await $('.orange-text').getText()).to.contain('Popular Series')
+        let firstairtext = await (await $$(`.text-ellipsis+p strong`).getText()).toString().split(',').forEach(text => expect (text).to.contain('First Air Date'))
+        await console.log("Количество популярных фильмов на сайте "+ await $$(`.text-ellipsis+p strong`).count())   
     });
 })
