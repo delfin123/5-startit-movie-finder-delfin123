@@ -2,9 +2,9 @@ import { browser, $, $$, element, ExpectedConditions as EC, by ,Key,By, ActionSe
 import {expect} from 'chai'
 
 beforeEach(async function(){
-    await browser.sleep(500)
+    await browser.sleep(200)
     await browser.get('/')
-    await browser.sleep(500)
+    await browser.sleep(200)
 })
 
 describe('Movie details', async function () {
@@ -69,16 +69,14 @@ describe('Movie details', async function () {
         EC.visibilityOf($('.col-md-8 h2 .label')),
         EC.visibilityOf($('.col-md-4 img')),
         EC.visibilityOf(element(By.xpath(`//*[@_ngcontent-c3 and child::h3]/p[child::a]`))),
-        EC.visibilityOf($$('.col-md-3 img').first())),20000,'4 elements should appear')
-        let countofsimilarmovies = $$('[_ngcontent-c2] img')
-        expect(await countofsimilarmovies.count()).to.be.above(0)
-        console.log("Number of similar movies is" +' '+ await countofsimilarmovies.count())
-        let ganresoffilm = (await $$('p a.m-r-md').getText()).toString().split(',')
-        console.log(await ganresoffilm)
-        await browser.wait(EC.and(
+        EC.visibilityOf($$('.col-md-3 img').first()),
         EC.elementToBeClickable($$('.caption h4.text-ellipsis a').first()),
         EC.visibilityOf(element.all(By.xpath(`//app-movie[child::*[@class='row is-flex']]//div[child::movie-card]`)).first()),
-        EC.visibilityOf(element(By.xpath(`//*[@class='row is-flex' and child::*[@class='col-md-2']]`)))),20000, 'Not found')
+        EC.visibilityOf(element(By.xpath(`//*[@class='row is-flex' and child::*[@class='col-md-2']]`)))),20000,'7 elements should appear')
+        expect(await $$('[_ngcontent-c2] img').count()).to.be.above(0)
+        console.log("Number of similar movies is" +' '+ await $$('[_ngcontent-c2] img').count())
+        let ganresoffilm = (await $$('p a.m-r-md').getText()).toString().split(',')
+        console.log(await ganresoffilm)        
         await $$('.caption h4.text-ellipsis a').first().click()
         await browser.wait(EC.and(
         EC.visibilityOf($$('p a.m-r-md').first()),
@@ -204,8 +202,9 @@ describe('Popular series', async function () {
         EC.visibilityOf(element(By.xpath('//div[child::h3]/div'))),
         EC.visibilityOf($('.orange-text'))),20000,'Element not appeared')
         expect (await $('.orange-text').getText()).to.contain('Popular Series')
-        let firstairtext:any = await $$(`.text-ellipsis+p strong`).getText()
-        firstairtext.forEach(text => expect (text).to.contain('First Air Date'))      
+        await browser.sleep(1000)
+        let firstairtext = (await $$(`.text-ellipsis+p strong`).getText()).toString().split(',')
+        await firstairtext.forEach(text => expect (text).to.contain('First Air Date'))      
         console.log("Количество популярных фильмов на сайте "+ await $$(`.text-ellipsis+p strong`).count())   
     });
 })
