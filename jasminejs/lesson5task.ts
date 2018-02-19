@@ -158,6 +158,7 @@ describe('reviews block', function () {
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),
         EC.visibilityOf($('.col-md-4 img')),
+        EC.elementToBeClickable($$('.text-justify+footer a').first()),
         EC.visibilityOf(element(By.xpath(`//div[@_ngcontent-c3 and child::*[@class='col-md-6']]`))),
         EC.visibilityOf($$('.col-md-3 img').first())),20000,'4 elements should appear')
         expect(await $$('.text-justify').count()).to.be.above(0)
@@ -202,7 +203,7 @@ describe('Popular series', async function () {
         EC.visibilityOf(element(By.xpath('//div[child::h3]/div'))),
         EC.visibilityOf($('.orange-text'))),20000,'Element not appeared')
         await expect (await $('.orange-text').getText()).to.contain('Popular Series')
-        let firstairtext = await (await $$(`.text-ellipsis+p strong`).getText()).toString().split(',').forEach(text => expect (text).to.contain('First Air Date'))
+        await (await $$(`.text-ellipsis+p strong`).getText()).toString().split(',').forEach(text => expect (text).to.contain('First Air Date'))
         await console.log("Количество популярных фильмов на сайте "+ await $$(`.text-ellipsis+p strong`).count())   
     });
 })
