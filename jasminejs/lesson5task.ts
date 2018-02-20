@@ -26,9 +26,9 @@ describe('Movie details', async function () {
         EC.visibilityOf($$('.col-md-3 img').first())),20000,'3 elements should appear')
         let name = 'The Maze Runner'
         let frazefordelete = (await $('.col-md-8 h2 .label').getText()).toString().length
-        let fullfraze = (await element(By.xpath(`//*[contains(@class, 'col-md-8')]/h2[child::small]`)).getText()).toString()
+        let fullfraze = await (await element(By.xpath(`//*[contains(@class, 'col-md-8')]/h2[child::small]`)).getText()).toString()
         let fraze = await fullfraze.slice(0,-frazefordelete-1)
-        expect(fraze).to.equal(name)
+        await expect(fraze).to.equal(name)
         console.log('Eсли пройден,то' + ' ' +name+'='+ await fullfraze.slice(0,-frazefordelete-1))
     });
 
@@ -49,8 +49,8 @@ describe('Movie details', async function () {
         EC.visibilityOf($('.col-md-4 img')),
         EC.visibilityOf($$('.col-md-3 img').first())),20000,'3 elements should appear')
         let raiting = await $('.col-md-8 h2 .label').getText()
-        expect(await raiting).not.to.be.NaN
-        console.log('The raiting of film is '+ await raiting)
+        await expect(await raiting).not.to.be.NaN
+        await console.log('The raiting of film is '+ await raiting)
     });
 
     it('should have simular movies block with atleast one movie', async function () {
@@ -73,18 +73,22 @@ describe('Movie details', async function () {
         EC.elementToBeClickable($$('.caption h4.text-ellipsis a').first()),
         EC.visibilityOf(element.all(By.xpath(`//app-movie[child::*[@class='row is-flex']]//div[child::movie-card]`)).first()),
         EC.visibilityOf(element(By.xpath(`//*[@class='row is-flex' and child::*[@class='col-md-2']]`)))),20000,'7 elements should appear')
-        expect(await $$('[_ngcontent-c2] img').count()).to.be.above(0)
-        console.log("Number of similar movies is" +' '+ await $$('[_ngcontent-c2] img').count())
-        let ganresoffilm = (await $$('p a.m-r-md').getText()).toString().split(',')
-        console.log(await ganresoffilm)        
+        await expect(await $$('[_ngcontent-c2] img').count()).to.be.above(0)
+        await console.log("Number of similar movies is" +' '+ await $$('[_ngcontent-c2] img').count())
+        let ganresoffilm = await $$('p a.m-r-md').map(async function (element){
+            return element.getText()
+        })
+        await console.log(ganresoffilm)        
         await $$('.caption h4.text-ellipsis a').first().click()
         await browser.wait(EC.and(
         EC.visibilityOf($$('p a.m-r-md').first()),
         EC.visibilityOf($$('p a.m-r-md').last()),
         EC.visibilityOf(element(By.xpath(`//p[@_ngcontent-c3 and child::a[contains(@class,'label')]]`))),
         EC.visibilityOf($('.col-md-4+.col-md-8'))),20000,'4 elements should')
-        let ganresofsimilarfilm = await (await $$('p a.m-r-md').getText()).toString().split(',')
-        console.log(await ganresofsimilarfilm)
+        let ganresofsimilarfilm = await $$('p a.m-r-md').map(async function (element2){
+            return element2.getText()
+        })
+        await console.log(ganresofsimilarfilm)
         async function Intersec(arr1,arr2){
             let idx = 0, arr3 = [];
             for (let i = 0; i < arr2.length; i++){
@@ -93,8 +97,8 @@ describe('Movie details', async function () {
             }
             return arr3;
         }
-        expect(await Intersec(ganresoffilm,ganresofsimilarfilm)).not.to.be.empty
-        console.log('Фильмы совпадают по таким жанрам: '+ await Intersec(ganresoffilm,ganresofsimilarfilm))
+        await expect(await Intersec(ganresoffilm,ganresofsimilarfilm)).not.to.be.empty
+        await console.log('Фильмы совпадают по таким жанрам: '+ await Intersec(ganresoffilm,ganresofsimilarfilm))
     })
 })
 describe('cast block', async function () {
@@ -115,8 +119,8 @@ describe('cast block', async function () {
         EC.visibilityOf($('.col-md-8 h2 .label')),
         EC.visibilityOf($('.col-md-4 img')),
         EC.visibilityOf($$('.col-md-3 img').first())),20000,'3 elements should appear')
-        expect(await ($$('.col-md-3 img')).count()).to.be.above(0)
-        console.log(await $$('.col-md-3 .text-center a').first().getText())
+        await expect(await ($$('.col-md-3 img')).count()).to.be.above(0)
+        await console.log(await $$('.col-md-3 .text-center a').first().getText())
     })
 })  
 
@@ -138,9 +142,9 @@ describe('reviews block', function () {
         EC.visibilityOf($('.col-md-8 h2 .label')),
         EC.visibilityOf($('.col-md-4 img')),
         EC.visibilityOf($$('.col-md-3 img').first())),20000,'3 elements should appear')
-        expect(await $$('.text-justify').count()).to.be.above(0)
-        expect(await $$('.text-justify').first().getText()).not.to.be.empty
-        console.log(await $$('.text-justify').first().getText())
+        await expect(await $$('.text-justify').count()).to.be.above(0)
+        await expect(await $$('.text-justify').first().getText()).not.to.be.empty
+        await console.log(await $$('.text-justify').first().getText())
     })
 
     it('should have reviewer name as link to source', async function () {
@@ -161,8 +165,8 @@ describe('reviews block', function () {
         EC.elementToBeClickable($$('.text-justify+footer a').first()),
         EC.visibilityOf(element(By.xpath(`//div[@_ngcontent-c3 and child::*[@class='col-md-6']]`))),
         EC.visibilityOf($$('.col-md-3 img').first())),20000,'4 elements should appear')
-        expect(await $$('.text-justify').count()).to.be.above(0)
-        expect(await $$('.text-justify+footer a').first().getAttribute('href')).to.contain('http')
+        await expect(await $$('.text-justify').count()).to.be.above(0)
+        await expect(await $$('.text-justify+footer a').first().getAttribute('href')).to.contain('http')
         await $$('.text-justify+footer a').first().click()
         let winHandles=browser.getAllWindowHandles();
         await winHandles.then(async function(handles) {
@@ -171,8 +175,8 @@ describe('reviews block', function () {
             await browser.switchTo().window(popUpWindow);
             await browser.waitForAngularEnabled(false)
             await browser.wait(EC.visibilityOf($('.sub-heading')),20000,'Element not found')
-            expect(await $('.sub-heading').getText()).to.contain('Written by')
-            console.log(await $('.sub-heading+p').getText())
+            await expect(await $('.sub-heading').getText()).to.contain('Written by')
+            await console.log(await $('.sub-heading+p').getText())
             await browser.close()
             await browser.switchTo().window(parentWindow)
         })
@@ -188,8 +192,8 @@ describe('Popular series', async function () {
         await browser.wait(EC.and(
         EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c3][child::h3]/div'))),
         EC.visibilityOf($('.orange-text'))),20000,'Element not appeared')
-        expect (await $('.orange-text').getText()).to.contain('Popular Series')
-        expect (await $(`[name='searchStr']`).isPresent()).to.equal(false)
+        await expect (await $('.orange-text').getText()).to.contain('Popular Series')
+        await expect (await $(`[name='searchStr']`).isPresent()).to.equal(false)
     })
 
     it('should have "First Air Date" instead "Release Date"', async function () {
@@ -203,7 +207,10 @@ describe('Popular series', async function () {
         EC.visibilityOf(element(By.xpath('//div[child::h3]/div'))),
         EC.visibilityOf($('.orange-text'))),20000,'Element not appeared')
         await expect (await $('.orange-text').getText()).to.contain('Popular Series')
-        await (await $$(`.text-ellipsis+p strong`).getText()).toString().split(',').forEach(text => expect (text).to.contain('First Air Date'))
+        let searchelement = await $$(`.text-ellipsis+p strong`).map(async function (element){
+            return element.getText()
+        })
+        await searchelement.forEach(text => expect (text).to.contain('First Air Date'))
         await console.log("Количество популярных фильмов на сайте "+ await $$(`.text-ellipsis+p strong`).count())   
     });
 })
