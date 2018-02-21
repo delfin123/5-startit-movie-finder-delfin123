@@ -9,7 +9,6 @@ require('ts-node').register();
         name: "Alexander Shtank0"
         },
       specs: ['lesson5task.ts'],
-      framework: 'jasmine',
       onPrepare: function() {
 
       browser.manage().window().maximize();

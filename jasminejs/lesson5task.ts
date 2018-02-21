@@ -155,6 +155,7 @@ describe('reviews block', function () {
         await browser.wait(EC.and(
         EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
         EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
+        EC.elementToBeClickable(element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).first()),
         EC.visibilityOf(element(By.xpath('//div[@_ngcontent-c1][child::h3]'))),
         EC.visibilityOf(element.all(By.xpath(`//*[@_ngcontent-c1 and child::*[@class='orange-text']]//div[child::movie-card]`)).first()),
         EC.visibilityOf($$('.col-sm-3 movie-card img').last())),20000,'5 elements should appear')
