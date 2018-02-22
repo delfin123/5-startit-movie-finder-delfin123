@@ -63,7 +63,7 @@ describe('cast block', async function () {
         let search_request = 'Lord of the Rings'
         await lesson5.searchOfMovie(search_request)
         await lesson5.chooseFilmAtSearchResult(0)
-        expect(await $$('.col-md-3 img').count()).to.be.above(0)                                //The site should contain on the page with the film at least 
+        expect(await $$('.col-md-3 img').count()).to.be.above(0)                                //site should contain on the page with the film at least 
         console.log(await $$('.col-md-3 .text-center a').first().getText())                     //one photo of the actors who are shot in this movie
     })                                                                                          //Output the name of the actor who is shown first on the site in the console 
 })  
@@ -73,7 +73,7 @@ describe('reviews block', function () {
         let search_request = 'Thor 3'
         await lesson5.searchOfMovie(search_request)
         await lesson5.chooseFilmAtSearchResult(1)
-        expect(await $$('.text-justify').count()).to.be.above(0)                           //the number of reviews received on the page with the film must be greater than 0
+        expect(await $$('.text-justify').count()).to.be.above(0)                           //number of reviews received on the page with the film must be greater than 0
         expect(await $$('.text-justify').first().getText()).not.to.be.empty                 //and must contain some text
         console.log(await $$('.text-justify').first().getText())                            //output a review which on the page is shown first in the console
     })
@@ -83,7 +83,7 @@ describe('reviews block', function () {
         await lesson5.searchOfMovie(search_request)
         await lesson5.chooseFilmAtSearchResult(0)
         expect(await $$('.text-justify').count()).to.be.above(0)                        
-        expect(await $$('.text-justify+footer a').first().getAttribute('href')).to.contain('http')      //the link to the reviewer should contain the actual address of the page of the reviewer
+        expect(await $$('.text-justify+footer a').first().getAttribute('href')).to.contain('http')      //link to the reviewer should contain the actual address of the page of the reviewer
         await $$('.text-justify+footer a').first().click()                                              //go to the link to the site of the reviewer
         let winHandles= browser.getAllWindowHandles();
         await winHandles.then(async function(handles) {
