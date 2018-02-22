@@ -85,6 +85,7 @@ describe('Movie details', async function () {
         EC.visibilityOf($$('p a.m-r-md').last()),
         EC.visibilityOf(element(By.xpath(`//p[@_ngcontent-c3 and child::a[contains(@class,'label')]]`))),
         EC.visibilityOf($('.col-md-4+.col-md-8'))),20000,'4 elements should')
+        await browser.sleep(2000)
         let ganresofsimilarfilm = await $$('p a.m-r-md').map(async function (element2){
             return element2.getText()
         })
@@ -98,6 +99,7 @@ describe('Movie details', async function () {
             return arr3;
         }
         expect(await Intersec(ganresoffilm,ganresofsimilarfilm)).not.to.be.empty
+        await browser.sleep(2000)
         console.log('Фильмы совпадают по таким жанрам: '+ await Intersec(ganresoffilm,ganresofsimilarfilm))
     })
 })
@@ -202,6 +204,7 @@ describe('Popular series', async function () {
         EC.visibilityOf(element.all(By.xpath('//div[child::h3]/div/div')).last()),
         EC.visibilityOf(element(By.xpath('//div[child::h3]/div'))),
         EC.visibilityOf($('.orange-text'))),20000,'Element not appeared')
+        await browser.sleep(2000)
         let searchelement = $$(`.text-ellipsis+p strong`)
         let massive = await searchelement.map(async function (element){
             return element.getText()
@@ -215,7 +218,7 @@ describe('Popular series', async function () {
         }
     }
         await check(massive,fraze)
-        await browser.sleep(3000)
+        await browser.sleep(2000)
         console.log("Количество популярных фильмов на сайте "+ await searchelement.count())
     })
 })
