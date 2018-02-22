@@ -9,10 +9,14 @@ require('ts-node').register();
         name: "Alexander Shtank0"
         },
       specs: ['lesson5task.ts'],
-      onPrepare: function() {
-
-      browser.manage().window().maximize();
-
+      onPrepare: async function() {
+        await browser.manage().window().maximize();
+        // Global implicit wait setup
+        await browser.manage().timeouts().implicitlyWait(1000)
+    
+        afterEach(async function () {
+          await browser.manage().timeouts().implicitlyWait(1000)
+        })
 
         let ConsoleReporter = require('jasmine2-reporter').Jasmine2Reporter
         let console_reporter_options = {
