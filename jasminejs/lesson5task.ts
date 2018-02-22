@@ -195,7 +195,7 @@ describe('Popular series', async function () {
         expect (await $(`[name='searchStr']`).isPresent()).to.equal(false)
     })
 
-    fit('should have "First Air Date" instead "Release Date"', async function () {
+    it('should have "First Air Date" instead "Release Date"', async function () {
         await $(`a[routerlink="popular/series"]`).click()
         await browser.wait(EC.and(
         EC.visibilityOf(element.all(By.xpath('//div[child::h3]/div/div')).first()),
