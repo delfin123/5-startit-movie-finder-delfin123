@@ -33,8 +33,9 @@ export class Lesson5 {
         EC.visibilityOf(element(By.xpath(`//*[@class='row is-flex' and child::*[@class='col-md-2']]`)))),20000,'7 elements should appear')
     }
     async obtainClearNameOfMovie(){
-        let frazefordelete = await(await $('.col-md-8 h2 .label').getText()).toString().trim().length
-        let fullfraze = await (await element(By.xpath(`//*[contains(@class, 'col-md-8')]/h2[child::small]`)).getText()).toString().trim()
+        await browser.wait(EC.visibilityOf(element(By.xpath(`//h2[child::small[contains(@class,'label')]]`))),20000, 'not appeared')
+        let frazefordelete = (await $('.col-md-8 h2 .label').getText()).toString().trim().length
+        let fullfraze = (await element(By.xpath(`//*[contains(@class, 'col-md-8')]/h2[child::small]`)).getText()).toString().trim()
         let fraze = await fullfraze.slice(0,-frazefordelete-1)
         return await fraze;
     }

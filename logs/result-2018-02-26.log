@@ -2012,3 +2012,501 @@ Error
 [2018-02-26T19:38:26.552] [INFO] result - 
 [2018-02-26T19:38:26.552] [INFO] result - 
 [2018-02-26T19:38:26.741] [INFO] result - [[90m19:38:26[39m] I/launcher -
+[2018-02-26T20:59:39.058] [INFO] result - On prepare started
+[2018-02-26T20:59:40.531] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-26T20:59:40.531] [INFO] result - 
+[2018-02-26T20:59:40.531] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-26T20:59:40.531] [INFO] result - 
+[2018-02-26T20:59:40.531] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-26T20:59:40.531] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-26T20:59:45.728] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T20:59:48.108] [INFO] result - Eсли пройден,то The Maze Runner=The Maze Runner
+[2018-02-26T20:59:48.109] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T20:59:48.114] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m8 s[29m)[39m
+[2018-02-26T20:59:48.114] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T20:59:49.183] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T20:59:50.826] [INFO] result - The raiting of film is 8
+[2018-02-26T20:59:50.827] [INFO] result - The raiting of film is 8
+[2018-02-26T20:59:50.830] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T20:59:50.830] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T20:59:52.117] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T20:59:54.008] [INFO] result - Number of similar movies is 12
+[2018-02-26T20:59:54.023] [INFO] result - Number of similar movies is 12
+[2018-02-26T20:59:54.077] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T20:59:54.078] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T20:59:54.096] [INFO] result - Star Wars
+[2018-02-26T20:59:54.760] [INFO] result - Wing Commander
+[2018-02-26T21:00:14.773] [INFO] result - 		[31m[9m✗  [29m[39mshould have simular movies block with atleast one movie[90m ([9m24 s[29m)[39m
+[2018-02-26T21:00:14.773] [INFO] result - 			[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20012ms[39m
+[2018-02-26T21:00:14.773] [INFO] result - 
+[2018-02-26T21:00:14.773] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T21:00:14.773] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T21:00:14.773] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T21:00:14.773] [INFO] result - 
+[2018-02-26T21:00:14.773] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T21:00:14.773] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T21:00:14.773] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T21:00:14.773] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:00:14.773] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:00:14.773] [INFO] result - 
+[2018-02-26T21:00:14.773] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T21:00:14.773] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T21:00:14.789] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T21:00:14.789] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:00:14.789] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:00:14.789] [INFO] result - 
+[2018-02-26T21:00:14.789] [INFO] result - 
+[2018-02-26T21:00:14.789] [INFO] result - **************************************************
+[2018-02-26T21:00:14.789] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T21:00:14.789] [INFO] result - **************************************************
+[2018-02-26T21:00:14.789] [INFO] result - 
+[2018-02-26T21:00:14.789] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m34 s[29m[39m[23m
+[2018-02-26T21:00:14.789] [INFO] result - 
+[2018-02-26T21:00:14.789] [INFO] result - 	[32mPASSED   2 ( 25% )[39m
+[2018-02-26T21:00:14.789] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-26T21:00:14.789] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T21:00:14.789] [INFO] result - 
+[2018-02-26T21:00:14.789] [INFO] result - 
+[2018-02-26T21:00:14.789] [INFO] result - **************************************************
+[2018-02-26T21:00:14.789] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T21:00:14.789] [INFO] result - **************************************************
+[2018-02-26T21:00:14.789] [INFO] result - 
+[2018-02-26T21:00:14.805] [INFO] result - 1) [1mmovie-finders tests Movie details should have simular movies block with atleast one movie[22m
+[2018-02-26T21:00:14.805] [INFO] result - 	[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20012ms[39m
+[2018-02-26T21:00:14.805] [INFO] result - 	[31mWait timed out after 20012ms
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at <anonymous>
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:100:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:74:20)[39m
+[2018-02-26T21:00:14.808] [INFO] result - 
+[2018-02-26T21:00:14.966] [INFO] result - [[90m21:00:14[39m] I/launcher -
+[2018-02-26T21:12:49.909] [INFO] result - On prepare started
+[2018-02-26T21:12:51.309] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-26T21:12:51.309] [INFO] result - 
+[2018-02-26T21:12:51.309] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-26T21:12:51.309] [INFO] result - 
+[2018-02-26T21:12:51.309] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-26T21:12:51.309] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-26T21:12:58.888] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T21:13:01.205] [INFO] result - Eсли пройден,то The Maze Runner=The Maze Runner
+[2018-02-26T21:13:01.205] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T21:13:01.211] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m10 s[29m)[39m
+[2018-02-26T21:13:01.212] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T21:13:02.394] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T21:13:04.958] [INFO] result - The raiting of film is 8
+[2018-02-26T21:13:04.958] [INFO] result - The raiting of film is 8
+[2018-02-26T21:13:04.961] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m4 s[29m)[39m
+[2018-02-26T21:13:04.961] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T21:13:06.436] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T21:13:09.002] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:13:09.014] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:13:09.575] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T21:13:09.576] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T21:13:09.925] [INFO] result - Star Wars
+[2018-02-26T21:13:10.753] [INFO] result - Star Wars
+[2018-02-26T21:13:11.306] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T21:13:11.307] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T21:13:11.308] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:13:11.308] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:13:11.313] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m6 s[29m)[39m
+[2018-02-26T21:13:11.314] [INFO] result - 
+[2018-02-26T21:13:11.315] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T21:13:11.316] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T21:13:11.317] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T21:13:11.318] [INFO] result - 
+[2018-02-26T21:13:11.318] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T21:13:11.318] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T21:13:11.319] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T21:13:11.319] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:13:11.320] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:13:11.320] [INFO] result - 
+[2018-02-26T21:13:11.321] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T21:13:11.321] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T21:13:11.323] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T21:13:11.323] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:13:11.324] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:13:11.324] [INFO] result - 
+[2018-02-26T21:13:11.327] [INFO] result - 
+[2018-02-26T21:13:11.328] [INFO] result - **************************************************
+[2018-02-26T21:13:11.328] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T21:13:11.329] [INFO] result - **************************************************
+[2018-02-26T21:13:11.329] [INFO] result - 
+[2018-02-26T21:13:11.330] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m20 s[29m[39m[23m
+[2018-02-26T21:13:11.330] [INFO] result - 
+[2018-02-26T21:13:11.330] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T21:13:11.331] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T21:13:11.331] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T21:13:11.331] [INFO] result - 
+[2018-02-26T21:13:11.549] [INFO] result - [[90m21:13:11[39m] I/launcher -
+[2018-02-26T21:13:32.760] [INFO] result - On prepare started
+[2018-02-26T21:13:34.136] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-26T21:13:34.136] [INFO] result - 
+[2018-02-26T21:13:34.136] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-26T21:13:34.153] [INFO] result - 
+[2018-02-26T21:13:34.154] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-26T21:13:34.156] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-26T21:13:39.952] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T21:13:42.084] [INFO] result - Eсли пройден,то The Maze Runner=The Maze Runner
+[2018-02-26T21:13:42.084] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T21:13:42.089] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m8 s[29m)[39m
+[2018-02-26T21:13:42.089] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T21:13:43.302] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T21:13:44.905] [INFO] result - The raiting of film is 8
+[2018-02-26T21:13:44.906] [INFO] result - The raiting of film is 8
+[2018-02-26T21:13:44.909] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T21:13:44.909] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T21:13:45.737] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T21:13:47.501] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:13:47.513] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:13:48.060] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T21:13:48.062] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T21:13:48.086] [INFO] result - Star Wars
+[2018-02-26T21:13:49.009] [INFO] result - Star Wars
+[2018-02-26T21:13:49.083] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T21:13:49.084] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T21:13:49.084] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:13:49.085] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:13:49.090] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-26T21:13:49.091] [INFO] result - 
+[2018-02-26T21:13:49.092] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T21:13:49.092] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T21:13:49.093] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T21:13:49.093] [INFO] result - 
+[2018-02-26T21:13:49.093] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T21:13:49.094] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T21:13:49.095] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T21:13:49.095] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:13:49.095] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:13:49.095] [INFO] result - 
+[2018-02-26T21:13:49.095] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T21:13:49.095] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T21:13:49.110] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T21:13:49.110] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:13:49.114] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:13:49.114] [INFO] result - 
+[2018-02-26T21:13:49.118] [INFO] result - 
+[2018-02-26T21:13:49.119] [INFO] result - **************************************************
+[2018-02-26T21:13:49.119] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T21:13:49.120] [INFO] result - **************************************************
+[2018-02-26T21:13:49.121] [INFO] result - 
+[2018-02-26T21:13:49.121] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m15 s[29m[39m[23m
+[2018-02-26T21:13:49.121] [INFO] result - 
+[2018-02-26T21:13:49.121] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T21:13:49.122] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T21:13:49.122] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T21:13:49.122] [INFO] result - 
+[2018-02-26T21:13:49.311] [INFO] result - [[90m21:13:49[39m] I/launcher -
+[2018-02-26T21:14:40.767] [INFO] result - On prepare started
+[2018-02-26T21:14:42.037] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-26T21:14:42.037] [INFO] result - 
+[2018-02-26T21:14:42.037] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-26T21:14:42.037] [INFO] result - 
+[2018-02-26T21:14:42.037] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-26T21:14:42.037] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-26T21:14:47.215] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T21:14:49.670] [INFO] result - Eсли пройден,то The Maze Runner=The Maze Runner
+[2018-02-26T21:14:49.671] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T21:14:49.676] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m8 s[29m)[39m
+[2018-02-26T21:14:49.677] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T21:14:50.806] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T21:14:52.901] [INFO] result - The raiting of film is 8
+[2018-02-26T21:14:52.902] [INFO] result - The raiting of film is 8
+[2018-02-26T21:14:52.906] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T21:14:52.906] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T21:14:53.720] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T21:14:55.301] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:14:55.313] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:14:55.870] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T21:14:55.872] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T21:14:55.907] [INFO] result - Star Wars
+[2018-02-26T21:14:56.938] [INFO] result - Star Wars
+[2018-02-26T21:14:57.508] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T21:14:57.508] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T21:14:57.508] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:14:57.508] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:14:57.525] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T21:14:57.526] [INFO] result - 
+[2018-02-26T21:14:57.527] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T21:14:57.527] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T21:14:57.528] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T21:14:57.528] [INFO] result - 
+[2018-02-26T21:14:57.529] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T21:14:57.530] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T21:14:57.530] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T21:14:57.531] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:14:57.532] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:14:57.532] [INFO] result - 
+[2018-02-26T21:14:57.533] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T21:14:57.533] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T21:14:57.534] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T21:14:57.535] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:14:57.535] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:14:57.536] [INFO] result - 
+[2018-02-26T21:14:57.541] [INFO] result - 
+[2018-02-26T21:14:57.542] [INFO] result - **************************************************
+[2018-02-26T21:14:57.542] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T21:14:57.543] [INFO] result - **************************************************
+[2018-02-26T21:14:57.543] [INFO] result - 
+[2018-02-26T21:14:57.543] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m16 s[29m[39m[23m
+[2018-02-26T21:14:57.544] [INFO] result - 
+[2018-02-26T21:14:57.544] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T21:14:57.545] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T21:14:57.545] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T21:14:57.545] [INFO] result - 
+[2018-02-26T21:14:57.745] [INFO] result - [[90m21:14:57[39m] I/launcher -
+[2018-02-26T21:15:11.965] [INFO] result - On prepare started
+[2018-02-26T21:15:13.212] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-26T21:15:13.212] [INFO] result - 
+[2018-02-26T21:15:13.212] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-26T21:15:13.212] [INFO] result - 
+[2018-02-26T21:15:13.212] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-26T21:15:13.212] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-26T21:15:17.616] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T21:15:19.751] [INFO] result - Eсли пройден,то The Maze Runner=The Maze Runner
+[2018-02-26T21:15:19.752] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T21:15:19.757] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m7 s[29m)[39m
+[2018-02-26T21:15:19.757] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T21:15:20.817] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T21:15:22.812] [INFO] result - The raiting of film is 8
+[2018-02-26T21:15:22.812] [INFO] result - The raiting of film is 8
+[2018-02-26T21:15:22.815] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T21:15:22.816] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T21:15:23.510] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T21:15:25.178] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:15:25.191] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:15:25.743] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T21:15:25.745] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T21:15:25.776] [INFO] result - Star Wars
+[2018-02-26T21:15:26.814] [INFO] result - Star Wars
+[2018-02-26T21:15:27.351] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T21:15:27.351] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T21:15:27.351] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:15:27.351] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:15:27.351] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T21:15:27.351] [INFO] result - 
+[2018-02-26T21:15:27.351] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T21:15:27.351] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T21:15:27.351] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T21:15:27.351] [INFO] result - 
+[2018-02-26T21:15:27.351] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T21:15:27.351] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T21:15:27.367] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T21:15:27.367] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:15:27.368] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:15:27.370] [INFO] result - 
+[2018-02-26T21:15:27.370] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T21:15:27.371] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T21:15:27.371] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T21:15:27.372] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:15:27.372] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:15:27.372] [INFO] result - 
+[2018-02-26T21:15:27.375] [INFO] result - 
+[2018-02-26T21:15:27.376] [INFO] result - **************************************************
+[2018-02-26T21:15:27.377] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T21:15:27.377] [INFO] result - **************************************************
+[2018-02-26T21:15:27.377] [INFO] result - 
+[2018-02-26T21:15:27.377] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m14 s[29m[39m[23m
+[2018-02-26T21:15:27.378] [INFO] result - 
+[2018-02-26T21:15:27.378] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T21:15:27.378] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T21:15:27.379] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T21:15:27.379] [INFO] result - 
+[2018-02-26T21:15:27.569] [INFO] result - [[90m21:15:27[39m] I/launcher -
+[2018-02-26T21:15:52.376] [INFO] result - On prepare started
+[2018-02-26T21:15:53.655] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-26T21:15:53.657] [INFO] result - 
+[2018-02-26T21:15:53.658] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-26T21:15:53.658] [INFO] result - 
+[2018-02-26T21:15:53.659] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-26T21:15:53.660] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-26T21:15:58.763] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T21:16:00.856] [INFO] result - Eсли пройден,то The Maze Runner=The Maze Runner
+[2018-02-26T21:16:00.856] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T21:16:00.861] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m7 s[29m)[39m
+[2018-02-26T21:16:00.862] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T21:16:01.999] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T21:16:04.127] [INFO] result - The raiting of film is 8
+[2018-02-26T21:16:04.128] [INFO] result - The raiting of film is 8
+[2018-02-26T21:16:04.131] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T21:16:04.132] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T21:16:05.639] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T21:16:08.224] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:16:08.239] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:16:08.811] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T21:16:08.812] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T21:16:08.900] [INFO] result - Star Wars
+[2018-02-26T21:16:10.072] [INFO] result - Star Wars
+[2018-02-26T21:16:10.657] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T21:16:10.672] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T21:16:10.672] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:16:10.673] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:16:10.676] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m7 s[29m)[39m
+[2018-02-26T21:16:10.677] [INFO] result - 
+[2018-02-26T21:16:10.678] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T21:16:10.679] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T21:16:10.679] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T21:16:10.680] [INFO] result - 
+[2018-02-26T21:16:10.681] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T21:16:10.682] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T21:16:10.683] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T21:16:10.683] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:16:10.684] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:16:10.684] [INFO] result - 
+[2018-02-26T21:16:10.685] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T21:16:10.685] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T21:16:10.688] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T21:16:10.689] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:16:10.689] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:16:10.690] [INFO] result - 
+[2018-02-26T21:16:10.694] [INFO] result - 
+[2018-02-26T21:16:10.695] [INFO] result - **************************************************
+[2018-02-26T21:16:10.695] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T21:16:10.696] [INFO] result - **************************************************
+[2018-02-26T21:16:10.696] [INFO] result - 
+[2018-02-26T21:16:10.697] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m17 s[29m[39m[23m
+[2018-02-26T21:16:10.697] [INFO] result - 
+[2018-02-26T21:16:10.698] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T21:16:10.700] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T21:16:10.701] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T21:16:10.701] [INFO] result - 
+[2018-02-26T21:16:10.910] [INFO] result - [[90m21:16:10[39m] I/launcher -
+[2018-02-26T21:16:24.892] [INFO] result - On prepare started
+[2018-02-26T21:16:26.129] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-26T21:16:26.129] [INFO] result - 
+[2018-02-26T21:16:26.129] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-26T21:16:26.129] [INFO] result - 
+[2018-02-26T21:16:26.129] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-26T21:16:26.145] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-26T21:16:30.536] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T21:16:32.761] [INFO] result - Eсли пройден,то The Maze Runner=The Maze Runner
+[2018-02-26T21:16:32.761] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T21:16:32.766] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m7 s[29m)[39m
+[2018-02-26T21:16:32.766] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T21:16:33.745] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T21:16:35.611] [INFO] result - The raiting of film is 8
+[2018-02-26T21:16:35.612] [INFO] result - The raiting of film is 8
+[2018-02-26T21:16:35.616] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T21:16:35.616] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T21:16:36.464] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T21:16:38.080] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:16:38.094] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:16:38.150] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T21:16:38.152] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T21:16:38.171] [INFO] result - Star Wars
+[2018-02-26T21:16:39.014] [INFO] result - Star Wars
+[2018-02-26T21:16:39.571] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T21:16:39.571] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T21:16:39.571] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:16:39.571] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:16:39.586] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-26T21:16:39.586] [INFO] result - 
+[2018-02-26T21:16:39.586] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T21:16:39.586] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T21:16:39.586] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T21:16:39.586] [INFO] result - 
+[2018-02-26T21:16:39.586] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T21:16:39.586] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T21:16:39.586] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T21:16:39.586] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:16:39.586] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:16:39.586] [INFO] result - 
+[2018-02-26T21:16:39.586] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T21:16:39.602] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T21:16:39.605] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T21:16:39.606] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:16:39.606] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:16:39.607] [INFO] result - 
+[2018-02-26T21:16:39.610] [INFO] result - 
+[2018-02-26T21:16:39.610] [INFO] result - **************************************************
+[2018-02-26T21:16:39.610] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T21:16:39.611] [INFO] result - **************************************************
+[2018-02-26T21:16:39.611] [INFO] result - 
+[2018-02-26T21:16:39.611] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m13 s[29m[39m[23m
+[2018-02-26T21:16:39.612] [INFO] result - 
+[2018-02-26T21:16:39.612] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T21:16:39.613] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T21:16:39.613] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T21:16:39.613] [INFO] result - 
+[2018-02-26T21:16:39.817] [INFO] result - [[90m21:16:39[39m] I/launcher -
+[2018-02-26T21:20:09.289] [INFO] result - On prepare started
+[2018-02-26T21:20:10.543] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-26T21:20:10.543] [INFO] result - 
+[2018-02-26T21:20:10.543] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-26T21:20:10.543] [INFO] result - 
+[2018-02-26T21:20:10.543] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-26T21:20:10.543] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-26T21:20:23.208] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T21:20:25.279] [INFO] result - Eсли пройден,то The Maze Runner=The Maze Runner
+[2018-02-26T21:20:25.280] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T21:20:25.285] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m15 s[29m)[39m
+[2018-02-26T21:20:25.286] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T21:20:26.582] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T21:20:28.429] [INFO] result - The raiting of film is 8
+[2018-02-26T21:20:28.430] [INFO] result - The raiting of film is 8
+[2018-02-26T21:20:28.433] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T21:20:28.433] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T21:20:29.285] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T21:20:31.253] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:20:31.265] [INFO] result - Number of similar movies is 12
+[2018-02-26T21:20:31.798] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T21:20:31.799] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T21:20:31.822] [INFO] result - Star Wars
+[2018-02-26T21:20:33.338] [INFO] result - Star Wars
+[2018-02-26T21:20:33.418] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T21:20:33.418] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T21:20:33.419] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:20:33.419] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T21:20:33.422] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T21:20:33.424] [INFO] result - 
+[2018-02-26T21:20:33.424] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T21:20:33.425] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T21:20:33.425] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T21:20:33.426] [INFO] result - 
+[2018-02-26T21:20:33.426] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T21:20:33.427] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T21:20:33.427] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T21:20:33.428] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:20:33.428] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T21:20:33.429] [INFO] result - 
+[2018-02-26T21:20:33.429] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T21:20:33.429] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T21:20:33.431] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T21:20:33.431] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:20:33.432] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T21:20:33.432] [INFO] result - 
+[2018-02-26T21:20:33.435] [INFO] result - 
+[2018-02-26T21:20:33.435] [INFO] result - **************************************************
+[2018-02-26T21:20:33.436] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T21:20:33.437] [INFO] result - **************************************************
+[2018-02-26T21:20:33.437] [INFO] result - 
+[2018-02-26T21:20:33.437] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m23 s[29m[39m[23m
+[2018-02-26T21:20:33.437] [INFO] result - 
+[2018-02-26T21:20:33.438] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T21:20:33.438] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T21:20:33.438] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T21:20:33.438] [INFO] result - 
+[2018-02-26T21:20:33.705] [INFO] result - [[90m21:20:33[39m] I/launcher -

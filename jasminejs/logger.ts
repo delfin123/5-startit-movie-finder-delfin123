@@ -8,7 +8,6 @@ const logger = log4js.getLogger('result')
 
 
 describe('movie-finders tests',async function(){
-   /* afterEach(async function(){
       (async function(){
         let oldLog = console.log;
         console.log = function (message) {
@@ -16,7 +15,7 @@ describe('movie-finders tests',async function(){
             oldLog.apply(console, arguments);
         };
     })();
-})*/
+
     const lesson5 = new Lesson5()
     /*afterEach(async function() {  
         let a = await browser.manage().logs().get('browser').then(async function(browserLog) {
