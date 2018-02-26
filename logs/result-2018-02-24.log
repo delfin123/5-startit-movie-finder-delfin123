@@ -1,0 +1,10 @@
+[2018-02-24T01:28:13.318] [INFO] result - On prepare started
+[2018-02-24T01:28:20.866] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-24T01:28:25.777] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-24T01:28:26.734] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-24T01:28:29.899] [INFO] result - The raiting of film is 8
+[2018-02-24T01:28:31.081] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-24T01:28:33.306] [INFO] result - Number of similar movies is 12
+[2018-02-24T01:28:33.861] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-24T01:28:36.910] [INFO] result - Подобный фильм включчает такие жанры Action,Adventure,Science Fiction
+[2018-02-24T01:28:38.911] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
