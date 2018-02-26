@@ -60,7 +60,7 @@ describe('movie-finders tests',async function(){
     await lesson5.open()               
 })
 
-fdescribe('Movie details', async function () {
+describe('Movie details', async function () {
     
     it('should have movie name as header', async function () {
             logger.info('Начало теста на проверку названия фильма')
@@ -93,7 +93,7 @@ fdescribe('Movie details', async function () {
         expect(await $$('[_ngcontent-c2] img').count()).to.be.above(0) 
         console.log("Number of similar movies is" +' '+ await $$('[_ngcontent-c2] img').count())                             
         logger.info("Number of similar movies is" +' '+ await $$('[_ngcontent-c2] img').count())   
-        let ganresoffilm = await Promise.all(await $$('p a.m-r-md').map(async function (element){                     
+        let ganresoffilm = await Promise.all(await $$('p a.m-r-md').map(function (element){                     
             return element.getText()                                                                
         }))
         console.log(ganresoffilm)    
@@ -104,8 +104,8 @@ fdescribe('Movie details', async function () {
         await lesson5.waitForCategoriesVisibility()
         let fraze = await lesson5.obtainClearNameOfMovie()  
         console.log(fraze)
-        await browser.wait(async function(){if(name==fraze){return true}},20000,'name not equal fraze')                                         
-        let ganresofsimilarfilm = await Promise.all(await $$('p a.m-r-md').map(async function (element2){
+        await browser.wait(function(){if(name==fraze){return true}},20000,'name not equal fraze')                                         
+        let ganresofsimilarfilm = await Promise.all(await $$('p a.m-r-md').map(function (element2){
             return element2.getText()
         }))
         console.log(ganresofsimilarfilm)                                                                          
@@ -187,26 +187,26 @@ describe('Popular series', async function () {
 
 
     it('should have "First Air Date" instead "Release Date"', async function () {
+        let fraze = "First Air Date"
         await $(`a[routerlink="popular/series"]`).click()
         await lesson5.waitForPopularMoviesVisibility()
-        let searchelement = await $$(`.text-ellipsis+p strong`).map(async function (element){             //take all the values from the blocks first air date from the popular movies page
+        let massive = Promise.all(await $$(`.text-ellipsis+p strong`).map(function (element){             //take all the values from the blocks first air date from the popular movies page
             return element.getText()         
-        })
-        let massive = await Promise.all(searchelement)
-        let fraze = "First Air Date"
+        }))
+       
         //massive.forEach(text=>expect(text).to.contain("First Air Date"))
         async function check(a,b){ 
             let arr1 = []                                             //Create a function that checks each value of this array
             for (let i = 0; i < a.length; i++){                                 //to match the phrase 'First Air Date'
-            if(await a[i].indexOf(b)>=0){
-                arr1.push(a[i])
+            if(a[i].indexOf(b)>=0){
+                await arr1.push(a[i])
                 continue
             }
             else{throw new Error('Не совпадают')}                               //if at least one value does not match this phrase, then an error occurs
             }
             return arr1
         }
-        await Promise.all(await check(massive,fraze))
+        await Promise.all(await check(await massive,fraze))
         console.log("Количество популярных фильмов на сайте "+ await $$(`.text-ellipsis+p strong`).count())                          //display in the console the number of popular movies on this page
         logger.info('Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -'+ await $$(`.text-ellipsis+p strong`).count())
     })
