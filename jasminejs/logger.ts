@@ -90,11 +90,11 @@ describe('Movie details', async function () {
         console.log(ganresoffilm)    
         await logger.info('Искомый фильм включает такие жанры ' + ganresoffilm) 
         let name = await $$('.caption h4.text-ellipsis a').get(7).getAttribute('title')
-        console.log(await name)                                                                   
+        console.log(name)                                                                   
         await $$('.caption h4.text-ellipsis a').get(7).click()                                        
         await lesson5.waitForCategoriesVisibility()
         let fraze = await lesson5.obtainClearNameOfMovie()  
-        console.log(await fraze)
+        console.log(fraze)
         await browser.wait(async function(){if(name==fraze){return true}},20000,'name not equal fraze')                                         
         let ganresofsimilarfilm = await Promise.all(await $$('p a.m-r-md').map(async function (element2){
             return element2.getText()
@@ -105,7 +105,7 @@ describe('Movie details', async function () {
             let idx = 0, arr3 = [];                                                          
             for (let i = 0; i < arr2.length; i++){
                 idx = arr1.indexOf(arr2[i]);
-                if (idx >= 0) arr3.push(arr2[i]);
+                if (await idx >= 0) arr3.push(arr2[i]);
             }
             return arr3;
         }
@@ -180,21 +180,26 @@ describe('Popular series', async function () {
     it('should have "First Air Date" instead "Release Date"', async function () {
         await $(`a[routerlink="popular/series"]`).click()
         await lesson5.waitForPopularMoviesVisibility()
-        let searchelement = $$(`.text-ellipsis+p strong`)
-        let massive = await searchelement.map(async function (element){             //take all the values from the blocks first air date from the popular movies page
+        let searchelement = await $$(`.text-ellipsis+p strong`).map(async function (element){             //take all the values from the blocks first air date from the popular movies page
             return element.getText()         
         })
+        let massive = await Promise.all(searchelement)
         let fraze = "First Air Date"
         //massive.forEach(text=>expect(text).to.contain("First Air Date"))
-        async function check(a,b){                                              //Create a function that checks each value of this array
+        async function check(a,b){ 
+            let arr1 = []                                             //Create a function that checks each value of this array
             for (let i = 0; i < a.length; i++){                                 //to match the phrase 'First Air Date'
-            if(a[i].indexOf(b)>=0) continue
+            if(await a[i].indexOf(b)>=0){
+                arr1.push(a[i])
+                continue
+            }
             else{throw new Error('Не совпадают')}                               //if at least one value does not match this phrase, then an error occurs
             }
+            return arr1
         }
-        await check(massive,fraze)
-        console.log("Количество популярных фильмов на сайте "+ await searchelement.count())                          //display in the console the number of popular movies on this page
-        logger.info('Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -'+ await searchelement.count())
+        await Promise.all(await check(massive,fraze))
+        console.log("Количество популярных фильмов на сайте "+ await $$(`.text-ellipsis+p strong`).count())                          //display in the console the number of popular movies on this page
+        logger.info('Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -'+ await $$(`.text-ellipsis+p strong`).count())
     })
 })
 })

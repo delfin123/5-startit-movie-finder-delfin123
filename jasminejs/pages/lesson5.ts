@@ -59,6 +59,6 @@ export class Lesson5 {
         EC.visibilityOf(element.all(By.xpath('//div[child::h3]/div/div')).last()),
         EC.visibilityOf(element(By.xpath('//div[child::h3]/div'))),
         EC.visibilityOf($('.orange-text'))),20000,'Element not appeared')
-        await browser.wait(async function(){ if(await $$('div[_ngcontent-c3]>img').count() ==20){return true}}, 20000, 'Not equal')
+        await browser.wait(async function(){ if(await $$('.text-ellipsis+p strong').count() ==20){return true}}, 20000, 'Not equal')
     }
 }

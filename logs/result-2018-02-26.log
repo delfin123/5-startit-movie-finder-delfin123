@@ -1,0 +1,224 @@
+[2018-02-26T18:18:22.660] [INFO] result - On prepare started
+[2018-02-26T18:18:34.555] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:18:37.888] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:18:39.565] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:18:42.302] [INFO] result - The raiting of film is 8
+[2018-02-26T18:18:43.792] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:18:46.393] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:18:46.940] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:19:09.424] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-26T18:19:16.648] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-26T18:19:18.467] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-26T18:19:25.178] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-26T18:19:26.433] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-26T18:19:39.614] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-26T18:19:40.424] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-26T18:19:42.060] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-26T18:21:37.311] [INFO] result - On prepare started
+[2018-02-26T18:21:51.572] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:21:53.540] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:21:54.713] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:21:56.426] [INFO] result - The raiting of film is 8
+[2018-02-26T18:21:57.278] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:21:59.460] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:22:00.022] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:22:01.484] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:22:01.485] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:22:02.339] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-26T18:22:05.032] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-26T18:22:05.744] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-26T18:22:07.381] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-26T18:22:08.109] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-26T18:22:10.876] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-26T18:22:11.669] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-26T18:22:13.250] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-26T18:25:44.906] [INFO] result - On prepare started
+[2018-02-26T18:25:50.804] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:25:52.847] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:25:53.920] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:25:55.663] [INFO] result - The raiting of film is 8
+[2018-02-26T18:25:56.316] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:25:57.707] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:25:58.253] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:26:00.104] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:26:00.104] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:26:00.960] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-26T18:26:02.722] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-26T18:26:03.577] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-26T18:26:05.380] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-26T18:26:06.713] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-26T18:26:10.850] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-26T18:26:11.657] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-26T18:26:13.399] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-26T18:30:56.711] [INFO] result - On prepare started
+[2018-02-26T18:31:02.791] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:31:04.816] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:31:05.942] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:31:09.306] [INFO] result - The raiting of film is 8
+[2018-02-26T18:31:10.695] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:31:13.023] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:31:13.081] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:31:14.591] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:31:14.592] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:31:15.347] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-26T18:31:17.342] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-26T18:31:18.214] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-26T18:31:20.332] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-26T18:31:21.172] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-26T18:31:24.924] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-26T18:31:25.682] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-26T18:31:27.219] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-26T18:31:29.556] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-26T18:31:38.707] [INFO] result - On prepare started
+[2018-02-26T18:31:45.405] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:31:47.514] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:31:48.691] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:31:50.484] [INFO] result - The raiting of film is 8
+[2018-02-26T18:31:51.327] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:31:53.145] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:31:53.697] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:31:54.652] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:31:54.652] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:31:55.534] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-26T18:31:57.437] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-26T18:31:58.274] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-26T18:31:59.882] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-26T18:32:00.794] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-26T18:32:07.194] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-26T18:32:08.036] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-26T18:32:09.606] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-26T18:33:44.869] [INFO] result - On prepare started
+[2018-02-26T18:33:51.412] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -[object Promise]
+[2018-02-26T18:34:17.941] [INFO] result - On prepare started
+[2018-02-26T18:34:25.047] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-26T18:34:47.192] [INFO] result - On prepare started
+[2018-02-26T18:35:51.490] [INFO] result - On prepare started
+[2018-02-26T18:35:59.909] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-26T18:36:15.215] [INFO] result - On prepare started
+[2018-02-26T18:36:22.569] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-26T18:36:53.978] [INFO] result - On prepare started
+[2018-02-26T18:37:00.124] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:37:02.610] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:37:02.663] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:37:04.121] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:37:04.122] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:37:23.520] [INFO] result - On prepare started
+[2018-02-26T18:37:28.785] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:37:31.163] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:37:31.222] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:37:33.122] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:37:33.122] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:37:54.482] [INFO] result - On prepare started
+[2018-02-26T18:38:00.384] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:38:02.581] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:38:03.701] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:38:06.417] [INFO] result - The raiting of film is 8
+[2018-02-26T18:38:07.822] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:38:09.659] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:38:10.207] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:38:11.997] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:38:11.997] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:38:12.851] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-26T18:38:14.784] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-26T18:38:15.581] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-26T18:38:17.590] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-26T18:38:18.268] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-26T18:38:21.102] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-26T18:38:21.797] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-26T18:38:23.365] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-26T18:38:25.710] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-26T18:38:54.439] [INFO] result - On prepare started
+[2018-02-26T18:39:00.080] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:39:02.197] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:39:04.538] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:39:07.654] [INFO] result - The raiting of film is 8
+[2018-02-26T18:39:08.673] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:39:10.660] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:39:11.212] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:39:12.865] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:39:12.865] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:39:13.609] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-26T18:39:15.659] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-26T18:39:16.475] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-26T18:39:18.364] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-26T18:39:19.299] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-26T18:39:22.317] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-26T18:39:23.044] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-26T18:39:24.664] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-26T18:39:27.040] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-26T18:39:39.600] [INFO] result - On prepare started
+[2018-02-26T18:39:45.532] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:39:47.688] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:39:48.795] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:39:50.503] [INFO] result - The raiting of film is 8
+[2018-02-26T18:39:51.432] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:39:53.140] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:39:53.195] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:39:55.053] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:39:55.053] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:39:55.785] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-26T18:39:57.720] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-26T18:39:58.572] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-26T18:40:00.464] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-26T18:40:01.313] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-26T18:40:04.657] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-26T18:40:05.425] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-26T18:40:07.033] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-26T18:40:09.284] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-26T18:40:30.436] [INFO] result - On prepare started
+[2018-02-26T18:40:42.074] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:40:44.001] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:40:45.374] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:40:47.313] [INFO] result - The raiting of film is 8
+[2018-02-26T18:40:48.116] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:40:49.712] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:40:49.769] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:40:51.370] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:40:51.370] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:40:52.246] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-26T18:40:54.012] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-26T18:40:54.727] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-26T18:40:56.404] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-26T18:40:57.099] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-26T18:40:59.921] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-26T18:41:00.649] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-26T18:41:02.245] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-26T18:41:04.447] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-26T18:41:35.437] [INFO] result - On prepare started
+[2018-02-26T18:41:46.206] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:41:48.246] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:41:49.626] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:41:51.603] [INFO] result - The raiting of film is 8
+[2018-02-26T18:41:52.399] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:41:54.071] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:41:54.632] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:41:55.655] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:41:55.656] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:41:56.492] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-26T18:41:58.600] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-26T18:41:59.436] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-26T18:42:01.204] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-26T18:42:02.037] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-26T18:42:05.215] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-26T18:42:06.096] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-26T18:42:07.619] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-26T18:42:10.058] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-26T18:42:32.060] [INFO] result - On prepare started
+[2018-02-26T18:42:37.517] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:42:39.932] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:42:40.957] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:42:42.806] [INFO] result - The raiting of film is 8
+[2018-02-26T18:42:43.628] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:42:45.571] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:42:46.131] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:42:47.582] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:42:47.582] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:42:48.440] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-26T18:42:50.324] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-26T18:42:51.192] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-26T18:42:53.086] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-26T18:42:53.947] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-26T18:42:57.683] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-26T18:42:58.419] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-26T18:43:00.136] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-26T18:43:02.160] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
