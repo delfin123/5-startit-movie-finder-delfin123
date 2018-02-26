@@ -3,10 +3,20 @@ import {expect} from 'chai'
 import { Lesson5 } from './pages/lesson5'
 import * as log4js from 'log4js'
 import { debuglog } from 'util'
+let fs =require('fs')
 const logger = log4js.getLogger('result')
 
 
 describe('movie-finders tests',async function(){
+   /* afterEach(async function(){
+      (async function(){
+        let oldLog = console.log;
+        console.log = function (message) {
+            logger.info(message)
+            oldLog.apply(console, arguments);
+        };
+    })();
+})*/
     const lesson5 = new Lesson5()
     /*afterEach(async function() {  
         let a = await browser.manage().logs().get('browser').then(async function(browserLog) {
@@ -51,7 +61,7 @@ describe('movie-finders tests',async function(){
     await lesson5.open()               
 })
 
-describe('Movie details', async function () {
+fdescribe('Movie details', async function () {
     
     it('should have movie name as header', async function () {
             logger.info('Начало теста на проверку названия фильма')

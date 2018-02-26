@@ -222,3 +222,1793 @@
 [2018-02-26T18:42:58.419] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
 [2018-02-26T18:43:00.136] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
 [2018-02-26T18:43:02.160] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-26T18:47:00.789] [INFO] result - On prepare started
+[2018-02-26T18:47:07.666] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:47:09.998] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:47:11.180] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:47:13.328] [INFO] result - The raiting of film is 8
+[2018-02-26T18:47:14.134] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:47:15.991] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:47:16.529] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:47:18.138] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:47:18.154] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:47:19.025] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-26T18:47:20.990] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-26T18:47:21.811] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-26T18:47:23.460] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-26T18:47:24.315] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-26T18:47:27.190] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-26T18:47:27.938] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-26T18:47:29.603] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-26T18:47:31.865] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-26T18:53:56.660] [INFO] result - On prepare started
+[2018-02-26T18:53:58.130] [INFO] result - undefined
+[2018-02-26T18:53:58.130] [INFO] result - undefined
+[2018-02-26T18:53:58.130] [INFO] result - undefined
+[2018-02-26T18:54:02.424] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:54:04.233] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:54:05.391] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:54:08.829] [INFO] result - The raiting of film is 8
+[2018-02-26T18:54:10.407] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:54:12.818] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:54:13.372] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:54:14.559] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:54:14.560] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:55:12.756] [INFO] result - On prepare started
+[2018-02-26T18:55:14.220] [INFO] result - undefined
+[2018-02-26T18:55:18.090] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:55:20.095] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:55:21.671] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:55:23.531] [INFO] result - The raiting of film is 8
+[2018-02-26T18:55:24.374] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:55:26.164] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:55:26.718] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:55:28.120] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:55:28.120] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:56:43.549] [INFO] result - On prepare started
+[2018-02-26T18:56:45.067] [INFO] result - undefined
+[2018-02-26T18:56:51.662] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:56:54.078] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:56:55.185] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:56:56.989] [INFO] result - The raiting of film is 8
+[2018-02-26T18:56:57.817] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:56:59.709] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:56:59.765] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:57:01.443] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:57:01.443] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T18:57:53.833] [INFO] result - On prepare started
+[2018-02-26T18:57:59.666] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T18:58:01.878] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T18:58:02.810] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T18:58:05.641] [INFO] result - The raiting of film is 8
+[2018-02-26T18:58:07.381] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T18:58:09.195] [INFO] result - Number of similar movies is 12
+[2018-02-26T18:58:09.749] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T18:58:11.355] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T18:58:11.356] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:00:15.674] [INFO] result - On prepare started
+[2018-02-26T19:00:21.991] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:00:23.680] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:00:24.727] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:00:26.727] [INFO] result - The raiting of film is 8
+[2018-02-26T19:00:27.759] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:00:29.573] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:00:30.129] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:00:31.542] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T19:00:31.543] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:00:58.334] [INFO] result - On prepare started
+[2018-02-26T19:01:05.947] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:01:09.232] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:01:10.442] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:01:12.435] [INFO] result - The raiting of film is 8
+[2018-02-26T19:01:13.262] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:01:15.221] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:01:15.773] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:01:17.303] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T19:01:17.304] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:02:34.215] [INFO] result - On prepare started
+[2018-02-26T19:02:40.854] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:02:43.167] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:02:43.168] [INFO] result - undefined
+[2018-02-26T19:02:44.148] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:02:46.428] [INFO] result - The raiting of film is 8
+[2018-02-26T19:02:46.429] [INFO] result - undefined
+[2018-02-26T19:02:47.105] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:02:49.025] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:02:49.576] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:02:51.301] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T19:02:51.302] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:02:51.302] [INFO] result - undefined
+[2018-02-26T19:09:23.614] [INFO] result - On prepare started
+[2018-02-26T19:09:29.466] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:09:31.476] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:09:32.490] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:09:34.625] [INFO] result - The raiting of film is 8
+[2018-02-26T19:09:35.290] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:09:37.034] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:09:37.086] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:09:38.665] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T19:09:38.665] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:10:41.494] [INFO] result - On prepare started
+[2018-02-26T19:10:47.433] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:10:49.558] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:10:50.660] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:10:52.785] [INFO] result - The raiting of film is 8
+[2018-02-26T19:10:53.600] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:10:55.284] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:10:55.837] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:10:56.999] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T19:10:57.000] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:12:10.616] [INFO] result - On prepare started
+[2018-02-26T19:12:17.438] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:12:19.552] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:12:20.644] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:12:22.587] [INFO] result - The raiting of film is 8
+[2018-02-26T19:12:23.266] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:12:25.148] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:12:25.702] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:12:27.672] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T19:12:27.674] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:12:57.332] [INFO] result - On prepare started
+[2018-02-26T19:13:08.691] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:13:11.768] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:13:12.897] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:13:14.825] [INFO] result - The raiting of film is 8
+[2018-02-26T19:13:15.485] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:13:17.195] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:13:17.251] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:13:18.547] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T19:13:18.548] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:14:09.415] [INFO] result - On prepare started
+[2018-02-26T19:14:16.592] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:14:18.736] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:14:19.932] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:14:21.897] [INFO] result - The raiting of film is 8
+[2018-02-26T19:14:22.567] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:14:24.499] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:14:25.050] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:14:26.484] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T19:14:26.484] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:18:41.812] [INFO] result - On prepare started
+[2018-02-26T19:18:52.524] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:18:54.615] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:18:54.620] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m11 s[29m)[39m
+[2018-02-26T19:18:54.621] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T19:18:55.620] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:18:57.463] [INFO] result - The raiting of film is 8
+[2018-02-26T19:18:57.465] [INFO] result - The raiting of film is 8
+[2018-02-26T19:18:57.468] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T19:18:57.468] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T19:18:57.471] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:18:57.471] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:18:58.279] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:18:59.768] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:18:59.768] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:18:59.796] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:18:59.846] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:18:59.846] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:18:59.847] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:18:59.867] [INFO] result - Alien: Covenant
+[2018-02-26T19:18:59.867] [INFO] result - Alien: Covenant
+[2018-02-26T19:19:00.983] [INFO] result - Alien: Covenant
+[2018-02-26T19:19:00.983] [INFO] result - Alien: Covenant
+[2018-02-26T19:19:01.546] [INFO] result - [ 'Horror', 'Science Fiction', 'Thriller' ]
+[2018-02-26T19:19:01.546] [INFO] result - [ 'Horror', 'Science Fiction', 'Thriller' ]
+[2018-02-26T19:19:01.547] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T19:19:01.548] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:19:01.548] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:19:01.548] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:19:01.552] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-26T19:19:01.552] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-26T19:19:01.552] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-26T19:19:01.553] [INFO] result - 
+[2018-02-26T19:19:01.553] [INFO] result - 
+[2018-02-26T19:19:01.553] [INFO] result - 
+[2018-02-26T19:19:01.554] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:19:01.554] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:19:01.554] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:19:01.555] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:19:01.555] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:19:01.555] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:19:01.555] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:19:01.556] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:19:01.556] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:19:01.557] [INFO] result - 
+[2018-02-26T19:19:01.557] [INFO] result - 
+[2018-02-26T19:19:01.557] [INFO] result - 
+[2018-02-26T19:19:01.558] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:19:01.558] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:19:01.558] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:19:01.559] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:19:01.559] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:19:01.559] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:19:01.560] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:19:01.560] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:19:01.560] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:19:01.560] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:19:01.560] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:19:01.561] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:19:01.561] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:19:01.561] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:19:01.561] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:19:01.562] [INFO] result - 
+[2018-02-26T19:19:01.562] [INFO] result - 
+[2018-02-26T19:19:01.562] [INFO] result - 
+[2018-02-26T19:19:01.563] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:19:01.563] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:19:01.563] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:19:01.563] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:19:01.563] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:19:01.563] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:19:01.566] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:19:01.566] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:19:01.566] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:19:01.567] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:19:01.567] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:19:01.567] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:19:01.568] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:19:01.568] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:19:01.568] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:19:01.568] [INFO] result - 
+[2018-02-26T19:19:01.568] [INFO] result - 
+[2018-02-26T19:19:01.568] [INFO] result - 
+[2018-02-26T19:19:01.569] [INFO] result - 
+[2018-02-26T19:19:01.569] [INFO] result - 
+[2018-02-26T19:19:01.569] [INFO] result - 
+[2018-02-26T19:19:01.569] [INFO] result - **************************************************
+[2018-02-26T19:19:01.569] [INFO] result - **************************************************
+[2018-02-26T19:19:01.569] [INFO] result - **************************************************
+[2018-02-26T19:19:01.569] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:19:01.569] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:19:01.569] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:19:01.569] [INFO] result - **************************************************
+[2018-02-26T19:19:01.569] [INFO] result - **************************************************
+[2018-02-26T19:19:01.569] [INFO] result - **************************************************
+[2018-02-26T19:19:01.569] [INFO] result - 
+[2018-02-26T19:19:01.569] [INFO] result - 
+[2018-02-26T19:19:01.569] [INFO] result - 
+[2018-02-26T19:19:01.569] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m18 s[29m[39m[23m
+[2018-02-26T19:19:01.569] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m18 s[29m[39m[23m
+[2018-02-26T19:19:01.569] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m18 s[29m[39m[23m
+[2018-02-26T19:19:01.569] [INFO] result - 
+[2018-02-26T19:19:01.569] [INFO] result - 
+[2018-02-26T19:19:01.569] [INFO] result - 
+[2018-02-26T19:19:01.569] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T19:19:01.569] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T19:19:01.569] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T19:19:01.569] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T19:19:01.569] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T19:19:01.569] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T19:19:01.569] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:19:01.569] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:19:01.569] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:19:01.569] [INFO] result - 
+[2018-02-26T19:19:01.569] [INFO] result - 
+[2018-02-26T19:19:01.569] [INFO] result - 
+[2018-02-26T19:19:01.769] [INFO] result - [[90m19:19:01[39m] I/launcher -
+[2018-02-26T19:20:51.737] [INFO] result - On prepare started
+[2018-02-26T19:20:59.037] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:21:01.267] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:21:01.272] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m8 s[29m)[39m
+[2018-02-26T19:21:01.272] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T19:21:02.230] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:21:05.959] [INFO] result - 		[31m[9m✗  [29m[39mshould have raiting[90m ([9m5 s[29m)[39m
+[2018-02-26T19:21:05.960] [INFO] result - 		[31m[9m✗  [29m[39mshould have raiting[90m ([9m5 s[29m)[39m
+[2018-02-26T19:21:05.961] [INFO] result - 			[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:21:05.961] [INFO] result - 			[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:21:05.962] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:21:05.962] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:21:06.785] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:21:08.435] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:21:08.435] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:21:08.447] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:21:08.992] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:21:08.993] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:21:08.994] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:21:09.020] [INFO] result - Alien: Covenant
+[2018-02-26T19:21:09.020] [INFO] result - Alien: Covenant
+[2018-02-26T19:21:09.942] [INFO] result - Alien: Covenant
+[2018-02-26T19:21:09.942] [INFO] result - Alien: Covenant
+[2018-02-26T19:21:10.493] [INFO] result - [ 'Horror', 'Science Fiction', 'Thriller' ]
+[2018-02-26T19:21:10.493] [INFO] result - [ 'Horror', 'Science Fiction', 'Thriller' ]
+[2018-02-26T19:21:10.493] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T19:21:10.493] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:21:10.493] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:21:10.493] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:21:10.508] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T19:21:10.508] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T19:21:10.508] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T19:21:10.508] [INFO] result - 
+[2018-02-26T19:21:10.508] [INFO] result - 
+[2018-02-26T19:21:10.508] [INFO] result - 
+[2018-02-26T19:21:10.508] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:21:10.508] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:21:10.508] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:21:10.508] [INFO] result - 
+[2018-02-26T19:21:10.508] [INFO] result - 
+[2018-02-26T19:21:10.508] [INFO] result - 
+[2018-02-26T19:21:10.508] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:21:10.508] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:21:10.508] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:21:10.508] [INFO] result - 
+[2018-02-26T19:21:10.508] [INFO] result - 
+[2018-02-26T19:21:10.508] [INFO] result - 
+[2018-02-26T19:21:10.508] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:21:10.508] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:21:10.508] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:21:10.508] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:21:10.508] [INFO] result - 
+[2018-02-26T19:21:10.508] [INFO] result - 
+[2018-02-26T19:21:10.508] [INFO] result - 
+[2018-02-26T19:21:10.534] [INFO] result - 
+[2018-02-26T19:21:10.534] [INFO] result - 
+[2018-02-26T19:21:10.534] [INFO] result - 
+[2018-02-26T19:21:10.534] [INFO] result - **************************************************
+[2018-02-26T19:21:10.534] [INFO] result - **************************************************
+[2018-02-26T19:21:10.534] [INFO] result - **************************************************
+[2018-02-26T19:21:10.535] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:21:10.535] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:21:10.535] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:21:10.535] [INFO] result - **************************************************
+[2018-02-26T19:21:10.535] [INFO] result - **************************************************
+[2018-02-26T19:21:10.535] [INFO] result - **************************************************
+[2018-02-26T19:21:10.535] [INFO] result - 
+[2018-02-26T19:21:10.536] [INFO] result - 
+[2018-02-26T19:21:10.536] [INFO] result - 
+[2018-02-26T19:21:10.536] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m17 s[29m[39m[23m
+[2018-02-26T19:21:10.536] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m17 s[29m[39m[23m
+[2018-02-26T19:21:10.536] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m17 s[29m[39m[23m
+[2018-02-26T19:21:10.536] [INFO] result - 
+[2018-02-26T19:21:10.537] [INFO] result - 
+[2018-02-26T19:21:10.537] [INFO] result - 
+[2018-02-26T19:21:10.537] [INFO] result - 	[32mPASSED   2 ( 25% )[39m
+[2018-02-26T19:21:10.537] [INFO] result - 	[32mPASSED   2 ( 25% )[39m
+[2018-02-26T19:21:10.537] [INFO] result - 	[32mPASSED   2 ( 25% )[39m
+[2018-02-26T19:21:10.538] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-26T19:21:10.538] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-26T19:21:10.538] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-26T19:21:10.538] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:21:10.539] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:21:10.539] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:21:10.539] [INFO] result - 
+[2018-02-26T19:21:10.539] [INFO] result - 
+[2018-02-26T19:21:10.539] [INFO] result - 
+[2018-02-26T19:21:10.539] [INFO] result - 
+[2018-02-26T19:21:10.539] [INFO] result - 
+[2018-02-26T19:21:10.539] [INFO] result - 
+[2018-02-26T19:21:10.540] [INFO] result - **************************************************
+[2018-02-26T19:21:10.540] [INFO] result - **************************************************
+[2018-02-26T19:21:10.540] [INFO] result - **************************************************
+[2018-02-26T19:21:10.541] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:21:10.541] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:21:10.541] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:21:10.541] [INFO] result - **************************************************
+[2018-02-26T19:21:10.541] [INFO] result - **************************************************
+[2018-02-26T19:21:10.541] [INFO] result - **************************************************
+[2018-02-26T19:21:10.541] [INFO] result - 
+[2018-02-26T19:21:10.542] [INFO] result - 
+[2018-02-26T19:21:10.542] [INFO] result - 
+[2018-02-26T19:21:10.542] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:21:10.542] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:21:10.542] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:21:10.543] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:21:10.543] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:21:10.543] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:21:10.543] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:107:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:101:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:87:20)[39m
+[2018-02-26T19:21:10.543] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:107:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:101:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:87:20)[39m
+[2018-02-26T19:21:10.543] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:107:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:101:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:87:20)[39m
+[2018-02-26T19:21:10.544] [INFO] result - 
+[2018-02-26T19:21:10.544] [INFO] result - 
+[2018-02-26T19:21:10.544] [INFO] result - 
+[2018-02-26T19:21:10.746] [INFO] result - [[90m19:21:10[39m] I/launcher -
+[2018-02-26T19:22:52.571] [INFO] result - On prepare started
+[2018-02-26T19:23:05.498] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:23:07.730] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:23:07.735] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m14 s[29m)[39m
+[2018-02-26T19:23:07.735] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T19:23:09.054] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:23:11.704] [INFO] result - 		[31m[9m✗  [29m[39mshould have raiting[90m ([9m4 s[29m)[39m
+[2018-02-26T19:23:11.705] [INFO] result - 			[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:23:11.705] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:23:12.555] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:23:14.227] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:23:14.239] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:23:14.845] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:23:14.845] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:23:14.876] [INFO] result - Alien: Covenant
+[2018-02-26T19:23:15.952] [INFO] result - Alien: Covenant
+[2018-02-26T19:23:16.011] [INFO] result - [ 'Horror', 'Science Fiction', 'Thriller' ]
+[2018-02-26T19:23:16.011] [INFO] result - Подобный фильм включает такие жанры Horror,Science Fiction,Thriller
+[2018-02-26T19:23:16.012] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:23:16.012] [INFO] result - Фильмы совпадают по таким жанрам: Science Fiction
+[2018-02-26T19:23:16.013] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-26T19:23:16.013] [INFO] result - 
+[2018-02-26T19:23:16.013] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:23:16.013] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:23:16.013] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:23:16.013] [INFO] result - 
+[2018-02-26T19:23:16.013] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:23:16.013] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:23:16.013] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:23:16.013] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:23:16.013] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:23:16.013] [INFO] result - 
+[2018-02-26T19:23:16.013] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:23:16.013] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:23:16.029] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:23:16.029] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:23:16.029] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:23:16.029] [INFO] result - 
+[2018-02-26T19:23:16.029] [INFO] result - 
+[2018-02-26T19:23:16.029] [INFO] result - **************************************************
+[2018-02-26T19:23:16.029] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:23:16.029] [INFO] result - **************************************************
+[2018-02-26T19:23:16.029] [INFO] result - 
+[2018-02-26T19:23:16.029] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m22 s[29m[39m[23m
+[2018-02-26T19:23:16.029] [INFO] result - 
+[2018-02-26T19:23:16.029] [INFO] result - 	[32mPASSED   2 ( 25% )[39m
+[2018-02-26T19:23:16.029] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-26T19:23:16.029] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:23:16.029] [INFO] result - 
+[2018-02-26T19:23:16.029] [INFO] result - 
+[2018-02-26T19:23:16.029] [INFO] result - **************************************************
+[2018-02-26T19:23:16.029] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:23:16.029] [INFO] result - **************************************************
+[2018-02-26T19:23:16.029] [INFO] result - 
+[2018-02-26T19:23:16.029] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:23:16.029] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:23:16.029] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:106:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:100:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:86:20)[39m
+[2018-02-26T19:23:16.029] [INFO] result - 
+[2018-02-26T19:23:16.229] [INFO] result - [[90m19:23:16[39m] I/launcher -
+[2018-02-26T19:24:54.923] [INFO] result - On prepare started
+[2018-02-26T19:25:00.383] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:25:02.448] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:25:03.563] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:25:08.933] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:25:10.864] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:25:10.918] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:25:12.508] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T19:25:12.510] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:25:54.431] [INFO] result - On prepare started
+[2018-02-26T19:26:00.251] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:26:02.382] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:26:03.660] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:26:08.338] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:26:10.144] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:26:10.681] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:26:11.775] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T19:26:11.775] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:28:02.139] [INFO] result - On prepare started
+[2018-02-26T19:28:07.986] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:28:10.130] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:28:10.136] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m7 s[29m)[39m
+[2018-02-26T19:28:10.137] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T19:28:11.246] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:28:14.153] [INFO] result - 		[31m[9m✗  [29m[39mshould have raiting[90m ([9m4 s[29m)[39m
+[2018-02-26T19:28:14.153] [INFO] result - 		[31m[9m✗  [29m[39mshould have raiting[90m ([9m4 s[29m)[39m
+[2018-02-26T19:28:14.154] [INFO] result - 			[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:28:14.154] [INFO] result - 			[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:28:14.154] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:28:14.154] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:28:15.049] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:28:16.950] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:28:16.951] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:28:16.973] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:28:17.516] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:28:17.516] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:28:17.517] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:28:17.538] [INFO] result - Star Wars
+[2018-02-26T19:28:17.538] [INFO] result - Star Wars
+[2018-02-26T19:28:18.380] [INFO] result - Star Wars
+[2018-02-26T19:28:18.380] [INFO] result - Star Wars
+[2018-02-26T19:28:18.941] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T19:28:18.941] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T19:28:18.942] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T19:28:18.942] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:28:18.942] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:28:18.943] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:28:18.945] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T19:28:18.945] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T19:28:18.945] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T19:28:18.946] [INFO] result - 
+[2018-02-26T19:28:18.946] [INFO] result - 
+[2018-02-26T19:28:18.946] [INFO] result - 
+[2018-02-26T19:28:18.947] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:28:18.947] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:28:18.947] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:28:18.947] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:28:18.947] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:28:18.948] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:28:18.948] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:28:18.948] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:28:18.948] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:28:18.949] [INFO] result - 
+[2018-02-26T19:28:18.949] [INFO] result - 
+[2018-02-26T19:28:18.949] [INFO] result - 
+[2018-02-26T19:28:18.949] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:28:18.949] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:28:18.950] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:28:18.950] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:28:18.950] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:28:18.950] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:28:18.951] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:28:18.951] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:28:18.951] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:28:18.952] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:28:18.952] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:28:18.952] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:28:18.952] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:28:18.953] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:28:18.953] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:28:18.953] [INFO] result - 
+[2018-02-26T19:28:18.953] [INFO] result - 
+[2018-02-26T19:28:18.953] [INFO] result - 
+[2018-02-26T19:28:18.953] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:28:18.953] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:28:18.954] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:28:18.954] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:28:18.954] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:28:18.954] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:28:18.956] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:28:18.956] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:28:18.956] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:28:18.957] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:28:18.957] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:28:18.957] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:28:18.957] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:28:18.957] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:28:18.957] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:28:18.958] [INFO] result - 
+[2018-02-26T19:28:18.958] [INFO] result - 
+[2018-02-26T19:28:18.958] [INFO] result - 
+[2018-02-26T19:28:18.971] [INFO] result - 
+[2018-02-26T19:28:18.971] [INFO] result - 
+[2018-02-26T19:28:18.971] [INFO] result - 
+[2018-02-26T19:28:18.971] [INFO] result - **************************************************
+[2018-02-26T19:28:18.971] [INFO] result - **************************************************
+[2018-02-26T19:28:18.971] [INFO] result - **************************************************
+[2018-02-26T19:28:18.972] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:28:18.972] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:28:18.972] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:28:18.972] [INFO] result - **************************************************
+[2018-02-26T19:28:18.972] [INFO] result - **************************************************
+[2018-02-26T19:28:18.972] [INFO] result - **************************************************
+[2018-02-26T19:28:18.973] [INFO] result - 
+[2018-02-26T19:28:18.973] [INFO] result - 
+[2018-02-26T19:28:18.973] [INFO] result - 
+[2018-02-26T19:28:18.973] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m16 s[29m[39m[23m
+[2018-02-26T19:28:18.973] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m16 s[29m[39m[23m
+[2018-02-26T19:28:18.973] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m16 s[29m[39m[23m
+[2018-02-26T19:28:18.974] [INFO] result - 
+[2018-02-26T19:28:18.974] [INFO] result - 
+[2018-02-26T19:28:18.974] [INFO] result - 
+[2018-02-26T19:28:18.974] [INFO] result - 	[32mPASSED   2 ( 25% )[39m
+[2018-02-26T19:28:18.974] [INFO] result - 	[32mPASSED   2 ( 25% )[39m
+[2018-02-26T19:28:18.974] [INFO] result - 	[32mPASSED   2 ( 25% )[39m
+[2018-02-26T19:28:18.975] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-26T19:28:18.975] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-26T19:28:18.975] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-26T19:28:18.975] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:28:18.975] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:28:18.975] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:28:18.975] [INFO] result - 
+[2018-02-26T19:28:18.975] [INFO] result - 
+[2018-02-26T19:28:18.975] [INFO] result - 
+[2018-02-26T19:28:18.976] [INFO] result - 
+[2018-02-26T19:28:18.976] [INFO] result - 
+[2018-02-26T19:28:18.976] [INFO] result - 
+[2018-02-26T19:28:18.976] [INFO] result - **************************************************
+[2018-02-26T19:28:18.976] [INFO] result - **************************************************
+[2018-02-26T19:28:18.976] [INFO] result - **************************************************
+[2018-02-26T19:28:18.976] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:28:18.976] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:28:18.976] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:28:18.977] [INFO] result - **************************************************
+[2018-02-26T19:28:18.977] [INFO] result - **************************************************
+[2018-02-26T19:28:18.977] [INFO] result - **************************************************
+[2018-02-26T19:28:18.977] [INFO] result - 
+[2018-02-26T19:28:18.977] [INFO] result - 
+[2018-02-26T19:28:18.977] [INFO] result - 
+[2018-02-26T19:28:18.978] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:28:18.978] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:28:18.978] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:28:18.978] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:28:18.978] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:28:18.978] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:28:18.978] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:107:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:101:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:87:20)[39m
+[2018-02-26T19:28:18.978] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:107:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:101:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:87:20)[39m
+[2018-02-26T19:28:18.978] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:107:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:101:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:87:20)[39m
+[2018-02-26T19:28:18.981] [INFO] result - 
+[2018-02-26T19:28:18.981] [INFO] result - 
+[2018-02-26T19:28:18.981] [INFO] result - 
+[2018-02-26T19:28:19.257] [INFO] result - [[90m19:28:19[39m] I/launcher -
+[2018-02-26T19:32:33.623] [INFO] result - On prepare started
+[2018-02-26T19:32:39.555] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:32:41.587] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:32:41.592] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m6 s[29m)[39m
+[2018-02-26T19:32:41.592] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T19:32:42.576] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:32:45.448] [INFO] result - 		[31m[9m✗  [29m[39mshould have raiting[90m ([9m4 s[29m)[39m
+[2018-02-26T19:32:45.448] [INFO] result - 		[31m[9m✗  [29m[39mshould have raiting[90m ([9m4 s[29m)[39m
+[2018-02-26T19:32:45.449] [INFO] result - 			[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:32:45.450] [INFO] result - 			[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:32:45.450] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:32:45.450] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:32:46.271] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:32:47.990] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:32:47.990] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:32:48.002] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:32:48.553] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:32:48.554] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:32:48.556] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:32:48.583] [INFO] result - Star Wars
+[2018-02-26T19:32:48.584] [INFO] result - Star Wars
+[2018-02-26T19:32:49.435] [INFO] result - Star Wars 8
+[2018-02-26T19:32:49.435] [INFO] result - Star Wars 8
+[2018-02-26T19:33:09.445] [INFO] result - 		[31m[9m✗  [29m[39mshould have simular movies block with atleast one movie[90m ([9m24 s[29m)[39m
+[2018-02-26T19:33:09.445] [INFO] result - 		[31m[9m✗  [29m[39mshould have simular movies block with atleast one movie[90m ([9m24 s[29m)[39m
+[2018-02-26T19:33:09.446] [INFO] result - 		[31m[9m✗  [29m[39mshould have simular movies block with atleast one movie[90m ([9m24 s[29m)[39m
+[2018-02-26T19:33:09.447] [INFO] result - 			[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20000ms[39m
+[2018-02-26T19:33:09.447] [INFO] result - 			[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20000ms[39m
+[2018-02-26T19:33:09.447] [INFO] result - 			[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20000ms[39m
+[2018-02-26T19:33:09.449] [INFO] result - 
+[2018-02-26T19:33:09.449] [INFO] result - 
+[2018-02-26T19:33:09.449] [INFO] result - 
+[2018-02-26T19:33:09.450] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:33:09.450] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:33:09.450] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:33:09.451] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:33:09.451] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:33:09.452] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:33:09.453] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:33:09.453] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:33:09.453] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:33:09.454] [INFO] result - 
+[2018-02-26T19:33:09.454] [INFO] result - 
+[2018-02-26T19:33:09.454] [INFO] result - 
+[2018-02-26T19:33:09.455] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:33:09.456] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:33:09.456] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:33:09.458] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:33:09.458] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:33:09.458] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:33:09.459] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:33:09.460] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:33:09.460] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:33:09.460] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:33:09.461] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:33:09.461] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:33:09.461] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:33:09.461] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:33:09.461] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:33:09.463] [INFO] result - 
+[2018-02-26T19:33:09.463] [INFO] result - 
+[2018-02-26T19:33:09.463] [INFO] result - 
+[2018-02-26T19:33:09.464] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:33:09.464] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:33:09.464] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:33:09.465] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:33:09.465] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:33:09.465] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:33:09.467] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:33:09.467] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:33:09.467] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:33:09.482] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:33:09.482] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:33:09.482] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:33:09.483] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:33:09.483] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:33:09.483] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:33:09.484] [INFO] result - 
+[2018-02-26T19:33:09.484] [INFO] result - 
+[2018-02-26T19:33:09.484] [INFO] result - 
+[2018-02-26T19:33:09.497] [INFO] result - 
+[2018-02-26T19:33:09.497] [INFO] result - 
+[2018-02-26T19:33:09.497] [INFO] result - 
+[2018-02-26T19:33:09.497] [INFO] result - **************************************************
+[2018-02-26T19:33:09.497] [INFO] result - **************************************************
+[2018-02-26T19:33:09.498] [INFO] result - **************************************************
+[2018-02-26T19:33:09.498] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:33:09.498] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:33:09.498] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:33:09.498] [INFO] result - **************************************************
+[2018-02-26T19:33:09.498] [INFO] result - **************************************************
+[2018-02-26T19:33:09.498] [INFO] result - **************************************************
+[2018-02-26T19:33:09.499] [INFO] result - 
+[2018-02-26T19:33:09.499] [INFO] result - 
+[2018-02-26T19:33:09.499] [INFO] result - 
+[2018-02-26T19:33:09.499] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m34 s[29m[39m[23m
+[2018-02-26T19:33:09.499] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m34 s[29m[39m[23m
+[2018-02-26T19:33:09.499] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m34 s[29m[39m[23m
+[2018-02-26T19:33:09.500] [INFO] result - 
+[2018-02-26T19:33:09.500] [INFO] result - 
+[2018-02-26T19:33:09.500] [INFO] result - 
+[2018-02-26T19:33:09.500] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-02-26T19:33:09.500] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-02-26T19:33:09.500] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-02-26T19:33:09.501] [INFO] result - 	[31mFAILED   2 ( 25% )[39m
+[2018-02-26T19:33:09.501] [INFO] result - 	[31mFAILED   2 ( 25% )[39m
+[2018-02-26T19:33:09.501] [INFO] result - 	[31mFAILED   2 ( 25% )[39m
+[2018-02-26T19:33:09.501] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:33:09.501] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:33:09.501] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:33:09.501] [INFO] result - 
+[2018-02-26T19:33:09.501] [INFO] result - 
+[2018-02-26T19:33:09.501] [INFO] result - 
+[2018-02-26T19:33:09.502] [INFO] result - 
+[2018-02-26T19:33:09.502] [INFO] result - 
+[2018-02-26T19:33:09.502] [INFO] result - 
+[2018-02-26T19:33:09.502] [INFO] result - **************************************************
+[2018-02-26T19:33:09.502] [INFO] result - **************************************************
+[2018-02-26T19:33:09.502] [INFO] result - **************************************************
+[2018-02-26T19:33:09.503] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:33:09.503] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:33:09.503] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:33:09.503] [INFO] result - **************************************************
+[2018-02-26T19:33:09.503] [INFO] result - **************************************************
+[2018-02-26T19:33:09.503] [INFO] result - **************************************************
+[2018-02-26T19:33:09.503] [INFO] result - 
+[2018-02-26T19:33:09.503] [INFO] result - 
+[2018-02-26T19:33:09.504] [INFO] result - 
+[2018-02-26T19:33:09.504] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:33:09.504] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:33:09.504] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:33:09.504] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:33:09.504] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:33:09.504] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:33:09.505] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:100:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:94:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:80:20)[39m
+[2018-02-26T19:33:09.505] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:100:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:94:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:80:20)[39m
+[2018-02-26T19:33:09.505] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:100:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:94:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:80:20)[39m
+[2018-02-26T19:33:09.507] [INFO] result - 
+[2018-02-26T19:33:09.507] [INFO] result - 
+[2018-02-26T19:33:09.507] [INFO] result - 
+[2018-02-26T19:33:09.507] [INFO] result - 2) [1mmovie-finders tests Movie details should have simular movies block with atleast one movie[22m
+[2018-02-26T19:33:09.507] [INFO] result - 2) [1mmovie-finders tests Movie details should have simular movies block with atleast one movie[22m
+[2018-02-26T19:33:09.507] [INFO] result - 2) [1mmovie-finders tests Movie details should have simular movies block with atleast one movie[22m
+[2018-02-26T19:33:09.507] [INFO] result - 	[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20000ms[39m
+[2018-02-26T19:33:09.507] [INFO] result - 	[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20000ms[39m
+[2018-02-26T19:33:09.507] [INFO] result - 	[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20000ms[39m
+[2018-02-26T19:33:09.508] [INFO] result - 	[31mWait timed out after 20000ms
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at <anonymous>
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:106:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:80:20)[39m
+[2018-02-26T19:33:09.508] [INFO] result - 	[31mWait timed out after 20000ms
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at <anonymous>
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:106:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:80:20)[39m
+[2018-02-26T19:33:09.508] [INFO] result - 	[31mWait timed out after 20000ms
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at <anonymous>
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:106:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:80:20)[39m
+[2018-02-26T19:33:09.508] [INFO] result - 
+[2018-02-26T19:33:09.508] [INFO] result - 
+[2018-02-26T19:33:09.509] [INFO] result - 
+[2018-02-26T19:33:09.638] [INFO] result - [[90m19:33:09[39m] I/launcher -
+[2018-02-26T19:34:45.143] [INFO] result - On prepare started
+[2018-02-26T19:34:55.019] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:34:57.238] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:34:57.243] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m11 s[29m)[39m
+[2018-02-26T19:34:57.244] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T19:34:58.257] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:35:01.123] [INFO] result - 		[31m[9m✗  [29m[39mshould have raiting[90m ([9m4 s[29m)[39m
+[2018-02-26T19:35:01.123] [INFO] result - 		[31m[9m✗  [29m[39mshould have raiting[90m ([9m4 s[29m)[39m
+[2018-02-26T19:35:01.123] [INFO] result - 			[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:35:01.123] [INFO] result - 			[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:35:01.124] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:35:01.124] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:35:01.779] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:35:03.577] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:35:03.578] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:35:03.590] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:35:03.638] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:35:03.638] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:35:03.639] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:35:03.656] [INFO] result - Star Wars
+[2018-02-26T19:35:03.657] [INFO] result - Star Wars
+[2018-02-26T19:35:04.328] [INFO] result - Wing Commander
+[2018-02-26T19:35:04.328] [INFO] result - Wing Commander
+[2018-02-26T19:35:24.338] [INFO] result - 		[31m[9m✗  [29m[39mshould have simular movies block with atleast one movie[90m ([9m23 s[29m)[39m
+[2018-02-26T19:35:24.338] [INFO] result - 		[31m[9m✗  [29m[39mshould have simular movies block with atleast one movie[90m ([9m23 s[29m)[39m
+[2018-02-26T19:35:24.338] [INFO] result - 		[31m[9m✗  [29m[39mshould have simular movies block with atleast one movie[90m ([9m23 s[29m)[39m
+[2018-02-26T19:35:24.339] [INFO] result - 			[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20001ms[39m
+[2018-02-26T19:35:24.339] [INFO] result - 			[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20001ms[39m
+[2018-02-26T19:35:24.339] [INFO] result - 			[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20001ms[39m
+[2018-02-26T19:35:24.341] [INFO] result - 
+[2018-02-26T19:35:24.341] [INFO] result - 
+[2018-02-26T19:35:24.342] [INFO] result - 
+[2018-02-26T19:35:24.342] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:35:24.342] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:35:24.342] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:35:24.345] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:35:24.345] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:35:24.345] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:35:24.346] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:35:24.346] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:35:24.346] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:35:24.347] [INFO] result - 
+[2018-02-26T19:35:24.347] [INFO] result - 
+[2018-02-26T19:35:24.347] [INFO] result - 
+[2018-02-26T19:35:24.348] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:35:24.348] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:35:24.348] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:35:24.349] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:35:24.349] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:35:24.349] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:35:24.350] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:35:24.350] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:35:24.350] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:35:24.351] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:35:24.351] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:35:24.351] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:35:24.352] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:35:24.352] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:35:24.352] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:35:24.353] [INFO] result - 
+[2018-02-26T19:35:24.353] [INFO] result - 
+[2018-02-26T19:35:24.353] [INFO] result - 
+[2018-02-26T19:35:24.354] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:35:24.354] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:35:24.354] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:35:24.356] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:35:24.356] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:35:24.356] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:35:24.359] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:35:24.359] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:35:24.359] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:35:24.378] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:35:24.378] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:35:24.378] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:35:24.379] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:35:24.379] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:35:24.379] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:35:24.382] [INFO] result - 
+[2018-02-26T19:35:24.382] [INFO] result - 
+[2018-02-26T19:35:24.383] [INFO] result - 
+[2018-02-26T19:35:24.413] [INFO] result - 
+[2018-02-26T19:35:24.413] [INFO] result - 
+[2018-02-26T19:35:24.413] [INFO] result - 
+[2018-02-26T19:35:24.413] [INFO] result - **************************************************
+[2018-02-26T19:35:24.413] [INFO] result - **************************************************
+[2018-02-26T19:35:24.413] [INFO] result - **************************************************
+[2018-02-26T19:35:24.414] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:35:24.414] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:35:24.414] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:35:24.414] [INFO] result - **************************************************
+[2018-02-26T19:35:24.414] [INFO] result - **************************************************
+[2018-02-26T19:35:24.414] [INFO] result - **************************************************
+[2018-02-26T19:35:24.416] [INFO] result - 
+[2018-02-26T19:35:24.416] [INFO] result - 
+[2018-02-26T19:35:24.416] [INFO] result - 
+[2018-02-26T19:35:24.416] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m38 s[29m[39m[23m
+[2018-02-26T19:35:24.416] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m38 s[29m[39m[23m
+[2018-02-26T19:35:24.416] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m38 s[29m[39m[23m
+[2018-02-26T19:35:24.417] [INFO] result - 
+[2018-02-26T19:35:24.417] [INFO] result - 
+[2018-02-26T19:35:24.417] [INFO] result - 
+[2018-02-26T19:35:24.417] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-02-26T19:35:24.417] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-02-26T19:35:24.417] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-02-26T19:35:24.418] [INFO] result - 	[31mFAILED   2 ( 25% )[39m
+[2018-02-26T19:35:24.418] [INFO] result - 	[31mFAILED   2 ( 25% )[39m
+[2018-02-26T19:35:24.418] [INFO] result - 	[31mFAILED   2 ( 25% )[39m
+[2018-02-26T19:35:24.418] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:35:24.418] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:35:24.418] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:35:24.419] [INFO] result - 
+[2018-02-26T19:35:24.419] [INFO] result - 
+[2018-02-26T19:35:24.419] [INFO] result - 
+[2018-02-26T19:35:24.420] [INFO] result - 
+[2018-02-26T19:35:24.420] [INFO] result - 
+[2018-02-26T19:35:24.420] [INFO] result - 
+[2018-02-26T19:35:24.420] [INFO] result - **************************************************
+[2018-02-26T19:35:24.420] [INFO] result - **************************************************
+[2018-02-26T19:35:24.420] [INFO] result - **************************************************
+[2018-02-26T19:35:24.421] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:35:24.421] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:35:24.421] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:35:24.422] [INFO] result - **************************************************
+[2018-02-26T19:35:24.422] [INFO] result - **************************************************
+[2018-02-26T19:35:24.422] [INFO] result - **************************************************
+[2018-02-26T19:35:24.423] [INFO] result - 
+[2018-02-26T19:35:24.423] [INFO] result - 
+[2018-02-26T19:35:24.423] [INFO] result - 
+[2018-02-26T19:35:24.424] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:35:24.424] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:35:24.424] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:35:24.424] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:35:24.425] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:35:24.425] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:35:24.426] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:98:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:92:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:78:20)[39m
+[2018-02-26T19:35:24.426] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:98:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:92:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:78:20)[39m
+[2018-02-26T19:35:24.426] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:98:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:92:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:78:20)[39m
+[2018-02-26T19:35:24.426] [INFO] result - 
+[2018-02-26T19:35:24.427] [INFO] result - 
+[2018-02-26T19:35:24.427] [INFO] result - 
+[2018-02-26T19:35:24.427] [INFO] result - 2) [1mmovie-finders tests Movie details should have simular movies block with atleast one movie[22m
+[2018-02-26T19:35:24.427] [INFO] result - 2) [1mmovie-finders tests Movie details should have simular movies block with atleast one movie[22m
+[2018-02-26T19:35:24.427] [INFO] result - 2) [1mmovie-finders tests Movie details should have simular movies block with atleast one movie[22m
+[2018-02-26T19:35:24.427] [INFO] result - 	[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20001ms[39m
+[2018-02-26T19:35:24.428] [INFO] result - 	[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20001ms[39m
+[2018-02-26T19:35:24.428] [INFO] result - 	[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20001ms[39m
+[2018-02-26T19:35:24.428] [INFO] result - 	[31mWait timed out after 20001ms
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at <anonymous>
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:104:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:78:20)[39m
+[2018-02-26T19:35:24.428] [INFO] result - 	[31mWait timed out after 20001ms
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at <anonymous>
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:104:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:78:20)[39m
+[2018-02-26T19:35:24.428] [INFO] result - 	[31mWait timed out after 20001ms
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at <anonymous>
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:104:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:78:20)[39m
+[2018-02-26T19:35:24.428] [INFO] result - 
+[2018-02-26T19:35:24.429] [INFO] result - 
+[2018-02-26T19:35:24.429] [INFO] result - 
+[2018-02-26T19:35:24.621] [INFO] result - [[90m19:35:24[39m] I/launcher -
+[2018-02-26T19:35:35.476] [INFO] result - On prepare started
+[2018-02-26T19:35:44.279] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:35:46.633] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:35:46.638] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m10 s[29m)[39m
+[2018-02-26T19:35:46.639] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T19:35:47.784] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:35:50.707] [INFO] result - 		[31m[9m✗  [29m[39mshould have raiting[90m ([9m4 s[29m)[39m
+[2018-02-26T19:35:50.707] [INFO] result - 		[31m[9m✗  [29m[39mshould have raiting[90m ([9m4 s[29m)[39m
+[2018-02-26T19:35:50.708] [INFO] result - 			[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:35:50.708] [INFO] result - 			[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:35:50.709] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:35:50.709] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:35:51.522] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:35:53.507] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:35:53.507] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:35:53.520] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:35:54.062] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:35:54.063] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:35:54.064] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:35:54.089] [INFO] result - Star Wars
+[2018-02-26T19:35:54.089] [INFO] result - Star Wars
+[2018-02-26T19:35:55.138] [INFO] result - Star Wars
+[2018-02-26T19:35:55.138] [INFO] result - Star Wars
+[2018-02-26T19:35:55.685] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T19:35:55.685] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T19:35:55.685] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T19:35:55.685] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:35:55.685] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:35:55.685] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:35:55.704] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T19:35:55.704] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T19:35:55.704] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T19:35:55.705] [INFO] result - 
+[2018-02-26T19:35:55.706] [INFO] result - 
+[2018-02-26T19:35:55.706] [INFO] result - 
+[2018-02-26T19:35:55.706] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:35:55.706] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:35:55.707] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:35:55.708] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:35:55.708] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:35:55.708] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:35:55.716] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:35:55.716] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:35:55.716] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:35:55.717] [INFO] result - 
+[2018-02-26T19:35:55.717] [INFO] result - 
+[2018-02-26T19:35:55.717] [INFO] result - 
+[2018-02-26T19:35:55.718] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:35:55.718] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:35:55.718] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:35:55.718] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:35:55.718] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:35:55.718] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:35:55.719] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:35:55.719] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:35:55.719] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:35:55.720] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:35:55.720] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:35:55.720] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:35:55.721] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:35:55.721] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:35:55.721] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:35:55.721] [INFO] result - 
+[2018-02-26T19:35:55.721] [INFO] result - 
+[2018-02-26T19:35:55.721] [INFO] result - 
+[2018-02-26T19:35:55.722] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:35:55.722] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:35:55.722] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:35:55.722] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:35:55.722] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:35:55.722] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:35:55.725] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:35:55.725] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:35:55.725] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:35:55.726] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:35:55.726] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:35:55.726] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:35:55.727] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:35:55.727] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:35:55.727] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:35:55.727] [INFO] result - 
+[2018-02-26T19:35:55.727] [INFO] result - 
+[2018-02-26T19:35:55.727] [INFO] result - 
+[2018-02-26T19:35:55.733] [INFO] result - 
+[2018-02-26T19:35:55.733] [INFO] result - 
+[2018-02-26T19:35:55.733] [INFO] result - 
+[2018-02-26T19:35:55.734] [INFO] result - **************************************************
+[2018-02-26T19:35:55.734] [INFO] result - **************************************************
+[2018-02-26T19:35:55.734] [INFO] result - **************************************************
+[2018-02-26T19:35:55.734] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:35:55.734] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:35:55.734] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:35:55.734] [INFO] result - **************************************************
+[2018-02-26T19:35:55.734] [INFO] result - **************************************************
+[2018-02-26T19:35:55.734] [INFO] result - **************************************************
+[2018-02-26T19:35:55.735] [INFO] result - 
+[2018-02-26T19:35:55.735] [INFO] result - 
+[2018-02-26T19:35:55.735] [INFO] result - 
+[2018-02-26T19:35:55.735] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m19 s[29m[39m[23m
+[2018-02-26T19:35:55.735] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m19 s[29m[39m[23m
+[2018-02-26T19:35:55.735] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m19 s[29m[39m[23m
+[2018-02-26T19:35:55.735] [INFO] result - 
+[2018-02-26T19:35:55.735] [INFO] result - 
+[2018-02-26T19:35:55.736] [INFO] result - 
+[2018-02-26T19:35:55.736] [INFO] result - 	[32mPASSED   2 ( 25% )[39m
+[2018-02-26T19:35:55.736] [INFO] result - 	[32mPASSED   2 ( 25% )[39m
+[2018-02-26T19:35:55.736] [INFO] result - 	[32mPASSED   2 ( 25% )[39m
+[2018-02-26T19:35:55.736] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-26T19:35:55.736] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-26T19:35:55.736] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-26T19:35:55.737] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:35:55.737] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:35:55.737] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:35:55.737] [INFO] result - 
+[2018-02-26T19:35:55.737] [INFO] result - 
+[2018-02-26T19:35:55.737] [INFO] result - 
+[2018-02-26T19:35:55.737] [INFO] result - 
+[2018-02-26T19:35:55.737] [INFO] result - 
+[2018-02-26T19:35:55.737] [INFO] result - 
+[2018-02-26T19:35:55.737] [INFO] result - **************************************************
+[2018-02-26T19:35:55.737] [INFO] result - **************************************************
+[2018-02-26T19:35:55.738] [INFO] result - **************************************************
+[2018-02-26T19:35:55.738] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:35:55.738] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:35:55.738] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-26T19:35:55.738] [INFO] result - **************************************************
+[2018-02-26T19:35:55.738] [INFO] result - **************************************************
+[2018-02-26T19:35:55.738] [INFO] result - **************************************************
+[2018-02-26T19:35:55.738] [INFO] result - 
+[2018-02-26T19:35:55.738] [INFO] result - 
+[2018-02-26T19:35:55.738] [INFO] result - 
+[2018-02-26T19:35:55.738] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:35:55.738] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:35:55.738] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-26T19:35:55.739] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:35:55.739] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:35:55.739] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-26T19:35:55.739] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:98:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:92:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:78:20)[39m
+[2018-02-26T19:35:55.739] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:98:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:92:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:78:20)[39m
+[2018-02-26T19:35:55.739] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:98:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:92:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:78:20)[39m
+[2018-02-26T19:35:55.740] [INFO] result - 
+[2018-02-26T19:35:55.740] [INFO] result - 
+[2018-02-26T19:35:55.740] [INFO] result - 
+[2018-02-26T19:35:55.927] [INFO] result - [[90m19:35:55[39m] I/launcher -
+[2018-02-26T19:36:59.548] [INFO] result - On prepare started
+[2018-02-26T19:37:09.240] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:37:11.447] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:37:11.452] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m10 s[29m)[39m
+[2018-02-26T19:37:11.453] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T19:37:12.663] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:37:14.349] [INFO] result - The raiting of film is 8
+[2018-02-26T19:37:14.350] [INFO] result - The raiting of film is 8
+[2018-02-26T19:37:14.353] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T19:37:14.353] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T19:37:14.357] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:37:14.357] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:37:15.029] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:37:16.867] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:37:16.867] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:37:16.885] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:37:17.421] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:37:17.422] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:37:17.422] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:37:17.446] [INFO] result - Star Wars
+[2018-02-26T19:37:17.446] [INFO] result - Star Wars
+[2018-02-26T19:37:18.367] [INFO] result - Star Wars
+[2018-02-26T19:37:18.367] [INFO] result - Star Wars
+[2018-02-26T19:37:18.908] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T19:37:18.908] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T19:37:18.923] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T19:37:18.923] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:37:18.923] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:37:18.923] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:37:18.923] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T19:37:18.923] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T19:37:18.923] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-26T19:37:18.923] [INFO] result - 
+[2018-02-26T19:37:18.923] [INFO] result - 
+[2018-02-26T19:37:18.923] [INFO] result - 
+[2018-02-26T19:37:18.923] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:37:18.923] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:37:18.923] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:37:18.923] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:37:18.923] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:37:18.923] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:37:18.923] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:37:18.923] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:37:18.923] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:37:18.939] [INFO] result - 
+[2018-02-26T19:37:18.939] [INFO] result - 
+[2018-02-26T19:37:18.939] [INFO] result - 
+[2018-02-26T19:37:18.939] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:37:18.939] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:37:18.939] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:37:18.939] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:37:18.939] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:37:18.939] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:37:18.947] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:37:18.947] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:37:18.947] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:37:18.947] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:37:18.948] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:37:18.948] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:37:18.949] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:37:18.949] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:37:18.949] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:37:18.950] [INFO] result - 
+[2018-02-26T19:37:18.950] [INFO] result - 
+[2018-02-26T19:37:18.950] [INFO] result - 
+[2018-02-26T19:37:18.950] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:37:18.951] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:37:18.951] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:37:18.951] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:37:18.951] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:37:18.951] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:37:18.954] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:37:18.955] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:37:18.955] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:37:18.956] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:37:18.956] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:37:18.956] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:37:18.957] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:37:18.957] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:37:18.957] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:37:18.958] [INFO] result - 
+[2018-02-26T19:37:18.958] [INFO] result - 
+[2018-02-26T19:37:18.958] [INFO] result - 
+[2018-02-26T19:37:18.964] [INFO] result - 
+[2018-02-26T19:37:18.964] [INFO] result - 
+[2018-02-26T19:37:18.964] [INFO] result - 
+[2018-02-26T19:37:18.964] [INFO] result - **************************************************
+[2018-02-26T19:37:18.964] [INFO] result - **************************************************
+[2018-02-26T19:37:18.964] [INFO] result - **************************************************
+[2018-02-26T19:37:18.965] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:37:18.965] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:37:18.965] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:37:18.966] [INFO] result - **************************************************
+[2018-02-26T19:37:18.966] [INFO] result - **************************************************
+[2018-02-26T19:37:18.966] [INFO] result - **************************************************
+[2018-02-26T19:37:18.973] [INFO] result - 
+[2018-02-26T19:37:18.973] [INFO] result - 
+[2018-02-26T19:37:18.974] [INFO] result - 
+[2018-02-26T19:37:18.974] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m18 s[29m[39m[23m
+[2018-02-26T19:37:18.974] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m18 s[29m[39m[23m
+[2018-02-26T19:37:18.974] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m18 s[29m[39m[23m
+[2018-02-26T19:37:18.975] [INFO] result - 
+[2018-02-26T19:37:18.975] [INFO] result - 
+[2018-02-26T19:37:18.975] [INFO] result - 
+[2018-02-26T19:37:18.975] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T19:37:18.975] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T19:37:18.975] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T19:37:18.976] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T19:37:18.976] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T19:37:18.976] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T19:37:18.977] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:37:18.977] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:37:18.977] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:37:18.977] [INFO] result - 
+[2018-02-26T19:37:18.977] [INFO] result - 
+[2018-02-26T19:37:18.977] [INFO] result - 
+[2018-02-26T19:37:19.186] [INFO] result - [[90m19:37:19[39m] I/launcher -
+[2018-02-26T19:37:39.836] [INFO] result - On prepare started
+[2018-02-26T19:37:45.437] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:37:48.095] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:37:48.101] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m7 s[29m)[39m
+[2018-02-26T19:37:48.102] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T19:37:49.079] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:37:51.000] [INFO] result - The raiting of film is 8
+[2018-02-26T19:37:51.000] [INFO] result - The raiting of film is 8
+[2018-02-26T19:37:51.003] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T19:37:51.004] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T19:37:51.004] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:37:51.004] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:37:51.664] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:37:53.285] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:37:53.286] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:37:53.299] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:37:53.851] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:37:53.852] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:37:53.853] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:37:53.881] [INFO] result - Star Wars
+[2018-02-26T19:37:53.882] [INFO] result - Star Wars
+[2018-02-26T19:37:54.892] [INFO] result - Star Wars
+[2018-02-26T19:37:54.892] [INFO] result - Star Wars
+[2018-02-26T19:37:55.453] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T19:37:55.454] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T19:37:55.455] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T19:37:55.456] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:37:55.456] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:37:55.457] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:37:55.460] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-26T19:37:55.460] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-26T19:37:55.460] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-26T19:37:55.461] [INFO] result - 
+[2018-02-26T19:37:55.461] [INFO] result - 
+[2018-02-26T19:37:55.461] [INFO] result - 
+[2018-02-26T19:37:55.461] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:37:55.461] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:37:55.461] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:37:55.462] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:37:55.462] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:37:55.462] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:37:55.462] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:37:55.462] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:37:55.462] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:37:55.463] [INFO] result - 
+[2018-02-26T19:37:55.463] [INFO] result - 
+[2018-02-26T19:37:55.463] [INFO] result - 
+[2018-02-26T19:37:55.463] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:37:55.463] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:37:55.463] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:37:55.464] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:37:55.464] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:37:55.464] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:37:55.465] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:37:55.465] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:37:55.465] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:37:55.466] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:37:55.466] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:37:55.466] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:37:55.466] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:37:55.466] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:37:55.466] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:37:55.467] [INFO] result - 
+[2018-02-26T19:37:55.467] [INFO] result - 
+[2018-02-26T19:37:55.467] [INFO] result - 
+[2018-02-26T19:37:55.467] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:37:55.467] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:37:55.467] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:37:55.468] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:37:55.468] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:37:55.468] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:37:55.470] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:37:55.470] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:37:55.470] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:37:55.470] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:37:55.470] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:37:55.470] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:37:55.472] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:37:55.472] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:37:55.472] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - **************************************************
+[2018-02-26T19:37:55.472] [INFO] result - **************************************************
+[2018-02-26T19:37:55.472] [INFO] result - **************************************************
+[2018-02-26T19:37:55.472] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:37:55.472] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:37:55.472] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:37:55.472] [INFO] result - **************************************************
+[2018-02-26T19:37:55.472] [INFO] result - **************************************************
+[2018-02-26T19:37:55.472] [INFO] result - **************************************************
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m14 s[29m[39m[23m
+[2018-02-26T19:37:55.472] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m14 s[29m[39m[23m
+[2018-02-26T19:37:55.472] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m14 s[29m[39m[23m
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T19:37:55.472] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T19:37:55.472] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T19:37:55.472] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T19:37:55.472] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T19:37:55.472] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T19:37:55.472] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:37:55.472] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:37:55.472] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.472] [INFO] result - 
+[2018-02-26T19:37:55.692] [INFO] result - [[90m19:37:55[39m] I/launcher -
+[2018-02-26T19:38:12.317] [INFO] result - On prepare started
+[2018-02-26T19:38:17.716] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-26T19:38:19.804] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-26T19:38:19.809] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m6 s[29m)[39m
+[2018-02-26T19:38:19.810] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-26T19:38:21.045] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-26T19:38:22.875] [INFO] result - The raiting of film is 8
+[2018-02-26T19:38:22.875] [INFO] result - The raiting of film is 8
+[2018-02-26T19:38:22.878] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T19:38:22.878] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-26T19:38:22.879] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:38:22.879] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-26T19:38:23.691] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-26T19:38:25.477] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:38:25.477] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:38:25.490] [INFO] result - Number of similar movies is 12
+[2018-02-26T19:38:25.544] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:38:25.544] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-26T19:38:25.545] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-26T19:38:25.565] [INFO] result - Star Wars
+[2018-02-26T19:38:25.565] [INFO] result - Star Wars
+[2018-02-26T19:38:26.474] [INFO] result - Star Wars
+[2018-02-26T19:38:26.474] [INFO] result - Star Wars
+[2018-02-26T19:38:26.535] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T19:38:26.535] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-26T19:38:26.535] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-26T19:38:26.536] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:38:26.536] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:38:26.536] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-26T19:38:26.539] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-26T19:38:26.539] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-26T19:38:26.539] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-26T19:38:26.540] [INFO] result - 
+[2018-02-26T19:38:26.540] [INFO] result - 
+[2018-02-26T19:38:26.540] [INFO] result - 
+[2018-02-26T19:38:26.541] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:38:26.541] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:38:26.541] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-26T19:38:26.541] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:38:26.541] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:38:26.541] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-26T19:38:26.542] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:38:26.542] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:38:26.542] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-26T19:38:26.542] [INFO] result - 
+[2018-02-26T19:38:26.542] [INFO] result - 
+[2018-02-26T19:38:26.542] [INFO] result - 
+[2018-02-26T19:38:26.542] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:38:26.542] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:38:26.542] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-26T19:38:26.543] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:38:26.543] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:38:26.543] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-26T19:38:26.543] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:38:26.543] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:38:26.543] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-26T19:38:26.544] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:38:26.544] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:38:26.544] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:38:26.545] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:38:26.545] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:38:26.545] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-26T19:38:26.545] [INFO] result - 
+[2018-02-26T19:38:26.545] [INFO] result - 
+[2018-02-26T19:38:26.545] [INFO] result - 
+[2018-02-26T19:38:26.546] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:38:26.546] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:38:26.546] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-26T19:38:26.546] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:38:26.546] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:38:26.546] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-26T19:38:26.548] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:38:26.548] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:38:26.548] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-26T19:38:26.548] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:38:26.548] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:38:26.548] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:38:26.549] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:38:26.549] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:38:26.549] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-26T19:38:26.549] [INFO] result - 
+[2018-02-26T19:38:26.549] [INFO] result - 
+[2018-02-26T19:38:26.549] [INFO] result - 
+[2018-02-26T19:38:26.552] [INFO] result - 
+[2018-02-26T19:38:26.552] [INFO] result - 
+[2018-02-26T19:38:26.552] [INFO] result - 
+[2018-02-26T19:38:26.552] [INFO] result - **************************************************
+[2018-02-26T19:38:26.552] [INFO] result - **************************************************
+[2018-02-26T19:38:26.552] [INFO] result - **************************************************
+[2018-02-26T19:38:26.552] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:38:26.552] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:38:26.552] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-26T19:38:26.552] [INFO] result - **************************************************
+[2018-02-26T19:38:26.552] [INFO] result - **************************************************
+[2018-02-26T19:38:26.552] [INFO] result - **************************************************
+[2018-02-26T19:38:26.552] [INFO] result - 
+[2018-02-26T19:38:26.552] [INFO] result - 
+[2018-02-26T19:38:26.552] [INFO] result - 
+[2018-02-26T19:38:26.552] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m13 s[29m[39m[23m
+[2018-02-26T19:38:26.552] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m13 s[29m[39m[23m
+[2018-02-26T19:38:26.552] [INFO] result - [3m[90mExecuted [39m[9m3[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m13 s[29m[39m[23m
+[2018-02-26T19:38:26.552] [INFO] result - 
+[2018-02-26T19:38:26.552] [INFO] result - 
+[2018-02-26T19:38:26.552] [INFO] result - 
+[2018-02-26T19:38:26.552] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T19:38:26.552] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T19:38:26.552] [INFO] result - 	[32mPASSED   3 ( 37.5% )[39m
+[2018-02-26T19:38:26.552] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T19:38:26.552] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T19:38:26.552] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-26T19:38:26.552] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:38:26.552] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:38:26.552] [INFO] result - 	[33mSKIPPED  5 ( 62.5% )[39m
+[2018-02-26T19:38:26.552] [INFO] result - 
+[2018-02-26T19:38:26.552] [INFO] result - 
+[2018-02-26T19:38:26.552] [INFO] result - 
+[2018-02-26T19:38:26.741] [INFO] result - [[90m19:38:26[39m] I/launcher -
