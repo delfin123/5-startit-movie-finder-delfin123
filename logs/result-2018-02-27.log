@@ -8633,3 +8633,323 @@ Error
 [2018-02-27T02:07:14.518] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
 [2018-02-27T02:07:14.518] [INFO] result - 
 [2018-02-27T02:07:14.724] [INFO] result - [[90m02:07:14[39m] I/launcher -
+[2018-02-27T02:09:35.755] [INFO] result - On prepare started
+[2018-02-27T02:09:37.009] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-27T02:09:37.009] [INFO] result - 
+[2018-02-27T02:09:37.009] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-27T02:09:37.009] [INFO] result - 
+[2018-02-27T02:09:37.009] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-27T02:09:37.009] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-27T02:09:43.367] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-27T02:09:46.167] [INFO] result - Eсли пройден,то The Maze Runner=The Maze Runner
+[2018-02-27T02:09:46.168] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-27T02:09:46.174] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m9 s[29m)[39m
+[2018-02-27T02:09:46.175] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-27T02:09:47.203] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-27T02:09:49.258] [INFO] result - The raiting of film is 8
+[2018-02-27T02:09:49.260] [INFO] result - The raiting of film is 8
+[2018-02-27T02:09:49.264] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-27T02:09:49.265] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-27T02:09:50.230] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-27T02:09:52.079] [INFO] result - Number of similar movies is 12
+[2018-02-27T02:09:52.093] [INFO] result - Number of similar movies is 12
+[2018-02-27T02:09:52.645] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-27T02:09:52.647] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-27T02:09:52.672] [INFO] result - Star Wars
+[2018-02-27T02:09:53.603] [INFO] result - Star Wars
+[2018-02-27T02:09:53.672] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-27T02:09:53.673] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-27T02:09:53.673] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-27T02:09:53.674] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-27T02:09:53.677] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-27T02:09:53.678] [INFO] result - 
+[2018-02-27T02:09:53.678] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-27T02:09:53.679] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-27T02:09:54.587] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-27T02:09:56.389] [INFO] result - Elijah Wood
+[2018-02-27T02:09:56.422] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-27T02:09:56.425] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m3 s[29m)[39m
+[2018-02-27T02:09:56.426] [INFO] result - 
+[2018-02-27T02:09:56.426] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-27T02:09:56.426] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-27T02:09:57.292] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-27T02:09:58.914] [INFO] result - The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-27T02:09:58.958] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-27T02:09:58.962] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m3 s[29m)[39m
+[2018-02-27T02:09:58.963] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-27T02:10:00.045] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-27T02:10:03.390] [INFO] result - First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-27T02:10:03.406] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-27T02:10:03.432] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m4 s[29m)[39m
+[2018-02-27T02:10:03.438] [INFO] result - 
+[2018-02-27T02:10:03.439] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-27T02:10:03.439] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-27T02:10:04.173] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-27T02:10:05.705] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-27T02:10:05.736] [INFO] result - 		[32m[9m✓  [29m[39mshouldnt have search bar[90m ([9m2 s[29m)[39m
+[2018-02-27T02:10:05.736] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-27T02:10:09.049] [INFO] result - 		[31m[9m✗  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m3 s[29m)[39m
+[2018-02-27T02:10:09.050] [INFO] result - 			[31m- [39m[31mFailed: ECONNREFUSED connect ECONNREFUSED 127.0.0.1:62208[39m
+[2018-02-27T02:10:09.050] [INFO] result - 
+[2018-02-27T02:10:09.057] [INFO] result - 
+[2018-02-27T02:10:09.059] [INFO] result - **************************************************
+[2018-02-27T02:10:09.059] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-27T02:10:09.060] [INFO] result - **************************************************
+[2018-02-27T02:10:09.060] [INFO] result - 
+[2018-02-27T02:10:09.060] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m32 s[29m[39m[23m
+[2018-02-27T02:10:09.060] [INFO] result - 
+[2018-02-27T02:10:09.061] [INFO] result - 	[32mPASSED   7 ( 87.5% )[39m
+[2018-02-27T02:10:09.061] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-27T02:10:09.061] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-02-27T02:10:09.062] [INFO] result - 
+[2018-02-27T02:10:09.062] [INFO] result - 
+[2018-02-27T02:10:09.062] [INFO] result - **************************************************
+[2018-02-27T02:10:09.063] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-27T02:10:09.063] [INFO] result - **************************************************
+[2018-02-27T02:10:09.063] [INFO] result - 
+[2018-02-27T02:10:09.064] [INFO] result - 1) [1mmovie-finders tests Popular series should have "First Air Date" instead "Release Date"[22m
+[2018-02-27T02:10:09.064] [INFO] result - 	[31m- [39m[31mFailed: ECONNREFUSED connect ECONNREFUSED 127.0.0.1:62208[39m
+[2018-02-27T02:10:09.064] [INFO] result - 	[31m    at ClientRequest.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\http\index.js:238:15)
+    at ClientRequest.emit (events.js:160:13)
+    at Socket.socketErrorListener (_http_client.js:389:9)
+    at Socket.emit (events.js:160:13)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at process._tickCallback (internal/process/next_tick.js:152:19)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:224:106)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:219:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\jasminejs\logger.ts:208:20)[39m
+[2018-02-27T02:10:09.065] [INFO] result - 
+[2018-02-27T02:10:09.215] [INFO] result - [[90m02:10:09[39m] I/launcher -
+[2018-02-27T02:11:14.003] [INFO] result - On prepare started
+[2018-02-27T02:11:15.541] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-27T02:11:15.541] [INFO] result - 
+[2018-02-27T02:11:15.541] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-27T02:11:15.541] [INFO] result - 
+[2018-02-27T02:11:15.541] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-27T02:11:15.541] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-27T02:11:19.450] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-27T02:11:21.568] [INFO] result - Eсли пройден,то The Maze Runner=The Maze Runner
+[2018-02-27T02:11:21.569] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-27T02:11:21.574] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m6 s[29m)[39m
+[2018-02-27T02:11:21.574] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-27T02:11:22.532] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-27T02:11:23.914] [INFO] result - The raiting of film is 8
+[2018-02-27T02:11:23.915] [INFO] result - The raiting of film is 8
+[2018-02-27T02:11:23.919] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m2 s[29m)[39m
+[2018-02-27T02:11:23.920] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-27T02:11:24.751] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-27T02:11:26.683] [INFO] result - Number of similar movies is 12
+[2018-02-27T02:11:26.698] [INFO] result - Number of similar movies is 12
+[2018-02-27T02:11:27.244] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-27T02:11:27.245] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-27T02:11:27.269] [INFO] result - Star Wars
+[2018-02-27T02:11:28.433] [INFO] result - Star Wars
+[2018-02-27T02:11:28.970] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-27T02:11:28.970] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-27T02:11:28.986] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-27T02:11:28.986] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-27T02:11:28.990] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-27T02:11:28.991] [INFO] result - 
+[2018-02-27T02:11:28.992] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-27T02:11:28.992] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-27T02:11:29.872] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-27T02:11:31.607] [INFO] result - Elijah Wood
+[2018-02-27T02:11:31.642] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-27T02:11:31.645] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m3 s[29m)[39m
+[2018-02-27T02:11:31.646] [INFO] result - 
+[2018-02-27T02:11:31.646] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-27T02:11:31.646] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-27T02:11:32.492] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-27T02:11:34.153] [INFO] result - The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-27T02:11:34.193] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-27T02:11:34.196] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m3 s[29m)[39m
+[2018-02-27T02:11:34.196] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-27T02:11:35.048] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-27T02:11:37.695] [INFO] result - First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-27T02:11:37.715] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-27T02:11:37.749] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m4 s[29m)[39m
+[2018-02-27T02:11:37.755] [INFO] result - 
+[2018-02-27T02:11:37.758] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-27T02:11:37.758] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-27T02:11:38.449] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-27T02:11:39.997] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-27T02:11:40.012] [INFO] result - 		[32m[9m✓  [29m[39mshouldnt have search bar[90m ([9m2 s[29m)[39m
+[2018-02-27T02:11:40.012] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-27T02:11:42.183] [INFO] result - Количество популярных фильмов на сайте 20
+[2018-02-27T02:11:42.199] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-27T02:11:42.199] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m2 s[29m)[39m
+[2018-02-27T02:11:42.199] [INFO] result - 
+[2018-02-27T02:11:42.199] [INFO] result - 
+[2018-02-27T02:11:42.199] [INFO] result - **************************************************
+[2018-02-27T02:11:42.199] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-27T02:11:42.199] [INFO] result - **************************************************
+[2018-02-27T02:11:42.199] [INFO] result - 
+[2018-02-27T02:11:42.199] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m27 s[29m[39m[23m
+[2018-02-27T02:11:42.214] [INFO] result - 
+[2018-02-27T02:11:42.214] [INFO] result - 	[32mPASSED   8 ( 100% )[39m
+[2018-02-27T02:11:42.214] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-27T02:11:42.214] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-02-27T02:11:42.218] [INFO] result - 
+[2018-02-27T02:11:42.421] [INFO] result - [[90m02:11:42[39m] I/launcher -
+[2018-02-27T02:11:52.055] [INFO] result - On prepare started
+[2018-02-27T02:11:53.321] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-27T02:11:53.321] [INFO] result - 
+[2018-02-27T02:11:53.321] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-27T02:11:53.321] [INFO] result - 
+[2018-02-27T02:11:53.321] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-27T02:11:53.321] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-27T02:11:57.486] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-27T02:11:59.488] [INFO] result - Eсли пройден,то The Maze Runner=The Maze Runner
+[2018-02-27T02:11:59.489] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-27T02:11:59.494] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m6 s[29m)[39m
+[2018-02-27T02:11:59.495] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-27T02:12:00.594] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-27T02:12:04.153] [INFO] result - The raiting of film is 8
+[2018-02-27T02:12:04.153] [INFO] result - The raiting of film is 8
+[2018-02-27T02:12:04.156] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m5 s[29m)[39m
+[2018-02-27T02:12:04.157] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-27T02:12:05.451] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-27T02:12:07.201] [INFO] result - Number of similar movies is 12
+[2018-02-27T02:12:07.221] [INFO] result - Number of similar movies is 12
+[2018-02-27T02:12:07.760] [INFO] result - [ 'Action', 'Science Fiction' ]
+[2018-02-27T02:12:07.761] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-27T02:12:07.789] [INFO] result - Star Wars
+[2018-02-27T02:12:08.819] [INFO] result - Star Wars
+[2018-02-27T02:12:09.388] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ]
+[2018-02-27T02:12:09.388] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-27T02:12:09.388] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-27T02:12:09.388] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-27T02:12:09.388] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-27T02:12:09.388] [INFO] result - 
+[2018-02-27T02:12:09.388] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-27T02:12:09.388] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-27T02:12:10.356] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-27T02:12:12.157] [INFO] result - Elijah Wood
+[2018-02-27T02:12:12.193] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-27T02:12:12.195] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m3 s[29m)[39m
+[2018-02-27T02:12:12.196] [INFO] result - 
+[2018-02-27T02:12:12.196] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-27T02:12:12.197] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-27T02:12:12.869] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-27T02:12:14.397] [INFO] result - The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-27T02:12:14.428] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-27T02:12:14.430] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m2 s[29m)[39m
+[2018-02-27T02:12:14.431] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-27T02:12:15.141] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-27T02:12:17.757] [INFO] result - First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-27T02:12:17.773] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-27T02:12:17.798] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m3 s[29m)[39m
+[2018-02-27T02:12:17.803] [INFO] result - 
+[2018-02-27T02:12:17.806] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-27T02:12:17.807] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-27T02:12:18.529] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-27T02:12:20.115] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-27T02:12:20.131] [INFO] result - 		[32m[9m✓  [29m[39mshouldnt have search bar[90m ([9m2 s[29m)[39m
+[2018-02-27T02:12:20.131] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-27T02:12:21.802] [INFO] result - Количество популярных фильмов на сайте 20
+[2018-02-27T02:12:21.802] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-27T02:12:21.802] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m2 s[29m)[39m
+[2018-02-27T02:12:21.802] [INFO] result - 
+[2018-02-27T02:12:21.821] [INFO] result - 
+[2018-02-27T02:12:21.822] [INFO] result - **************************************************
+[2018-02-27T02:12:21.823] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-27T02:12:21.823] [INFO] result - **************************************************
+[2018-02-27T02:12:21.824] [INFO] result - 
+[2018-02-27T02:12:21.824] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m29 s[29m[39m[23m
+[2018-02-27T02:12:21.825] [INFO] result - 
+[2018-02-27T02:12:21.825] [INFO] result - 	[32mPASSED   8 ( 100% )[39m
+[2018-02-27T02:12:21.825] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-27T02:12:21.826] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-02-27T02:12:21.826] [INFO] result - 
+[2018-02-27T02:12:22.018] [INFO] result - [[90m02:12:22[39m] I/launcher -
+[2018-02-27T02:17:35.526] [INFO] result - On prepare started
+[2018-02-27T02:17:37.008] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m UTF8
+[2018-02-27T02:17:37.008] [INFO] result -  UTF8
+[2018-02-27T02:17:37.008] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m UTF8
+[2018-02-27T02:17:37.008] [INFO] result -  UTF8
+[2018-02-27T02:17:37.008] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m UTF8
+[2018-02-27T02:17:37.008] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header UTF8
+[2018-02-27T02:17:41.969] [INFO] result - Начало теста на проверку названия фильма
+[2018-02-27T02:17:44.102] [INFO] result - Eсли пройден,то The Maze Runner=The Maze Runner UTF8
+[2018-02-27T02:17:44.102] [INFO] result - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-27T02:17:44.107] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m7 s[29m)[39m UTF8
+[2018-02-27T02:17:44.107] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting UTF8
+[2018-02-27T02:17:45.238] [INFO] result - Начало теста на проверку рейтинга
+[2018-02-27T02:17:47.206] [INFO] result - The raiting of film is 8 UTF8
+[2018-02-27T02:17:47.207] [INFO] result - The raiting of film is 8
+[2018-02-27T02:17:47.210] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m UTF8
+[2018-02-27T02:17:47.211] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie UTF8
+[2018-02-27T02:17:48.097] [INFO] result - Начало теста на проверку наличия подобных фильмов
+[2018-02-27T02:17:50.134] [INFO] result - Number of similar movies is 12 UTF8
+[2018-02-27T02:17:50.161] [INFO] result - Number of similar movies is 12
+[2018-02-27T02:17:50.730] [INFO] result - [ 'Action', 'Science Fiction' ] 'UTF8'
+[2018-02-27T02:17:50.732] [INFO] result - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-27T02:17:50.762] [INFO] result - Star Wars UTF8
+[2018-02-27T02:17:52.083] [INFO] result - Star Wars UTF8
+[2018-02-27T02:17:52.636] [INFO] result - [ 'Adventure', 'Action', 'Science Fiction' ] 'UTF8'
+[2018-02-27T02:17:52.636] [INFO] result - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-27T02:17:52.636] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction UTF8
+[2018-02-27T02:17:52.636] [INFO] result - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-27T02:17:52.652] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m UTF8
+[2018-02-27T02:17:52.656] [INFO] result -  UTF8
+[2018-02-27T02:17:52.657] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m UTF8
+[2018-02-27T02:17:52.658] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor UTF8
+[2018-02-27T02:17:53.537] [INFO] result - Начало теста на наличие фото актеров на странице фильма
+[2018-02-27T02:17:55.137] [INFO] result - Elijah Wood UTF8
+[2018-02-27T02:17:55.174] [INFO] result - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-27T02:17:55.177] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m3 s[29m)[39m UTF8
+[2018-02-27T02:17:55.178] [INFO] result -  UTF8
+[2018-02-27T02:17:55.178] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m UTF8
+[2018-02-27T02:17:55.179] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review UTF8
+[2018-02-27T02:17:56.035] [INFO] result - Начало теста на наличие ревью на странице фильма
+[2018-02-27T02:17:57.785] [INFO] result - The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time. UTF8
+[2018-02-27T02:17:57.817] [INFO] result - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-27T02:17:57.823] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m3 s[29m)[39m UTF8
+[2018-02-27T02:17:57.824] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source UTF8
+[2018-02-27T02:17:58.739] [INFO] result - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-27T02:18:02.878] [INFO] result - First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots). UTF8
+[2018-02-27T02:18:02.903] [INFO] result - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-27T02:18:02.947] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m5 s[29m)[39m UTF8
+[2018-02-27T02:18:02.949] [INFO] result -  UTF8
+[2018-02-27T02:18:02.949] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m UTF8
+[2018-02-27T02:18:02.950] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar UTF8
+[2018-02-27T02:18:03.649] [INFO] result - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-27T02:18:05.196] [INFO] result - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-27T02:18:05.212] [INFO] result - 		[32m[9m✓  [29m[39mshouldnt have search bar[90m ([9m2 s[29m)[39m UTF8
+[2018-02-27T02:18:05.212] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date" UTF8
+[2018-02-27T02:18:08.248] [INFO] result - Количество популярных фильмов на сайте 20 UTF8
+[2018-02-27T02:18:08.263] [INFO] result - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-27T02:18:08.268] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m3 s[29m)[39m UTF8
+[2018-02-27T02:18:08.269] [INFO] result -  UTF8
+[2018-02-27T02:18:08.273] [INFO] result -  UTF8
+[2018-02-27T02:18:08.273] [INFO] result - ************************************************** UTF8
+[2018-02-27T02:18:08.274] [INFO] result - *                   [7m[1m Summary [22m[27m                    * UTF8
+[2018-02-27T02:18:08.274] [INFO] result - ************************************************** UTF8
+[2018-02-27T02:18:08.274] [INFO] result -  UTF8
+[2018-02-27T02:18:08.275] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m31 s[29m[39m[23m UTF8
+[2018-02-27T02:18:08.275] [INFO] result -  UTF8
+[2018-02-27T02:18:08.275] [INFO] result - 	[32mPASSED   8 ( 100% )[39m UTF8
+[2018-02-27T02:18:08.276] [INFO] result - 	[31mFAILED   0 ( 0% )[39m UTF8
+[2018-02-27T02:18:08.276] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m UTF8
+[2018-02-27T02:18:08.278] [INFO] result -  UTF8
+[2018-02-27T02:18:08.516] [INFO] result - [[90m02:18:08[39m] I/launcher - UTF8

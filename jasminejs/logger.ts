@@ -197,7 +197,6 @@ describe('Popular series', async function () {
             for (let i = 0; i < a.length; i++){                                 //to match the phrase 'First Air Date'
             if(await a[i].indexOf(b)>=0){
                 arr1.push(a[i])
-                continue
             }
             else{throw new Error('Не совпадают')}                               //if at least one value does not match this phrase, then an error occurs
             }
