@@ -24,7 +24,7 @@ const logger2 = log4js.getLogger('result')
         enableVNC: true,
         name: "Alexander Shtank0"
         },
-      specs: ['logger.ts'],
+      specs: ['Lesson5task.ts'],
       onPrepare: async function() {
         (async function(){
           let oldLog = console.log;
