@@ -13,7 +13,7 @@ log4js.configure({
     }
   })
 
-const logger = log4js.getLogger('result')
+const logger = log4js.getLogger('default')
 const logger2 = log4js.getLogger('result')
 
     module.exports.config = {
@@ -24,15 +24,15 @@ const logger2 = log4js.getLogger('result')
         enableVNC: true,
         name: "Alexander Shtank0"
         },
-      specs: ['search.ts','movieCard.ts','navigation.ts'],
+      specs: ['logger.ts'],
       onPrepare: async function() {
         (async function(){
-        let oldLog = console.log;
-        console.log = function (message) {
-            logger2.info(message)
-            oldLog.apply(console, arguments);
-        }
-        })()
+          let oldLog = console.log;
+          console.log = function (message) {
+              logger2.info(message)
+              oldLog.apply(console, arguments);
+          };
+      })();
 
         logger.info('On prepare started')
         await browser.manage().window().maximize();

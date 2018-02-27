@@ -1,6 +1,6 @@
 import { browser, element, By, by, until, $, $$, Key, ExpectedConditions as EC } from 'protractor'
 
-export class Lesson5 {
+export class HomePage {
     private search = $(`[name="searchStr"]`)
     async open(){
         let originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
@@ -17,22 +17,28 @@ export class Lesson5 {
         await browser.wait(EC.and(
         EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
         EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
-        EC.elementToBeClickable(element.all(By.xpath(`//div[child::h3]//a[@title]`)).first()),
         EC.visibilityOf($('[_ngcontent-c1] .orange-text')),
         EC.visibilityOf(element(By.xpath('//div[child::h3]'))),
-        EC.visibilityOf(element.all(By.xpath(`//*[@_ngcontent-c1 and child::*[@class='orange-text']]//div[child::movie-card]`)).first()),
         EC.visibilityOf($$('.col-sm-3 movie-card img').last())),20000,'6 elements should appear')
+        if(await element.all(By.xpath(`//div[child::h3]//a[@title]`)).count()> 0){
+            await browser.wait(EC.and(
+            EC.visibilityOf(element.all(By.xpath(`//*[@_ngcontent-c1 and child::*[@class='orange-text']]//div[child::movie-card]`)).first()),
+            EC.elementToBeClickable(element.all(By.xpath(`//div[child::h3]//a[@title]`)).first())), 20000,'2 elements should appear')
+        } else { console.log('search results is empty')}
+    }
+    async waitforloadingpagewithfilm(){
+        await browser.wait(EC.and(
+            EC.visibilityOf($('.col-md-8 h2 .label')),
+            EC.visibilityOf($('.col-md-4 img')),
+            EC.visibilityOf(element(By.xpath(`//*[child::h3]/p[child::a]`))),
+            EC.visibilityOf($$('.col-md-3 img').first()),
+            EC.elementToBeClickable($$('.caption h4.text-ellipsis a').first()),
+            EC.visibilityOf(element.all(By.xpath(`//*[child::*[@class='row is-flex']]//div[child::movie-card]`)).first()),
+            EC.visibilityOf(element(By.xpath(`//*[@class='row is-flex' and child::*[@class='col-md-2']]`)))),20000,'7 elements should appear')
     }
     async chooseFilmAtSearchResult(number_of_film:number){
         await element.all(By.xpath(`//div[child::h3]//a[@title]`)).get(number_of_film).click()
-        await browser.wait(EC.and(
-        EC.visibilityOf($('.col-md-8 h2 .label')),
-        EC.visibilityOf($('.col-md-4 img')),
-        EC.visibilityOf(element(By.xpath(`//*[child::h3]/p[child::a]`))),
-        EC.visibilityOf($$('.col-md-3 img').first()),
-        EC.elementToBeClickable($$('.caption h4.text-ellipsis a').first()),
-        EC.visibilityOf(element.all(By.xpath(`//*[child::*[@class='row is-flex']]//div[child::movie-card]`)).first()),
-        EC.visibilityOf(element(By.xpath(`//*[@class='row is-flex' and child::*[@class='col-md-2']]`)))),20000,'7 elements should appear')
+        await this.waitforloadingpagewithfilm()
     }
     async obtainClearNameOfMovie(){
         await browser.wait(EC.visibilityOf(element(By.xpath(`//h2[child::small[contains(@class,'label')]]`))),20000, 'not appeared')
@@ -64,4 +70,22 @@ export class Lesson5 {
         EC.visibilityOf($('.orange-text'))),20000,'Element not appeared')
         await browser.wait(async function(){ if(await $$('.text-ellipsis+p strong').count() ==20){return true}}, 20000, 'Not equal')
     }
+}
+
+export class Navigation {
+    async waitforvisibleUpcomingmovies(){
+    await browser.wait(EC.and(
+        EC.visibilityOf(element(By.xpath('//div[child::h3]'))),
+        EC.visibilityOf($('form.ng-pristine')),
+        EC.visibilityOf($$('.col-sm-6>movie-card').first()),
+        EC.visibilityOf(element(By.xpath(`//h3[contains(.,'Up Coming Movies')]`))),
+        EC.visibilityOf($$('.col-sm-6>movie-card').last())),20000, "4 elements should appear")
+    }
+    async waitforvisibleActioncategories(){
+        await browser.wait(EC.and(
+        EC.visibilityOf(element(By.xpath(`//h3[contains(.,'Action')]`))),
+        EC.visibilityOf(element(By.xpath('//div[child::h3]'))),
+        EC.visibilityOf($$('.col-sm-6>movie-card').first()),
+        EC.visibilityOf($$('.col-sm-6>movie-card').last())),20000, 'Should appear 4 elements')
+        }
 }
