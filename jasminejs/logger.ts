@@ -70,8 +70,8 @@ describe('Movie details', async function () {
             await lesson5.chooseFilmAtSearchResult(0)                  
             let fraze = await lesson5.obtainClearNameOfMovie()         
             expect(fraze).to.equal(name)   
-            console.log('Eсли пройден,то' + ' ' + name+'='+ fraze)                            
-            logger.info('Тест пройден,полученное название фильма ' + name+' совпадает с ожидаемым названием '+ fraze)   
+            console.log('Eсли пройден,то' + ' ' + name+' = '+ await fraze)                            
+            logger.info('Тест пройден,полученное название фильма ' + name+' совпадает с ожидаемым названием '+ await fraze)   
     })
 
     it('should have raiting', async function () {

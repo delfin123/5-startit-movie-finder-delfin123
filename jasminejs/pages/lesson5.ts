@@ -3,6 +3,8 @@ import { browser, element, By, by, until, $, $$, Key, ExpectedConditions as EC }
 export class Lesson5 {
     private search = $(`[name="searchStr"]`)
     async open(){
+        let originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
+        jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
         await browser.get('/')
         await browser.wait(EC.and(
         EC.visibilityOf($('form.ng-pristine')),
@@ -15,21 +17,21 @@ export class Lesson5 {
         await browser.wait(EC.and(
         EC.visibilityOf($$('.col-sm-3 movie-card img').get(10)),
         EC.visibilityOf($$('.col-sm-3 movie-card img').first()),
-        EC.elementToBeClickable(element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).first()),
+        EC.elementToBeClickable(element.all(By.xpath(`//div[child::h3]//a[@title]`)).first()),
         EC.visibilityOf($('[_ngcontent-c1] .orange-text')),
         EC.visibilityOf(element(By.xpath('//div[child::h3]'))),
         EC.visibilityOf(element.all(By.xpath(`//*[@_ngcontent-c1 and child::*[@class='orange-text']]//div[child::movie-card]`)).first()),
         EC.visibilityOf($$('.col-sm-3 movie-card img').last())),20000,'6 elements should appear')
     }
     async chooseFilmAtSearchResult(number_of_film:number){
-        await element.all(By.xpath(`//div[@_ngcontent-c1][child::h3]//a[@title]`)).get(number_of_film).click()
+        await element.all(By.xpath(`//div[child::h3]//a[@title]`)).get(number_of_film).click()
         await browser.wait(EC.and(
         EC.visibilityOf($('.col-md-8 h2 .label')),
         EC.visibilityOf($('.col-md-4 img')),
         EC.visibilityOf(element(By.xpath(`//*[child::h3]/p[child::a]`))),
         EC.visibilityOf($$('.col-md-3 img').first()),
         EC.elementToBeClickable($$('.caption h4.text-ellipsis a').first()),
-        EC.visibilityOf(element.all(By.xpath(`//app-movie[child::*[@class='row is-flex']]//div[child::movie-card]`)).first()),
+        EC.visibilityOf(element.all(By.xpath(`//*[child::*[@class='row is-flex']]//div[child::movie-card]`)).first()),
         EC.visibilityOf(element(By.xpath(`//*[@class='row is-flex' and child::*[@class='col-md-2']]`)))),20000,'7 elements should appear')
     }
     async obtainClearNameOfMovie(){
