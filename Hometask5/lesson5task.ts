@@ -45,7 +45,7 @@ describe('Movie details', async function () {
         expect(await $$('[_ngcontent-c2] img').count()).to.be.above(0)                              //received number of films that are similar to the one found must be greater than 0
         logger.info("Number of similar movies is" +' '+ await $$('[_ngcontent-c2] img').count())    //output to a console the quantity of similar films to the searched film on a site                        
         let ganresoffilm = await Promise.all(await $$('p a.m-r-md').map(async function (element){   //check if the films found are similar                  
-            return element.getText()                                                                //for this we get the names of all genres of searched film
+            return await element.getText()                                                                //for this we get the names of all genres of searched film
         }))
         logger.info('Искомый фильм включает такие жанры ' + ganresoffilm)                     //and output them in the console
         let name = await $$('.caption h4.text-ellipsis a').get(7).getAttribute('title')
@@ -56,7 +56,7 @@ describe('Movie details', async function () {
         console.log(fraze)
         await browser.wait(function(){if(name==fraze){return true}},20000,'name not equal fraze')                                         
         let ganresofsimilarfilm = await Promise.all(await $$('p a.m-r-md').map(async function (element2){
-            return element2.getText()                                                                //and get the values of all its genres
+            return await element2.getText()                                                                //and get the values of all its genres
         })) 
         logger.info('Подобный фильм включает такие жанры '+ ganresofsimilarfilm)                      //and output them to the console                                                                             
         async function Intersec(arr1,arr2){                                                           //create a function that compares the values of two arrays
