@@ -47,7 +47,7 @@ describe('Movie details', async function () {
         let ganresoffilm = await Promise.all(await $$('p a.m-r-md').map(async function (element){   //check if the films found are similar                  
             return element.getText()                                                                //for this we get the names of all genres of searched film
         }))
-        await logger.info('Искомый фильм включает такие жанры ' + ganresoffilm)                     //and output them in the console
+        logger.info('Искомый фильм включает такие жанры ' + ganresoffilm)                     //and output them in the console
         let name = await $$('.caption h4.text-ellipsis a').get(7).getAttribute('title')
         console.log(name)                                                                   
         await $$('.caption h4.text-ellipsis a').get(7).click()                                      //Next, go to the page of the 8th movie, which is shown on the site as similar
