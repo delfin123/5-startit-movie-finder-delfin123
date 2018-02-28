@@ -22,9 +22,9 @@ const logger2 = log4js.getLogger('result')
       capabilities: { 
         browserName: 'chrome', 
         enableVNC: true,
-        name: "Alexander Shtank0"
+        name: "Alexander Shtanko"
         },
-      specs: ['Lesson5task.ts'],
+      specs: ['lesson5task.ts'],
       onPrepare: async function() {
         (async function(){
           let oldLog = console.log;

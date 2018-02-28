@@ -22,7 +22,7 @@ const logger2 = log4js.getLogger('result')
       capabilities: { 
         browserName: 'chrome', 
         enableVNC: true,
-        name: "Alexander Shtank0"
+        name: "Alexander Shtanko"
         },
       specs: ['search.ts','movieCard.ts','navigation.ts'],
       onPrepare: async function() {
