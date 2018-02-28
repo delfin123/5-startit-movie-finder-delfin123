@@ -1,0 +1,500 @@
+[2018-02-27T23:31:35.465] [INFO] default - On prepare started
+[2018-02-27T23:31:36.721] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-27T23:31:36.721] [INFO] result - 
+[2018-02-27T23:31:36.721] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-27T23:31:36.721] [INFO] result - 
+[2018-02-27T23:31:36.721] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-27T23:31:36.721] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-27T23:31:41.808] [INFO] default - Начало теста на проверку названия фильма
+[2018-02-27T23:31:44.006] [INFO] default - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-27T23:31:44.011] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m7 s[29m)[39m
+[2018-02-27T23:31:44.011] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-27T23:31:45.098] [INFO] default - Начало теста на проверку рейтинга
+[2018-02-27T23:31:46.908] [INFO] default - The raiting of film is 8
+[2018-02-27T23:31:46.912] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-27T23:31:46.913] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-27T23:31:47.571] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-02-27T23:31:49.336] [INFO] default - Number of similar movies is 12
+[2018-02-27T23:31:49.884] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-27T23:31:49.911] [INFO] result - Star Wars: Episode II - Attack of the Clones
+[2018-02-27T23:31:50.977] [INFO] result - Star Wars: Episode II - Attack of the Clones
+[2018-02-27T23:31:51.516] [INFO] default - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-27T23:31:51.516] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-27T23:31:51.516] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-27T23:31:51.531] [INFO] result - 
+[2018-02-27T23:31:51.531] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-27T23:31:51.531] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-27T23:31:52.252] [INFO] default - Начало теста на наличие фото актеров на странице фильма
+[2018-02-27T23:31:54.021] [INFO] default - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-27T23:31:54.025] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m2 s[29m)[39m
+[2018-02-27T23:31:54.025] [INFO] result - 
+[2018-02-27T23:31:54.025] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-27T23:31:54.026] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-27T23:31:54.880] [INFO] default - Начало теста на наличие ревью на странице фильма
+[2018-02-27T23:31:56.574] [INFO] default - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-27T23:31:56.578] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m3 s[29m)[39m
+[2018-02-27T23:31:56.578] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-27T23:31:57.412] [INFO] default - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-27T23:32:00.148] [INFO] default - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-27T23:32:00.187] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m4 s[29m)[39m
+[2018-02-27T23:32:00.188] [INFO] result - 
+[2018-02-27T23:32:00.189] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-27T23:32:00.190] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-27T23:32:00.931] [INFO] default - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-27T23:32:02.442] [INFO] default - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-27T23:32:02.457] [INFO] result - 		[32m[9m✓  [29m[39mshouldnt have search bar[90m ([9m2 s[29m)[39m
+[2018-02-27T23:32:02.457] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-27T23:32:03.092] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-02-27T23:32:04.182] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-27T23:32:04.182] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m2 s[29m)[39m
+[2018-02-27T23:32:04.182] [INFO] result - 
+[2018-02-27T23:32:04.182] [INFO] result - 
+[2018-02-27T23:32:04.182] [INFO] result - **************************************************
+[2018-02-27T23:32:04.198] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-27T23:32:04.198] [INFO] result - **************************************************
+[2018-02-27T23:32:04.198] [INFO] result - 
+[2018-02-27T23:32:04.198] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m27 s[29m[39m[23m
+[2018-02-27T23:32:04.198] [INFO] result - 
+[2018-02-27T23:32:04.198] [INFO] result - 	[32mPASSED   8 ( 100% )[39m
+[2018-02-27T23:32:04.198] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-27T23:32:04.198] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-02-27T23:32:04.198] [INFO] result - 
+[2018-02-27T23:32:04.395] [INFO] result - [[90m23:32:04[39m] I/launcher -
+[2018-02-27T23:33:44.751] [INFO] default - On prepare started
+[2018-02-27T23:33:46.195] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-27T23:33:46.195] [INFO] result - 
+[2018-02-27T23:33:46.195] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-27T23:33:46.195] [INFO] result - 
+[2018-02-27T23:33:46.195] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-27T23:33:46.195] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-27T23:33:51.144] [INFO] default - Начало теста на проверку названия фильма
+[2018-02-27T23:33:53.331] [INFO] default - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-27T23:33:53.337] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m7 s[29m)[39m
+[2018-02-27T23:33:53.338] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-27T23:33:54.410] [INFO] default - Начало теста на проверку рейтинга
+[2018-02-27T23:33:56.891] [INFO] result - 		[31m[9m✗  [29m[39mshould have raiting[90m ([9m4 s[29m)[39m
+[2018-02-27T23:33:56.892] [INFO] result - 			[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-27T23:33:56.892] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-27T23:33:57.570] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-02-27T23:33:59.105] [INFO] default - Number of similar movies is 12
+[2018-02-27T23:33:59.654] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-27T23:33:59.678] [INFO] result - Star Wars: Episode II - Attack of the Clones
+[2018-02-27T23:34:00.919] [INFO] result - Star Wars: Episode II - Attack of the Clones
+[2018-02-27T23:34:00.985] [INFO] default - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-27T23:34:00.986] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-27T23:34:00.989] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-27T23:34:00.990] [INFO] result - 
+[2018-02-27T23:34:00.991] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-27T23:34:00.991] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-27T23:34:02.546] [INFO] default - Начало теста на наличие фото актеров на странице фильма
+[2018-02-27T23:34:04.206] [INFO] default - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-27T23:34:04.209] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m3 s[29m)[39m
+[2018-02-27T23:34:04.210] [INFO] result - 
+[2018-02-27T23:34:04.210] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-27T23:34:04.211] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-27T23:34:04.887] [INFO] default - Начало теста на наличие ревью на странице фильма
+[2018-02-27T23:34:06.513] [INFO] default - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-27T23:34:06.517] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m2 s[29m)[39m
+[2018-02-27T23:34:06.517] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-27T23:34:07.375] [INFO] default - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-27T23:34:10.225] [INFO] default - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-27T23:34:10.268] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m4 s[29m)[39m
+[2018-02-27T23:34:10.270] [INFO] result - 
+[2018-02-27T23:34:10.272] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-27T23:34:10.273] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-27T23:34:10.976] [INFO] default - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-27T23:34:12.513] [INFO] default - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-27T23:34:12.545] [INFO] result - 		[32m[9m✓  [29m[39mshouldnt have search bar[90m ([9m2 s[29m)[39m
+[2018-02-27T23:34:12.545] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-27T23:34:13.190] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-02-27T23:34:14.249] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-27T23:34:14.264] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m2 s[29m)[39m
+[2018-02-27T23:34:14.264] [INFO] result - 
+[2018-02-27T23:34:14.264] [INFO] result - 
+[2018-02-27T23:34:14.264] [INFO] result - **************************************************
+[2018-02-27T23:34:14.264] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-27T23:34:14.264] [INFO] result - **************************************************
+[2018-02-27T23:34:14.264] [INFO] result - 
+[2018-02-27T23:34:14.264] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m28 s[29m[39m[23m
+[2018-02-27T23:34:14.264] [INFO] result - 
+[2018-02-27T23:34:14.264] [INFO] result - 	[32mPASSED   7 ( 87.5% )[39m
+[2018-02-27T23:34:14.264] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-02-27T23:34:14.264] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-02-27T23:34:14.264] [INFO] result - 
+[2018-02-27T23:34:14.264] [INFO] result - 
+[2018-02-27T23:34:14.264] [INFO] result - **************************************************
+[2018-02-27T23:34:14.264] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-02-27T23:34:14.264] [INFO] result - **************************************************
+[2018-02-27T23:34:14.264] [INFO] result - 
+[2018-02-27T23:34:14.264] [INFO] result - 1) [1mmovie-finders tests Movie details should have raiting[22m
+[2018-02-27T23:34:14.264] [INFO] result - 	[31m- [39m[31mFailed: No element found using locator: By(css selector, .col-md-8 h542 .label)[39m
+[2018-02-27T23:34:14.264] [INFO] result - 	[31m    at elementArrayFinder.getWebElements.then (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:814:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\Lesson5task.ts:45:79)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\Lesson5task.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\Lesson5task.ts:39:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\Lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\Lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\Lesson5task.ts:25:20)[39m
+[2018-02-27T23:34:14.264] [INFO] result - 
+[2018-02-27T23:34:14.456] [INFO] result - [[90m23:34:14[39m] I/launcher -
+[2018-02-27T23:39:17.075] [INFO] default - On prepare started
+[2018-02-27T23:39:18.567] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-27T23:39:18.582] [INFO] result - 
+[2018-02-27T23:39:18.582] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-27T23:39:18.582] [INFO] result - 
+[2018-02-27T23:39:18.582] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-27T23:39:18.582] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-27T23:39:22.764] [INFO] default - Начало теста на проверку названия фильма
+[2018-02-27T23:39:24.899] [INFO] default - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-27T23:39:24.903] [INFO] default - 
+ log: [ Entry {
+    level: Level { name_: 'WARNING', value_: 900 },
+    message: 'https://movies-finder.firebaseapp.com/ - The SSL certificate used to load resources from https://api.themoviedb.org will be distrusted in M70. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.',
+    timestamp: 1519767562121,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'https://www.youtube.com/embed/64-iSYVmMVY - Error parsing header X-XSS-Protection: 1; mode=block; report=https://www.google.com/appserve/security-bugs/log/youtube: insecure reporting URL for secure page at character position 22. The default protections will be applied.',
+    timestamp: 1519767564143,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED',
+    timestamp: 1519767564745,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED',
+    timestamp: 1519767564745,
+    type: '' } ]
+[2018-02-27T23:39:24.908] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m6 s[29m)[39m
+[2018-02-27T23:39:24.909] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-27T23:39:25.924] [INFO] default - Начало теста на проверку рейтинга
+[2018-02-27T23:39:27.605] [INFO] default - The raiting of film is 8
+[2018-02-27T23:39:27.609] [INFO] default - 
+ log: [ Entry {
+    level: Level { name_: 'WARNING', value_: 900 },
+    message: 'https://movies-finder.firebaseapp.com/ - The SSL certificate used to load resources from https://api.themoviedb.org will be distrusted in M70. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.',
+    timestamp: 1519767566233,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'https://www.youtube.com/embed/m8e-FF8MsqU - Error parsing header X-XSS-Protection: 1; mode=block; report=https://www.google.com/appserve/security-bugs/log/youtube: insecure reporting URL for secure page at character position 22. The default protections will be applied.',
+    timestamp: 1519767567103,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED',
+    timestamp: 1519767567450,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED',
+    timestamp: 1519767567454,
+    type: '' } ]
+[2018-02-27T23:39:27.613] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-27T23:39:27.613] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-27T23:39:28.264] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-02-27T23:39:30.308] [INFO] default - Number of similar movies is 12
+[2018-02-27T23:39:30.862] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-27T23:39:30.887] [INFO] result - Star Wars: Episode II - Attack of the Clones
+[2018-02-27T23:39:31.881] [INFO] result - Star Wars: Episode II - Attack of the Clones
+[2018-02-27T23:39:31.943] [INFO] default - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-27T23:39:31.944] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-27T23:39:31.949] [INFO] default - 
+ log: [ Entry {
+    level: Level { name_: 'WARNING', value_: 900 },
+    message: 'https://movies-finder.firebaseapp.com/ - The SSL certificate used to load resources from https://api.themoviedb.org will be distrusted in M70. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.',
+    timestamp: 1519767568755,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'https://www.youtube.com/embed/mAxG4u_rqug - Error parsing header X-XSS-Protection: 1; mode=block; report=https://www.google.com/appserve/security-bugs/log/youtube: insecure reporting URL for secure page at character position 22. The default protections will be applied.',
+    timestamp: 1519767569746,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED',
+    timestamp: 1519767570118,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED',
+    timestamp: 1519767570118,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'https://www.youtube.com/embed/CO2OLQ2kiq8 - Error parsing header X-XSS-Protection: 1; mode=block; report=https://www.google.com/appserve/security-bugs/log/youtube: insecure reporting URL for secure page at character position 22. The default protections will be applied.',
+    timestamp: 1519767571356,
+    type: '' } ]
+[2018-02-27T23:39:31.953] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-27T23:39:31.955] [INFO] result - 
+[2018-02-27T23:39:31.955] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-27T23:39:31.956] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-27T23:39:32.798] [INFO] default - Начало теста на наличие фото актеров на странице фильма
+[2018-02-27T23:39:34.535] [INFO] default - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-27T23:39:34.538] [INFO] default - 
+ log: [ Entry {
+    level: Level { name_: 'WARNING', value_: 900 },
+    message: 'https://movies-finder.firebaseapp.com/ - The SSL certificate used to load resources from https://api.themoviedb.org will be distrusted in M70. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.',
+    timestamp: 1519767573227,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'https://www.youtube.com/embed/V75dMMIW2B4 - Error parsing header X-XSS-Protection: 1; mode=block; report=https://www.google.com/appserve/security-bugs/log/youtube: insecure reporting URL for secure page at character position 22. The default protections will be applied.',
+    timestamp: 1519767573997,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED',
+    timestamp: 1519767574216,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED',
+    timestamp: 1519767574222,
+    type: '' } ]
+[2018-02-27T23:39:34.541] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m3 s[29m)[39m
+[2018-02-27T23:39:34.542] [INFO] result - 
+[2018-02-27T23:39:34.543] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-27T23:39:34.543] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-27T23:39:35.390] [INFO] default - Начало теста на наличие ревью на странице фильма
+[2018-02-27T23:39:37.021] [INFO] default - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-27T23:39:37.025] [INFO] default - 
+ log: [ Entry {
+    level: Level { name_: 'WARNING', value_: 900 },
+    message: 'https://movies-finder.firebaseapp.com/ - The SSL certificate used to load resources from https://api.themoviedb.org will be distrusted in M70. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.',
+    timestamp: 1519767575764,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'https://www.youtube.com/embed/uHBnrJowBZE - Error parsing header X-XSS-Protection: 1; mode=block; report=https://www.google.com/appserve/security-bugs/log/youtube: insecure reporting URL for secure page at character position 22. The default protections will be applied.',
+    timestamp: 1519767576495,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED',
+    timestamp: 1519767576654,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED',
+    timestamp: 1519767576654,
+    type: '' } ]
+[2018-02-27T23:39:37.028] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m2 s[29m)[39m
+[2018-02-27T23:39:37.029] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-27T23:39:37.730] [INFO] default - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-27T23:39:40.394] [INFO] default - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-27T23:39:40.458] [INFO] default - 
+ log: [ Entry {
+    level: Level { name_: 'WARNING', value_: 900 },
+    message: 'https://movies-finder.firebaseapp.com/ - The SSL certificate used to load resources from https://api.themoviedb.org will be distrusted in M70. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.',
+    timestamp: 1519767578034,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'https://www.youtube.com/embed/zA92Rw6kNWw - Error parsing header X-XSS-Protection: 1; mode=block; report=https://www.google.com/appserve/security-bugs/log/youtube: insecure reporting URL for secure page at character position 22. The default protections will be applied.',
+    timestamp: 1519767578756,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED',
+    timestamp: 1519767579111,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED',
+    timestamp: 1519767579111,
+    type: '' },
+  Entry {
+    level: Level { name_: 'WARNING', value_: 900 },
+    message: 'https://www.themoviedb.org/review/51e86ad719c29529911b8687 - The SSL certificate used to load resources from https://www.themoviedb.org will be distrusted in M70. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.',
+    timestamp: 1519767580249,
+    type: '' },
+  Entry {
+    level: Level { name_: 'SEVERE', value_: 1000 },
+    message: 'https://www.themoviedb.org/review/51e86ad719c29529911b8687 61:2 Uncaught',
+    timestamp: 1519767580251,
+    type: '' } ]
+[2018-02-27T23:39:40.467] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m3 s[29m)[39m
+[2018-02-27T23:39:40.467] [INFO] result - 
+[2018-02-27T23:39:40.468] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-27T23:39:40.469] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-27T23:39:41.128] [INFO] default - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-27T23:39:42.658] [INFO] default - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-27T23:39:42.663] [INFO] default - 
+ log: [ Entry {
+    level: Level { name_: 'WARNING', value_: 900 },
+    message: 'https://movies-finder.firebaseapp.com/popular/series - The SSL certificate used to load resources from https://api.themoviedb.org will be distrusted in M70. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.',
+    timestamp: 1519767581405,
+    type: '' } ]
+[2018-02-27T23:39:42.669] [INFO] result - 		[32m[9m✓  [29m[39mshouldnt have search bar[90m ([9m2 s[29m)[39m
+[2018-02-27T23:39:42.669] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-27T23:39:43.314] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-02-27T23:39:44.834] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-27T23:39:44.850] [INFO] default - 
+ log: [ Entry {
+    level: Level { name_: 'WARNING', value_: 900 },
+    message: 'https://movies-finder.firebaseapp.com/popular/series - The SSL certificate used to load resources from https://api.themoviedb.org will be distrusted in M70. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.',
+    timestamp: 1519767583577,
+    type: '' } ]
+[2018-02-27T23:39:44.850] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m2 s[29m)[39m
+[2018-02-27T23:39:44.850] [INFO] result - 
+[2018-02-27T23:39:44.850] [INFO] result - 
+[2018-02-27T23:39:44.850] [INFO] result - **************************************************
+[2018-02-27T23:39:44.850] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-27T23:39:44.850] [INFO] result - **************************************************
+[2018-02-27T23:39:44.850] [INFO] result - 
+[2018-02-27T23:39:44.850] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m26 s[29m[39m[23m
+[2018-02-27T23:39:44.850] [INFO] result - 
+[2018-02-27T23:39:44.850] [INFO] result - 	[32mPASSED   8 ( 100% )[39m
+[2018-02-27T23:39:44.850] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-27T23:39:44.850] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-02-27T23:39:44.850] [INFO] result - 
+[2018-02-27T23:39:45.045] [INFO] result - [[90m23:39:45[39m] I/launcher -
+[2018-02-27T23:43:28.325] [INFO] default - On prepare started
+[2018-02-27T23:43:29.816] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-27T23:43:29.816] [INFO] result - 
+[2018-02-27T23:43:29.816] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-27T23:43:29.816] [INFO] result - 
+[2018-02-27T23:43:29.816] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-27T23:43:29.816] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-27T23:43:34.736] [INFO] default - Начало теста на проверку названия фильма
+[2018-02-27T23:43:36.815] [INFO] default - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-27T23:43:36.820] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m7 s[29m)[39m
+[2018-02-27T23:43:36.820] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-27T23:43:37.936] [INFO] default - Начало теста на проверку рейтинга
+[2018-02-27T23:43:39.999] [INFO] default - The raiting of film is 8
+[2018-02-27T23:43:40.003] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-27T23:43:40.004] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-27T23:43:40.814] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-02-27T23:43:42.506] [INFO] default - Number of similar movies is 12
+[2018-02-27T23:43:42.562] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-27T23:43:42.581] [INFO] result - Star Wars: Episode II - Attack of the Clones
+[2018-02-27T23:43:43.781] [INFO] result - Star Wars: Episode II - Attack of the Clones
+[2018-02-27T23:43:44.328] [INFO] default - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-27T23:43:44.328] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-27T23:43:44.328] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-02-27T23:43:44.328] [INFO] result - 
+[2018-02-27T23:43:44.328] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-27T23:43:44.328] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-27T23:43:45.201] [INFO] default - Начало теста на наличие фото актеров на странице фильма
+[2018-02-27T23:43:46.876] [INFO] default - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-27T23:43:46.880] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m3 s[29m)[39m
+[2018-02-27T23:43:46.880] [INFO] result - 
+[2018-02-27T23:43:46.881] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-27T23:43:46.881] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-27T23:43:47.594] [INFO] default - Начало теста на наличие ревью на странице фильма
+[2018-02-27T23:43:49.172] [INFO] default - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-27T23:43:49.175] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m2 s[29m)[39m
+[2018-02-27T23:43:49.176] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-27T23:43:50.025] [INFO] default - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-27T23:43:52.761] [INFO] default - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-27T23:43:52.796] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m4 s[29m)[39m
+[2018-02-27T23:43:52.797] [INFO] result - 
+[2018-02-27T23:43:52.799] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-27T23:43:52.800] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-27T23:43:53.497] [INFO] default - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-27T23:43:55.050] [INFO] default - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-27T23:43:55.066] [INFO] result - 		[32m[9m✓  [29m[39mshouldnt have search bar[90m ([9m2 s[29m)[39m
+[2018-02-27T23:43:55.066] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-27T23:43:55.699] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-02-27T23:43:57.270] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-27T23:43:57.270] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m2 s[29m)[39m
+[2018-02-27T23:43:57.270] [INFO] result - 
+[2018-02-27T23:43:57.285] [INFO] result - 
+[2018-02-27T23:43:57.285] [INFO] result - **************************************************
+[2018-02-27T23:43:57.285] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-27T23:43:57.285] [INFO] result - **************************************************
+[2018-02-27T23:43:57.285] [INFO] result - 
+[2018-02-27T23:43:57.285] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m27 s[29m[39m[23m
+[2018-02-27T23:43:57.285] [INFO] result - 
+[2018-02-27T23:43:57.285] [INFO] result - 	[32mPASSED   8 ( 100% )[39m
+[2018-02-27T23:43:57.285] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-27T23:43:57.285] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-02-27T23:43:57.285] [INFO] result - 
+[2018-02-27T23:43:57.482] [INFO] result - [[90m23:43:57[39m] I/launcher -
+[2018-02-27T23:44:09.447] [INFO] default - On prepare started
+[2018-02-27T23:44:10.725] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-27T23:44:10.725] [INFO] result - 
+[2018-02-27T23:44:10.725] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-27T23:44:10.725] [INFO] result - 
+[2018-02-27T23:44:10.725] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-27T23:44:10.725] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-27T23:44:15.019] [INFO] default - Начало теста на проверку названия фильма
+[2018-02-27T23:44:17.506] [INFO] default - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-02-27T23:44:17.511] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m7 s[29m)[39m
+[2018-02-27T23:44:17.511] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-27T23:44:18.488] [INFO] default - Начало теста на проверку рейтинга
+[2018-02-27T23:44:20.267] [INFO] default - The raiting of film is 8
+[2018-02-27T23:44:20.271] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-02-27T23:44:20.271] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-27T23:44:21.099] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-02-27T23:44:22.687] [INFO] default - Number of similar movies is 12
+[2018-02-27T23:44:22.740] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-02-27T23:44:22.761] [INFO] result - Star Wars: Episode II - Attack of the Clones
+[2018-02-27T23:44:23.794] [INFO] result - Star Wars: Episode II - Attack of the Clones
+[2018-02-27T23:44:24.866] [INFO] default - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-02-27T23:44:24.866] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-02-27T23:44:24.866] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-02-27T23:44:24.882] [INFO] result - 
+[2018-02-27T23:44:24.882] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-27T23:44:24.882] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-27T23:44:25.763] [INFO] default - Начало теста на наличие фото актеров на странице фильма
+[2018-02-27T23:44:27.417] [INFO] default - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-02-27T23:44:27.420] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m3 s[29m)[39m
+[2018-02-27T23:44:27.421] [INFO] result - 
+[2018-02-27T23:44:27.421] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-27T23:44:27.421] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-27T23:44:28.110] [INFO] default - Начало теста на наличие ревью на странице фильма
+[2018-02-27T23:44:29.643] [INFO] default - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-02-27T23:44:29.646] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m2 s[29m)[39m
+[2018-02-27T23:44:29.647] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-27T23:44:30.511] [INFO] default - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-02-27T23:44:33.433] [INFO] default - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-02-27T23:44:33.511] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m4 s[29m)[39m
+[2018-02-27T23:44:33.513] [INFO] result - 
+[2018-02-27T23:44:33.514] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-27T23:44:33.515] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-27T23:44:34.175] [INFO] default - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-02-27T23:44:35.711] [INFO] default - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-02-27T23:44:35.742] [INFO] result - 		[32m[9m✓  [29m[39mshouldnt have search bar[90m ([9m2 s[29m)[39m
+[2018-02-27T23:44:35.742] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-27T23:44:36.397] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-02-27T23:44:37.455] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-27T23:44:37.455] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m2 s[29m)[39m
+[2018-02-27T23:44:37.455] [INFO] result - 
+[2018-02-27T23:44:37.455] [INFO] result - 
+[2018-02-27T23:44:37.455] [INFO] result - **************************************************
+[2018-02-27T23:44:37.455] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-27T23:44:37.455] [INFO] result - **************************************************
+[2018-02-27T23:44:37.470] [INFO] result - 
+[2018-02-27T23:44:37.470] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m27 s[29m[39m[23m
+[2018-02-27T23:44:37.470] [INFO] result - 
+[2018-02-27T23:44:37.470] [INFO] result - 	[32mPASSED   8 ( 100% )[39m
+[2018-02-27T23:44:37.470] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-27T23:44:37.475] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-02-27T23:44:37.475] [INFO] result - 
+[2018-02-27T23:44:37.666] [INFO] result - [[90m23:44:37[39m] I/launcher -

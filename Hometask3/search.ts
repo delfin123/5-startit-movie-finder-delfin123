@@ -1,41 +1,40 @@
 import { browser, $, $$, element, by, Key} from 'protractor'
+import {HomePage} from '../Hometask5/pages/homepage'
+import * as log4js from 'log4js'
 
-describe('Search ', async function(){
+const homepage = new HomePage()
+const logger = log4js.getLogger('default')
+
+describe('Movie card ', async function(){
     beforeEach(async function(){
-        await browser.get('/')
-        await browser.manage().timeouts().implicitlyWait(5000)
+        await homepage.open()
     })
 
     it('by exisiting name, should show first movie with complete name match', async function(){
-        let search = $(`[name="searchStr"]`)
-        let name = 'Pacific Rim'
-        await search.sendKeys(name)
-        await search.sendKeys(Key.ENTER)
-        await browser.sleep(5000)
-        expect(await $$(`[class*="col-lg-3 col-xs-6"] .text-ellipsis a`).first().getAttribute('title')).toBe(name)
-        console.log(await $$(`[class*="col-lg-3 col-xs-6"] .text-ellipsis a`).first().getAttribute('title'))
+        logger.info('Начало теста на проверку работы поиска фильма')
+        let search_request = 'Pacific Rim'
+        await homepage.searchOfMovie(search_request)  
+        expect(await $$(`[class*="col-lg-3 col-xs-6"] .text-ellipsis a`).first().getAttribute('title')).toBe(search_request)
+        logger.info("Тест пройден, полное название фильма" + await $$(`[class*="col-lg-3 col-xs-6"] .text-ellipsis a`).first().getAttribute('title'))
     })
 
     it('results(all of them) should contain search request', async function(){
-        let search = $(`[name="searchStr"]`)
-        let name = 'Lord of the Rings'
-        await search.sendKeys(name)
-        await search.sendKeys(Key.ENTER)
-        await browser.sleep(3000)
+        logger.info('Начало теста на проверку работы поиска фильма относительно всех результатов поиска')
+        let search_request = 'Lord of the Rings'
+        await homepage.searchOfMovie(search_request) 
         let foundTitles = $$(`[_ngcontent-c1]>.is-flex .text-ellipsis>a`);
         let titles:any = await foundTitles.getAttribute('title')
-        titles.forEach(title => expect (title).toContain(name))
-        console.log(await $$(`[_ngcontent-c1]>is-flex .text-ellipsis>a`).getAttribute('title'))
+        titles.forEach(title => expect (title).toContain(search_request))
+        logger.info("Тест пройден, все найденные фильмы содержат в названии фразу "+search_request +" и список всех названий фильмов в результатах поиска такой - " + await $$(`[_ngcontent-c1]>is-flex .text-ellipsis>a`).getAttribute('title'))
     })
     
 
     it('result should be empty, after request for nonexistent movie', async function(){
-        let search = $(`[name="searchStr"]`)
-        let name = 'dhcr'
-        await search.sendKeys(name)
-        await search.sendKeys(Key.ENTER)
-        await browser.sleep(3000)
+        logger.info('Начало теста на проверку работы поиска фильма если ищется фильм с несуществующим названием')
+        let search_request = 'dhcr'
+        await homepage.searchOfMovie(search_request) 
         let foundTitles = $$(`[_ngcontent-c1]>.is-flex .text-ellipsis>a`)
         expect(await foundTitles.count()).toBe(0)
+        logger.info('Тест пройден, в результате поиска не найдено соответсвующих фильмов')
     })
 })

@@ -6,4 +6,3 @@ node_modules/
 # exception is configuration file, since it can't be .ts
 !protractor.conf.js
 jasminejs/catchers.ts
-jasminejs/pages

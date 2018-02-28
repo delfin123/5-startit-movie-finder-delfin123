@@ -1,0 +1,65 @@
+[2018-02-28T12:37:33.261] [INFO] default - On prepare started
+[2018-02-28T12:37:35.616] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-02-28T12:37:35.616] [INFO] result - 
+[2018-02-28T12:37:35.616] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-02-28T12:37:35.616] [INFO] result - 
+[2018-02-28T12:37:35.616] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-02-28T12:37:35.616] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-02-28T12:37:45.900] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-02-28T12:37:47.255] [INFO] result - [ 'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:',
+  'First Air Date:' ]
+[2018-02-28T12:37:47.270] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-02-28T12:37:47.289] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m12 s[29m)[39m
+[2018-02-28T12:37:47.290] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-02-28T12:37:47.291] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-02-28T12:37:47.292] [INFO] result - 
+[2018-02-28T12:37:47.292] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-02-28T12:37:47.293] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-02-28T12:37:47.293] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-02-28T12:37:47.294] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-02-28T12:37:47.295] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-02-28T12:37:47.296] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-28T12:37:47.296] [INFO] result - 		[90m[9m#  [29m[39mshould have simular movies block with atleast one movie
+[2018-02-28T12:37:47.297] [INFO] result - 
+[2018-02-28T12:37:47.297] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-02-28T12:37:47.298] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-02-28T12:37:47.298] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-02-28T12:37:47.299] [INFO] result - 
+[2018-02-28T12:37:47.299] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-02-28T12:37:47.300] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-02-28T12:37:47.301] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-02-28T12:37:47.301] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-02-28T12:37:47.302] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-02-28T12:37:47.302] [INFO] result - 
+[2018-02-28T12:37:47.307] [INFO] result - 
+[2018-02-28T12:37:47.307] [INFO] result - **************************************************
+[2018-02-28T12:37:47.307] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-02-28T12:37:47.308] [INFO] result - **************************************************
+[2018-02-28T12:37:47.308] [INFO] result - 
+[2018-02-28T12:37:47.308] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m12 s[29m[39m[23m
+[2018-02-28T12:37:47.309] [INFO] result - 
+[2018-02-28T12:37:47.309] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-02-28T12:37:47.309] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-02-28T12:37:47.310] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-02-28T12:37:47.310] [INFO] result - 
+[2018-02-28T12:37:47.502] [INFO] result - [[90m12:37:47[39m] I/launcher -
