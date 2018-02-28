@@ -7,7 +7,7 @@ const logger = log4js.getLogger('default')
 
 
 describe('movie-finders tests',async function(){
-      
+    
     const homepage = new HomePage()
     beforeEach(async function(){          
     await homepage.open()               //browser should open on the given page before each test
