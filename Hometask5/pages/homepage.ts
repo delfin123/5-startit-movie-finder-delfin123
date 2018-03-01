@@ -53,7 +53,7 @@ export class HomePage {
         EC.visibilityOf(this.popularMoviesBlock.first()),
         EC.visibilityOf(this.searchResultName),
         EC.visibilityOf(this.searchResultBlock),
-        EC.visibilityOf(this.popularMoviesBlock.last())),20000,'6 elements should appear')
+        EC.visibilityOf(this.popularMoviesBlock.last())),20000,'5 elements should appear')
         if(await this.searchResultMovieLink.count()> 0){
             await browser.wait(EC.and(
             EC.visibilityOf(this.searchResultMovie.first()),
@@ -94,15 +94,15 @@ export class HomePage {
         EC.visibilityOf(this.movieCardGanre.last()),
         EC.visibilityOf(this.movieCardGanresBlock),
         EC.visibilityOf(this.movieCardTitle),
-        EC.visibilityOf(this.movieCardContent)),20000,'4 elements should')
+        EC.visibilityOf(this.movieCardContent)),20000,'12 elements should')
     }
     async waitForPopularMoviesVisibility(){
         await browser.wait(EC.and(
         EC.visibilityOf(this.popularSeriesMovie.first()),
         EC.visibilityOf(this.popularSeriesMovie.last()),
         EC.visibilityOf(this.popularSeriesBlock),
-        EC.visibilityOf(this.categoryOfFilmsTitle)),20000,'Element not appeared')
-        await browser.wait(async function(){if(await $$(`.text-ellipsis+p strong`).count()==20){return true}},20000,'name not equal fraze')
+        EC.visibilityOf(this.categoryOfFilmsTitle)),20000,'4 Elements not appeared')
+        await browser.wait(async function(){if(await $$(`.text-ellipsis+p strong`).count()==20){return true}},20000,'Not equal')
         
     }
 }
@@ -122,7 +122,7 @@ export class Navigation {
         EC.visibilityOf(this.search),
         EC.visibilityOf(this.upcomingOrActionMoviesFilm.first()),
         EC.visibilityOf(this.upcomingMoviesTitle),
-        EC.visibilityOf(this.upcomingOrActionMoviesFilm.last())),20000, "4 elements should appear")
+        EC.visibilityOf(this.upcomingOrActionMoviesFilm.last())),20000, "5 elements should appear")
     }
     async waitforvisibleActioncategories(){
         await browser.wait(EC.and(

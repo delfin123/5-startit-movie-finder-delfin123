@@ -7303,3 +7303,325 @@ Error
 [2018-03-01T15:56:35.129] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
 [2018-03-01T15:56:35.129] [INFO] result - 
 [2018-03-01T15:56:35.346] [INFO] result - [[90m15:56:35[39m] I/launcher -
+[2018-03-01T17:08:13.476] [INFO] default - On prepare started
+[2018-03-01T17:08:14.747] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-01T17:08:14.747] [INFO] result - 
+[2018-03-01T17:08:14.747] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-01T17:08:14.747] [INFO] result - 
+[2018-03-01T17:08:14.747] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-01T17:08:14.747] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-01T17:08:20.676] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-01T17:08:21.241] [INFO] result - 		[31m[9m✗  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m6 s[29m)[39m
+[2018-03-01T17:08:21.241] [INFO] result - 			[31m- [39m[31mFailed: Cannot read property 'popularSeriesMovieAir' of undefined[39m
+[2018-03-01T17:08:21.241] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-01T17:08:21.241] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-01T17:08:21.241] [INFO] result - 
+[2018-03-01T17:08:21.241] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-01T17:08:21.241] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-01T17:08:21.241] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-01T17:08:21.241] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-01T17:08:21.241] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-01T17:08:21.241] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-01T17:08:21.241] [INFO] result - 		[90m[9m#  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-01T17:08:21.241] [INFO] result - 
+[2018-03-01T17:08:21.241] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-01T17:08:21.241] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-01T17:08:21.241] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-01T17:08:21.241] [INFO] result - 
+[2018-03-01T17:08:21.241] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-01T17:08:21.241] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-01T17:08:21.257] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-01T17:08:21.257] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-01T17:08:21.257] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-01T17:08:21.257] [INFO] result - 
+[2018-03-01T17:08:21.265] [INFO] result - 
+[2018-03-01T17:08:21.265] [INFO] result - **************************************************
+[2018-03-01T17:08:21.266] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-01T17:08:21.266] [INFO] result - **************************************************
+[2018-03-01T17:08:21.266] [INFO] result - 
+[2018-03-01T17:08:21.267] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m7 s[29m[39m[23m
+[2018-03-01T17:08:21.268] [INFO] result - 
+[2018-03-01T17:08:21.268] [INFO] result - 	[32mPASSED   0 ( 0% )[39m
+[2018-03-01T17:08:21.268] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-03-01T17:08:21.268] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-01T17:08:21.269] [INFO] result - 
+[2018-03-01T17:08:21.269] [INFO] result - 
+[2018-03-01T17:08:21.269] [INFO] result - **************************************************
+[2018-03-01T17:08:21.270] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-03-01T17:08:21.270] [INFO] result - **************************************************
+[2018-03-01T17:08:21.270] [INFO] result - 
+[2018-03-01T17:08:21.270] [INFO] result - 1) [1mmovie-finders tests Popular series should have "First Air Date" instead "Release Date"[22m
+[2018-03-01T17:08:21.271] [INFO] result - 	[31m- [39m[31mFailed: Cannot read property 'popularSeriesMovieAir' of undefined[39m
+[2018-03-01T17:08:21.271] [INFO] result - 	[31m    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:98:80
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:3:12)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:98:24
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\webdriver.js:938:14
+    at promise (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2232:22)
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:162:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:151:20)[39m
+[2018-03-01T17:08:21.271] [INFO] result - 
+[2018-03-01T17:08:21.438] [INFO] result - [[90m17:08:21[39m] I/launcher -
+[2018-03-01T17:09:18.590] [INFO] default - On prepare started
+[2018-03-01T17:09:20.005] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-01T17:09:20.005] [INFO] result - 
+[2018-03-01T17:09:20.005] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-01T17:09:20.005] [INFO] result - 
+[2018-03-01T17:09:20.005] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-01T17:09:20.005] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-01T17:09:24.876] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-01T17:09:25.478] [INFO] result - 		[31m[9m✗  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m5 s[29m)[39m
+[2018-03-01T17:09:25.479] [INFO] result - 			[31m- [39m[31mFailed: Cannot read property 'popularSeriesMovieAir' of undefined[39m
+[2018-03-01T17:09:25.480] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-01T17:09:25.480] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-01T17:09:25.481] [INFO] result - 
+[2018-03-01T17:09:25.482] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-01T17:09:25.482] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-01T17:09:25.483] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-01T17:09:25.483] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-01T17:09:25.484] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-01T17:09:25.484] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-01T17:09:25.485] [INFO] result - 		[90m[9m#  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-01T17:09:25.485] [INFO] result - 
+[2018-03-01T17:09:25.485] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-01T17:09:25.486] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-01T17:09:25.487] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-01T17:09:25.487] [INFO] result - 
+[2018-03-01T17:09:25.487] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-01T17:09:25.488] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-01T17:09:25.490] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-01T17:09:25.490] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-01T17:09:25.491] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-01T17:09:25.491] [INFO] result - 
+[2018-03-01T17:09:25.495] [INFO] result - 
+[2018-03-01T17:09:25.495] [INFO] result - **************************************************
+[2018-03-01T17:09:25.495] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-01T17:09:25.495] [INFO] result - **************************************************
+[2018-03-01T17:09:25.495] [INFO] result - 
+[2018-03-01T17:09:25.495] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m5 s[29m[39m[23m
+[2018-03-01T17:09:25.495] [INFO] result - 
+[2018-03-01T17:09:25.495] [INFO] result - 	[32mPASSED   0 ( 0% )[39m
+[2018-03-01T17:09:25.495] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-03-01T17:09:25.495] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-01T17:09:25.495] [INFO] result - 
+[2018-03-01T17:09:25.495] [INFO] result - 
+[2018-03-01T17:09:25.495] [INFO] result - **************************************************
+[2018-03-01T17:09:25.495] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-03-01T17:09:25.495] [INFO] result - **************************************************
+[2018-03-01T17:09:25.495] [INFO] result - 
+[2018-03-01T17:09:25.495] [INFO] result - 1) [1mmovie-finders tests Popular series should have "First Air Date" instead "Release Date"[22m
+[2018-03-01T17:09:25.495] [INFO] result - 	[31m- [39m[31mFailed: Cannot read property 'popularSeriesMovieAir' of undefined[39m
+[2018-03-01T17:09:25.495] [INFO] result - 	[31m    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:97:68
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\webdriver.js:938:14
+    at promise (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2232:22)
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at SimpleScheduler.execute (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2227:17)
+    at pollCondition (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2191:7
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:162:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:151:20)[39m
+[2018-03-01T17:09:25.495] [INFO] result - 
+[2018-03-01T17:09:25.667] [INFO] result - [[90m17:09:25[39m] I/launcher -
+[2018-03-01T17:09:58.593] [INFO] default - On prepare started
+[2018-03-01T17:09:59.995] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-01T17:10:00.011] [INFO] result - 
+[2018-03-01T17:10:00.011] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-01T17:10:00.011] [INFO] result - 
+[2018-03-01T17:10:00.011] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-01T17:10:00.011] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-01T17:10:05.271] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-01T17:10:05.866] [INFO] result - 		[31m[9m✗  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m6 s[29m)[39m
+[2018-03-01T17:10:05.867] [INFO] result - 			[31m- [39m[31mFailed: Cannot read property 'popularSeriesMovieAir' of undefined[39m
+[2018-03-01T17:10:05.867] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-01T17:10:05.868] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-01T17:10:05.869] [INFO] result - 
+[2018-03-01T17:10:05.869] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-01T17:10:05.870] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-01T17:10:05.870] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-01T17:10:05.870] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-01T17:10:05.871] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-01T17:10:05.871] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-01T17:10:05.871] [INFO] result - 		[90m[9m#  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-01T17:10:05.872] [INFO] result - 
+[2018-03-01T17:10:05.872] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-01T17:10:05.873] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-01T17:10:05.873] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-01T17:10:05.874] [INFO] result - 
+[2018-03-01T17:10:05.874] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-01T17:10:05.875] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-01T17:10:05.877] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-01T17:10:05.878] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-01T17:10:05.878] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-01T17:10:05.878] [INFO] result - 
+[2018-03-01T17:10:05.885] [INFO] result - 
+[2018-03-01T17:10:05.885] [INFO] result - **************************************************
+[2018-03-01T17:10:05.885] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-01T17:10:05.885] [INFO] result - **************************************************
+[2018-03-01T17:10:05.886] [INFO] result - 
+[2018-03-01T17:10:05.886] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m6 s[29m[39m[23m
+[2018-03-01T17:10:05.886] [INFO] result - 
+[2018-03-01T17:10:05.886] [INFO] result - 	[32mPASSED   0 ( 0% )[39m
+[2018-03-01T17:10:05.887] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-03-01T17:10:05.887] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-01T17:10:05.887] [INFO] result - 
+[2018-03-01T17:10:05.888] [INFO] result - 
+[2018-03-01T17:10:05.888] [INFO] result - **************************************************
+[2018-03-01T17:10:05.888] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-03-01T17:10:05.888] [INFO] result - **************************************************
+[2018-03-01T17:10:05.889] [INFO] result - 
+[2018-03-01T17:10:05.889] [INFO] result - 1) [1mmovie-finders tests Popular series should have "First Air Date" instead "Release Date"[22m
+[2018-03-01T17:10:05.889] [INFO] result - 	[31m- [39m[31mFailed: Cannot read property 'popularSeriesMovieAir' of undefined[39m
+[2018-03-01T17:10:05.890] [INFO] result - 	[31m    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:97:68
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\webdriver.js:938:14
+    at promise (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2232:22)
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at SimpleScheduler.execute (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2227:17)
+    at pollCondition (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2191:7
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:162:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:151:20)[39m
+[2018-03-01T17:10:05.892] [INFO] result - 
+[2018-03-01T17:10:06.062] [INFO] result - [[90m17:10:06[39m] I/launcher -
+[2018-03-01T17:12:12.250] [INFO] default - On prepare started
+[2018-03-01T17:12:13.724] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-01T17:12:13.726] [INFO] result - 
+[2018-03-01T17:12:13.727] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-01T17:12:13.728] [INFO] result - 
+[2018-03-01T17:12:13.728] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-01T17:12:13.729] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-01T17:12:18.921] [INFO] default - Начало теста на проверку названия фильма
+[2018-03-01T17:12:21.057] [INFO] default - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-03-01T17:12:21.063] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m7 s[29m)[39m
+[2018-03-01T17:12:21.064] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-01T17:12:22.026] [INFO] default - Начало теста на проверку рейтинга
+[2018-03-01T17:12:23.739] [INFO] default - The raiting of film is 8
+[2018-03-01T17:12:23.742] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-03-01T17:12:23.743] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-01T17:12:24.499] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-03-01T17:12:25.918] [INFO] default - Number of similar movies is 12
+[2018-03-01T17:12:26.462] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-03-01T17:12:28.150] [INFO] default - Подобный фильм включает такие жанры Action,Adventure,Science Fiction,Fantasy
+[2018-03-01T17:12:28.150] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-03-01T17:12:28.150] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-03-01T17:12:28.150] [INFO] result - 
+[2018-03-01T17:12:28.150] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-01T17:12:28.150] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-01T17:12:29.087] [INFO] default - Начало теста на наличие фото актеров на странице фильма
+[2018-03-01T17:12:30.598] [INFO] default - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-03-01T17:12:30.609] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m2 s[29m)[39m
+[2018-03-01T17:12:30.610] [INFO] result - 
+[2018-03-01T17:12:30.611] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-01T17:12:30.611] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-01T17:12:31.490] [INFO] default - Начало теста на наличие ревью на странице фильма
+[2018-03-01T17:12:33.170] [INFO] default - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-03-01T17:12:33.173] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m3 s[29m)[39m
+[2018-03-01T17:12:33.174] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-01T17:12:34.008] [INFO] default - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-03-01T17:12:37.843] [INFO] default - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-03-01T17:12:37.905] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m5 s[29m)[39m
+[2018-03-01T17:12:37.906] [INFO] result - 
+[2018-03-01T17:12:37.907] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-01T17:12:37.908] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-01T17:12:38.634] [INFO] default - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-03-01T17:12:39.125] [INFO] result - 		[31m[9m✗  [29m[39mshouldnt have search bar[90m ([9m1 s[29m)[39m
+[2018-03-01T17:12:39.126] [INFO] result - 			[31m- [39m[31mFailed: Cannot read property 'popularSeriesMovieAir2' of undefined[39m
+[2018-03-01T17:12:39.126] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-01T17:12:41.261] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-01T17:12:41.762] [INFO] result - 		[31m[9m✗  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m3 s[29m)[39m
+[2018-03-01T17:12:41.762] [INFO] result - 			[31m- [39m[31mFailed: Cannot read property 'popularSeriesMovieAir2' of undefined[39m
+[2018-03-01T17:12:41.762] [INFO] result - 
+[2018-03-01T17:12:41.782] [INFO] result - 
+[2018-03-01T17:12:41.783] [INFO] result - **************************************************
+[2018-03-01T17:12:41.783] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-01T17:12:41.783] [INFO] result - **************************************************
+[2018-03-01T17:12:41.783] [INFO] result - 
+[2018-03-01T17:12:41.784] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m28 s[29m[39m[23m
+[2018-03-01T17:12:41.784] [INFO] result - 
+[2018-03-01T17:12:41.784] [INFO] result - 	[32mPASSED   6 ( 75% )[39m
+[2018-03-01T17:12:41.785] [INFO] result - 	[31mFAILED   2 ( 25% )[39m
+[2018-03-01T17:12:41.785] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-03-01T17:12:41.785] [INFO] result - 
+[2018-03-01T17:12:41.786] [INFO] result - 
+[2018-03-01T17:12:41.786] [INFO] result - **************************************************
+[2018-03-01T17:12:41.786] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-03-01T17:12:41.786] [INFO] result - **************************************************
+[2018-03-01T17:12:41.787] [INFO] result - 
+[2018-03-01T17:12:41.787] [INFO] result - 1) [1mmovie-finders tests Popular series shouldnt have search bar[22m
+[2018-03-01T17:12:41.787] [INFO] result - 	[31m- [39m[31mFailed: Cannot read property 'popularSeriesMovieAir2' of undefined[39m
+[2018-03-01T17:12:41.788] [INFO] result - 	[31m    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:99:87
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:3:12)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:99:24
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\webdriver.js:938:14
+    at promise (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2232:22)
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:152:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:151:20)[39m
+[2018-03-01T17:12:41.789] [INFO] result - 
+[2018-03-01T17:12:41.789] [INFO] result - 2) [1mmovie-finders tests Popular series should have "First Air Date" instead "Release Date"[22m
+[2018-03-01T17:12:41.789] [INFO] result - 	[31m- [39m[31mFailed: Cannot read property 'popularSeriesMovieAir2' of undefined[39m
+[2018-03-01T17:12:41.790] [INFO] result - 	[31m    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:99:87
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:3:12)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:99:24
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\webdriver.js:938:14
+    at promise (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2232:22)
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:162:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:151:20)[39m
+[2018-03-01T17:12:41.790] [INFO] result - 
+[2018-03-01T17:12:42.016] [INFO] result - [[90m17:12:42[39m] I/launcher -
