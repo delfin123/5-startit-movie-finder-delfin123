@@ -21,7 +21,7 @@ describe('Movie details', async function () {
         let name = 'The Maze Runner'
         await homepage.chooseFilmAtSearchResult(0)                      //select the first movie found in search results and click on it
         let fraze = await homepage.obtainClearNameOfMovie()             //get the full title from the movie title
-        expect(fraze).to.equal(name)                                    //The received name must completely match with the expected title of film
+        expect(await fraze).to.equal(name)                                    //The received name must completely match with the expected title of film
         logger.info('Тест пройден,полученное название фильма ' +        
         name+' совпадает с ожидаемым названием '+ await fraze)          //output to the console the name obtained from the header and expected name
 })
@@ -31,7 +31,7 @@ describe('Movie details', async function () {
             let search_request= "Matrix"
             await homepage.searchOfMovie(search_request)                 
             await homepage.chooseFilmAtSearchResult(0)                   
-            let raiting =  homepage.movieCardRaiting.getText()
+            let raiting =  await homepage.movieCardRaiting.getText()
             expect(await raiting).not.to.be.empty                            //received value of raiting mustn't to be empty
             logger.info('The raiting of film is '+ await raiting)            //Output the received value of the rating in the console    
     })
@@ -98,7 +98,7 @@ describe('reviews block', function () {
         await homepage.chooseFilmAtSearchResult(0)
         expect(await homepage.movieCardReview.count()).to.be.above(0)                        
         expect(await homepage.movieCardReviewerLink.first().getAttribute('href')).to.contain('http')              //link to the reviewer should contain the actual address of the page of the reviewer
-        await homepage.movieCardReviewerLink.first().click()                                                      //go to the link to the site of the reviewer
+        await homepage.movieCardReviewerLink.get(1).click()                                                      //go to the link to the site of the reviewer
         let winHandles= browser.getAllWindowHandles();
         await winHandles.then(async function(handles) {
             let parentWindow =handles[0];
