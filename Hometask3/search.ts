@@ -14,18 +14,17 @@ describe('Movie card ', async function(){
         logger.info('Начало теста на проверку работы поиска фильма')
         let search_request = 'Pacific Rim'
         await homepage.searchOfMovie(search_request)  
-        expect(await $$(`[class*="col-lg-3 col-xs-6"] .text-ellipsis a`).first().getAttribute('title')).toBe(search_request)
-        logger.info("Тест пройден, полное название фильма" + await $$(`[class*="col-lg-3 col-xs-6"] .text-ellipsis a`).first().getAttribute('title'))
+        expect(await homepage.searchResultMovieLink.first().getAttribute('title')).toBe(search_request)
+        logger.info("Тест пройден, полное название фильма" + await homepage.searchResultMovieLink.first().getAttribute('title'))
     })
 
     it('results(all of them) should contain search request', async function(){
         logger.info('Начало теста на проверку работы поиска фильма относительно всех результатов поиска')
         let search_request = 'Lord of the Rings'
         await homepage.searchOfMovie(search_request) 
-        let foundTitles = $$(`[_ngcontent-c1]>.is-flex .text-ellipsis>a`);
-        let titles:any = await foundTitles.getAttribute('title')
+        let titles:any = await homepage.searchResultMovieLink.getAttribute('title')
         titles.forEach(title => expect (title).toContain(search_request))
-        logger.info("Тест пройден, все найденные фильмы содержат в названии фразу "+search_request +" и список всех названий фильмов в результатах поиска такой - " + await $$(`[_ngcontent-c1]>is-flex .text-ellipsis>a`).getAttribute('title'))
+        logger.info("Тест пройден, все найденные фильмы содержат в названии фразу "+search_request +" и список всех названий фильмов в результатах поиска такой - " + await homepage.searchResultMovieLink.getAttribute('title'))
     })
     
 
@@ -33,8 +32,7 @@ describe('Movie card ', async function(){
         logger.info('Начало теста на проверку работы поиска фильма если ищется фильм с несуществующим названием')
         let search_request = 'dhcr'
         await homepage.searchOfMovie(search_request) 
-        let foundTitles = $$(`[_ngcontent-c1]>.is-flex .text-ellipsis>a`)
-        expect(await foundTitles.count()).toBe(0)
+        expect(await homepage.searchResultMovieLink.count()).toBe(0)
         logger.info('Тест пройден, в результате поиска не найдено соответсвующих фильмов')
     })
 })

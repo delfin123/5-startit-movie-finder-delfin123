@@ -13,25 +13,25 @@ describe('Movie card ', async function(){
     
     it('should open "Upcoming movies" section', async function() {
         logger.info('Начало теста на проверку открытия страницы "Upcoming movies"')
-        await $(`#navbar [routerlink="/upcoming"]`).click()
+        await homepage.upcomingMoviesButton.click()
         await navigation.waitforvisibleUpcomingmovies()
-        expect (await $(`.orange-text`).getText()).toContain('Up Coming')
+        expect (await homepage.categoryOfFilmsTitle.getText()).toContain('Up Coming')
         logger.info('Тест пройден, данная страница соответствует разделу "Upcoming movies"')
     })
 
     it('should open "Popular Series" section', async function(){
         logger.info('Начало теста на проверку открытия страницы "Popular series"')
-        await $(`[routerlink*="series"]`).click()
+        await homepage.popularMoviesButton.click()
         await homepage.waitForPopularMoviesVisibility()
-        expect (await $(`.orange-text`).getText()).toContain('Popular Series')
+        expect (await homepage.categoryOfFilmsTitle.getText()).toContain('Popular Series')
         logger.info('Тест пройден, данная страница соответствует разделу "Popular series"')
     })
 
     it('should open "Action" category', async function(){
         logger.info('Начало теста на проверку открытия страницы c категорией фильмов "Action category"')
-        await $(`[href="/genres/28/Action"]`).click()
+        await homepage.actionCategoryMoviesButton.click()
         await navigation.waitforvisibleActioncategories()
-        expect (await $(`.orange-text`).getText()).toContain('Action')
+        expect (await homepage.categoryOfFilmsTitle.getText()).toContain('Action')
         logger.info('Тест пройден, данная страница соответствует разделу "Action category"')
     })
 })
