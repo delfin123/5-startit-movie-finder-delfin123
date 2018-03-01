@@ -4,11 +4,10 @@ import { HomePage } from './pages/homepage'
 import * as log4js from 'log4js'
 
 const logger = log4js.getLogger('default')
-
+const homepage = new HomePage()
 
 describe('movie-finders tests',async function(){
-    
-    const homepage = new HomePage()
+       
     beforeEach(async function(){          
     await homepage.open()               //browser should open on the given page before each test
 })
@@ -16,16 +15,16 @@ describe('movie-finders tests',async function(){
 describe('Movie details', async function () {
     
     it('should have movie name as header', async function () {
-            logger.info('Начало теста на проверку названия фильма')
-            let search_request = 'Maze runner'
-            await homepage.searchOfMovie(search_request)                    //Enter the name of the movie in search string and click on the search button
-            let name = 'The Maze Runner'
-            await homepage.chooseFilmAtSearchResult(0)                      //select the first movie found in search results and click on it
-            let fraze = await homepage.obtainClearNameOfMovie()             //get the full title from the movie title
-            expect(fraze).to.equal(name)                                    //The received name must completely match with the expected title of film
-            logger.info('Тест пройден,полученное название фильма ' +        
-            name+' совпадает с ожидаемым названием '+ await fraze)          //output to the console the name obtained from the header and expected name
-    })
+        logger.info('Начало теста на проверку названия фильма')
+        let search_request = 'Maze runner'
+        await homepage.searchOfMovie(search_request)                    //Enter the name of the movie in search string and click on the search button
+        let name = 'The Maze Runner'
+        await homepage.chooseFilmAtSearchResult(0)                      //select the first movie found in search results and click on it
+        let fraze = await homepage.obtainClearNameOfMovie()             //get the full title from the movie title
+        expect(fraze).to.equal(name)                                    //The received name must completely match with the expected title of film
+        logger.info('Тест пройден,полученное название фильма ' +        
+        name+' совпадает с ожидаемым названием '+ await fraze)          //output to the console the name obtained from the header and expected name
+})
 
     it('should have raiting', async function () {
             logger.info('Начало теста на проверку рейтинга')
@@ -44,16 +43,16 @@ describe('Movie details', async function () {
         await homepage.chooseFilmAtSearchResult(0)
         expect(await homepage.similarFilmsMovie.count()).to.be.above(0)                              //received number of films that are similar to the one found must be greater than 0
         logger.info("Number of similar movies is" +' '+ await homepage.similarFilmsMovie.count())    //output to a console the quantity of similar films to the searched film on a site                        
-        let ganresOfFilm = await Promise.all(await homepage.movieCardGanre.map(async function (element){   //check if the films found are similar                  
+        let ganresoffilm = await Promise.all(await homepage.movieCardGanre.map(async function (element){   //check if the films found are similar                  
             return await element.getText()                                                                //for this we get the names of all genres of searched film
         }))
-        logger.info('Искомый фильм включает такие жанры ' + ganresOfFilm)                     //and output them in the console                                                         
+        logger.info('Искомый фильм включает такие жанры ' + ganresoffilm)                     //and output them in the console                                                                
         await homepage.similarFilmLink.get(7).click()                                      //Next, go to the page of the 8th movie, which is shown on the site as similar
-        await homepage.waitForCategoriesVisibility()                                       
-        let ganresOfSimilarFilm = await Promise.all(await homepage.movieCardGanre.map(async function (element2){
+        await homepage.waitForCategoriesVisibility()                                              
+        let ganresofsimilarfilm = await Promise.all(await homepage.movieCardGanre.map(async function (element2){
             return await element2.getText()                                                                //and get the values of all its genres
         })) 
-        logger.info('Подобный фильм включает такие жанры '+ ganresOfSimilarFilm)                      //and output them to the console                                                                             
+        logger.info('Подобный фильм включает такие жанры '+ ganresofsimilarfilm)                      //and output them to the console                                                                             
         async function Intersec(arr1,arr2){                                                           //create a function that compares the values of two arrays
             let idx = 0, arr3 = [];                                                                   //and the same values of genres of both films are enter into a separate array of arr3
             for (let i = 0; i < arr2.length; i++){
@@ -62,8 +61,8 @@ describe('Movie details', async function () {
             }
             return arr3;
         }
-        expect(await Intersec(ganresOfFilm,ganresOfSimilarFilm)).not.to.be.empty                                //received arr 3 must not be empty              
-        logger.info('Фильмы совпадают по таким жанрам: '+ await Intersec(ganresOfFilm,ganresOfSimilarFilm))     //and bring to the console genres for which the movies match
+        expect(await Intersec(ganresoffilm,ganresofsimilarfilm)).not.to.be.empty                                //received arr 3 must not be empty              
+        logger.info('Фильмы совпадают по таким жанрам: '+ await Intersec(ganresoffilm,ganresofsimilarfilm))     //and bring to the console genres for which the movies match
     })
    
 })
@@ -131,20 +130,18 @@ describe('Popular series', async function () {
         let fraze = "First Air Date"
         await homepage.popularMoviesButton.click()
         await homepage.waitForPopularMoviesVisibility()
-        let massive = await Promise.all(await homepage.popularSeriesMovieAir.map(async function(element){
+        let massive = await Promise.all(await $$(`.text-ellipsis+p strong`).map(async function(element){
             return await element.getText()
         }))
-        async function check(a,b){                                               //Create a function that checks each value of this array
-            let arr1 = []                                                        //to match the phrase 'First Air Date'
-            for (let i = 0; i < a.length; i++){                                 
-            if(await a[i].indexOf(b)>=0){
-                arr1.push(a[i])
-            } else { throw new Error('Не совпадают') }                               //if at least one value does not match this phrase, then an error occurs
+        async function compare(a,b){
+            let arr1 =[]
+            for(let i = 0; i < a.length; i++){
+            if(a[i].indexOf(b)>=0) arr1.push(a[i])
             }
-            return arr1
-        }
-        await browser.wait(async function(){if(await Promise.all(await check(massive,fraze))){return true}}, 20000, 'Not performed')
-        await Promise.all(await check(massive,fraze))
+            return arr1;
+            }
+        let massive2 =await Promise.all(await compare(massive,fraze))
+        expect(massive.length).to.equal(massive2.length)
         logger.info('Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -'+ await homepage.popularSeriesMovieAir.count())     //display in the console the number of popular movies on this page
     })
 })

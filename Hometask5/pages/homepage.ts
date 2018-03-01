@@ -76,9 +76,9 @@ export class HomePage {
     }
     async obtainClearNameOfMovie(){
         await browser.wait(EC.visibilityOf(this.movieCardTitle),20000, 'not appeared')
-        let frazefordelete = (await this.movieCardRaiting.getText()).toString().trim().length
-        let fullfraze = (await this.movieCardTitle.getText()).toString().trim()
-        let fraze = await fullfraze.slice(0,-frazefordelete-1)
+        let frazefordelete = (await this.movieCardRaiting.getText()).trim().length
+        let fullfraze = (await this.movieCardTitle.getText()).trim()
+        let fraze = await fullfraze.slice(0,-frazefordelete - 1)
         return await fraze;
     }
     async waitForCategoriesVisibility(){
@@ -102,8 +102,6 @@ export class HomePage {
         EC.visibilityOf(this.popularSeriesMovie.last()),
         EC.visibilityOf(this.popularSeriesBlock),
         EC.visibilityOf(this.categoryOfFilmsTitle)),20000,'4 Elements not appeared')
-        await browser.wait(async function(){if(await $$(`.text-ellipsis+p strong`).count()==20){return true}},20000,'Not equal')
-        
     }
 }
 
