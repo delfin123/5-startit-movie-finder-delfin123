@@ -7625,3 +7625,440 @@ Error
     at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:151:20)[39m
 [2018-03-01T17:12:41.790] [INFO] result - 
 [2018-03-01T17:12:42.016] [INFO] result - [[90m17:12:42[39m] I/launcher -
+[2018-03-01T20:26:01.128] [INFO] default - On prepare started
+[2018-03-01T20:26:02.529] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-01T20:26:02.529] [INFO] result - 
+[2018-03-01T20:26:02.545] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-01T20:26:02.545] [INFO] result - 
+[2018-03-01T20:26:02.545] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-01T20:26:02.545] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-01T20:26:11.853] [INFO] default - Начало теста на проверку названия фильма
+[2018-03-01T20:26:15.596] [INFO] default - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-03-01T20:26:15.603] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m13 s[29m)[39m
+[2018-03-01T20:26:15.603] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-01T20:26:17.420] [INFO] default - Начало теста на проверку рейтинга
+[2018-03-01T20:26:20.074] [INFO] default - The raiting of film is 8
+[2018-03-01T20:26:20.080] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m4 s[29m)[39m
+[2018-03-01T20:26:20.080] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-01T20:26:21.453] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-03-01T20:26:23.403] [INFO] default - Number of similar movies is 12
+[2018-03-01T20:26:23.942] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-03-01T20:26:44.704] [INFO] result - 		[31m[9m✗  [29m[39mshould have simular movies block with atleast one movie[90m ([9m25 s[29m)[39m
+[2018-03-01T20:26:44.704] [INFO] result - 			[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20014ms[39m
+[2018-03-01T20:26:44.704] [INFO] result - 
+[2018-03-01T20:26:44.704] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-01T20:26:44.704] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-01T20:26:48.759] [INFO] default - Начало теста на наличие фото актеров на странице фильма
+[2018-03-01T20:26:52.805] [INFO] result - 		[31m[9m✗  [29m[39mshould show atleast one actor[90m ([9m8 s[29m)[39m
+[2018-03-01T20:26:52.806] [INFO] result - 			[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:26:52.806] [INFO] result - 			[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:26:52.806] [INFO] result - 
+[2018-03-01T20:26:52.807] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-01T20:26:52.807] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-01T20:26:56.856] [INFO] default - Начало теста на наличие ревью на странице фильма
+[2018-03-01T20:27:00.906] [INFO] result - 		[31m[9m✗  [29m[39mshould be atleast one review[90m ([9m8 s[29m)[39m
+[2018-03-01T20:27:00.906] [INFO] result - 			[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:00.906] [INFO] result - 			[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:00.906] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-01T20:27:04.945] [INFO] default - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-03-01T20:27:09.015] [INFO] result - 		[31m[9m✗  [29m[39mshould have reviewer name as link to source[90m ([9m8 s[29m)[39m
+[2018-03-01T20:27:09.015] [INFO] result - 			[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:09.015] [INFO] result - 			[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:09.015] [INFO] result - 
+[2018-03-01T20:27:09.015] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-01T20:27:09.015] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-01T20:27:13.098] [INFO] default - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-03-01T20:27:17.173] [INFO] result - 		[31m[9m✗  [29m[39mshouldnt have search bar[90m ([9m8 s[29m)[39m
+[2018-03-01T20:27:17.173] [INFO] result - 			[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:17.173] [INFO] result - 			[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:17.173] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-01T20:27:21.225] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-01T20:27:25.304] [INFO] result - 		[31m[9m✗  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m8 s[29m)[39m
+[2018-03-01T20:27:25.305] [INFO] result - 			[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:25.306] [INFO] result - 			[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:25.306] [INFO] result - 
+[2018-03-01T20:27:25.368] [INFO] result - 
+[2018-03-01T20:27:25.369] [INFO] result - **************************************************
+[2018-03-01T20:27:25.369] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-01T20:27:25.370] [INFO] result - **************************************************
+[2018-03-01T20:27:25.370] [INFO] result - 
+[2018-03-01T20:27:25.370] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m1 min 23 s[29m[39m[23m
+[2018-03-01T20:27:25.371] [INFO] result - 
+[2018-03-01T20:27:25.372] [INFO] result - 	[32mPASSED   2 ( 25% )[39m
+[2018-03-01T20:27:25.372] [INFO] result - 	[31mFAILED   6 ( 75% )[39m
+[2018-03-01T20:27:25.373] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-03-01T20:27:25.373] [INFO] result - 
+[2018-03-01T20:27:25.374] [INFO] result - 
+[2018-03-01T20:27:25.374] [INFO] result - **************************************************
+[2018-03-01T20:27:25.374] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-03-01T20:27:25.375] [INFO] result - **************************************************
+[2018-03-01T20:27:25.375] [INFO] result - 
+[2018-03-01T20:27:25.375] [INFO] result - 1) [1mmovie-finders tests Movie details should have simular movies block with atleast one movie[22m
+[2018-03-01T20:27:25.376] [INFO] result - 	[31m- [39m[31mFailed: name not equal fraze
+Wait timed out after 20014ms[39m
+[2018-03-01T20:27:25.376] [INFO] result - 	[31mWait timed out after 20014ms
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at <anonymous>
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:50:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:25:20)[39m
+[2018-03-01T20:27:25.377] [INFO] result - 
+[2018-03-01T20:27:25.377] [INFO] result - 2) [1mmovie-finders tests cast block should show atleast one actor[22m
+[2018-03-01T20:27:25.377] [INFO] result - 	[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:25.378] [INFO] result - 	[31m  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:19:9)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:17:12)[39m
+[2018-03-01T20:27:25.379] [INFO] result - 	[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:25.383] [INFO] result - 	[31m  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at HomePage.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:58:31)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:3:12)
+    at HomePage.searchOfMovie (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:57:16)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:102:40)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:98:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:97:20)[39m
+[2018-03-01T20:27:25.386] [INFO] result - 
+[2018-03-01T20:27:25.387] [INFO] result - 3) [1mmovie-finders tests reviews block should be atleast one review[22m
+[2018-03-01T20:27:25.387] [INFO] result - 	[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:25.388] [INFO] result - 	[31m  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:19:9)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:17:12)[39m
+[2018-03-01T20:27:25.388] [INFO] result - 	[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:25.389] [INFO] result - 	[31m  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at HomePage.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:58:31)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:3:12)
+    at HomePage.searchOfMovie (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:57:16)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:116:36)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:112:13)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:111:9)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)[39m
+[2018-03-01T20:27:25.391] [INFO] result - 
+[2018-03-01T20:27:25.392] [INFO] result - 4) [1mmovie-finders tests reviews block should have reviewer name as link to source[22m
+[2018-03-01T20:27:25.392] [INFO] result - 	[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:25.393] [INFO] result - 	[31m  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:19:9)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:17:12)[39m
+[2018-03-01T20:27:25.394] [INFO] result - 	[31m- [39m[31mFailed: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)[39m
+[2018-03-01T20:27:25.394] [INFO] result - 	[31m  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at HomePage.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:58:31)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:3:12)
+    at HomePage.searchOfMovie (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:57:16)
+    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:128:36)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:124:13)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:111:9)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)[39m
+[2018-03-01T20:27:25.395] [INFO] result - 
+[2018-03-01T20:27:25.395] [INFO] result - 5) [1mmovie-finders tests Popular series shouldnt have search bar[22m
+[2018-03-01T20:27:40.980] [INFO] default - On prepare started
+[2018-03-01T20:27:42.477] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-01T20:27:42.479] [INFO] result - 
+[2018-03-01T20:27:42.479] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-01T20:27:42.480] [INFO] result - 
+[2018-03-01T20:27:42.481] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-01T20:27:42.482] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-01T20:27:55.338] [INFO] default - Начало теста на проверку названия фильма
+[2018-03-01T20:27:57.561] [INFO] default - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-03-01T20:27:57.567] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m15 s[29m)[39m
+[2018-03-01T20:27:57.567] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-01T20:27:58.719] [INFO] default - Начало теста на проверку рейтинга
+[2018-03-01T20:28:00.399] [INFO] default - The raiting of film is 8
+[2018-03-01T20:28:00.403] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-03-01T20:28:00.403] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-01T20:28:01.084] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-03-01T20:28:03.052] [INFO] default - Number of similar movies is 12
+[2018-03-01T20:28:03.603] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-03-01T20:28:04.934] [INFO] default - Подобный фильм включает такие жанры Action,Adventure,Science Fiction,Fantasy
+[2018-03-01T20:28:04.936] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-03-01T20:28:04.940] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-03-01T20:28:04.941] [INFO] result - 
+[2018-03-01T20:28:04.942] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-01T20:28:04.942] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-01T20:28:05.809] [INFO] default - Начало теста на наличие фото актеров на странице фильма
+[2018-03-01T20:28:07.537] [INFO] default - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-03-01T20:28:07.542] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m3 s[29m)[39m
+[2018-03-01T20:28:07.542] [INFO] result - 
+[2018-03-01T20:28:07.543] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-01T20:28:07.543] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-01T20:28:08.429] [INFO] default - Начало теста на наличие ревью на странице фильма
+[2018-03-01T20:28:09.977] [INFO] default - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-03-01T20:28:09.980] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m2 s[29m)[39m
+[2018-03-01T20:28:09.980] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-01T20:28:10.847] [INFO] default - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-03-01T20:28:13.482] [INFO] default - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-03-01T20:28:13.514] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m4 s[29m)[39m
+[2018-03-01T20:28:13.515] [INFO] result - 
+[2018-03-01T20:28:13.515] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-01T20:28:13.516] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-01T20:28:14.194] [INFO] default - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-03-01T20:28:15.767] [INFO] default - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-03-01T20:28:15.799] [INFO] result - 		[32m[9m✓  [29m[39mshouldnt have search bar[90m ([9m2 s[29m)[39m
+[2018-03-01T20:28:15.799] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-01T20:28:16.453] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-01T20:28:18.022] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-03-01T20:28:18.022] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m2 s[29m)[39m
+[2018-03-01T20:28:18.022] [INFO] result - 
+[2018-03-01T20:28:18.038] [INFO] result - 
+[2018-03-01T20:28:18.043] [INFO] result - **************************************************
+[2018-03-01T20:28:18.044] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-01T20:28:18.044] [INFO] result - **************************************************
+[2018-03-01T20:28:18.044] [INFO] result - 
+[2018-03-01T20:28:18.045] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m36 s[29m[39m[23m
+[2018-03-01T20:28:18.045] [INFO] result - 
+[2018-03-01T20:28:18.045] [INFO] result - 	[32mPASSED   8 ( 100% )[39m
+[2018-03-01T20:28:18.046] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-03-01T20:28:18.046] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-03-01T20:28:18.047] [INFO] result - 
+[2018-03-01T20:28:18.234] [INFO] result - [[90m20:28:18[39m] I/launcher -
+[2018-03-01T20:28:33.062] [INFO] default - On prepare started
+[2018-03-01T20:28:34.310] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-01T20:28:34.316] [INFO] result - 
+[2018-03-01T20:28:34.317] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-01T20:28:34.318] [INFO] result - 
+[2018-03-01T20:28:34.319] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-01T20:28:34.320] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-01T20:28:41.382] [INFO] default - Начало теста на проверку названия фильма
+[2018-03-01T20:28:43.675] [INFO] default - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-03-01T20:28:43.682] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m9 s[29m)[39m
+[2018-03-01T20:28:43.683] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-01T20:28:44.810] [INFO] default - Начало теста на проверку рейтинга
+[2018-03-01T20:28:46.464] [INFO] default - The raiting of film is 8
+[2018-03-01T20:28:46.464] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-03-01T20:28:46.480] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-01T20:28:47.312] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-03-01T20:28:49.012] [INFO] default - Number of similar movies is 12
+[2018-03-01T20:28:49.561] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-03-01T20:28:50.551] [INFO] default - Подобный фильм включает такие жанры Action,Adventure,Science Fiction,Fantasy
+[2018-03-01T20:28:50.551] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-03-01T20:28:50.551] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m4 s[29m)[39m
+[2018-03-01T20:28:50.551] [INFO] result - 
+[2018-03-01T20:28:50.551] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-01T20:28:50.551] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-01T20:28:51.453] [INFO] default - Начало теста на наличие фото актеров на странице фильма
+[2018-03-01T20:28:53.106] [INFO] default - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-03-01T20:28:53.110] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m3 s[29m)[39m
+[2018-03-01T20:28:53.110] [INFO] result - 
+[2018-03-01T20:28:53.111] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-01T20:28:53.111] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-01T20:28:53.800] [INFO] default - Начало теста на наличие ревью на странице фильма
+[2018-03-01T20:28:55.503] [INFO] default - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-03-01T20:28:55.507] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m2 s[29m)[39m
+[2018-03-01T20:28:55.507] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-01T20:28:56.340] [INFO] default - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-03-01T20:28:59.165] [INFO] default - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-03-01T20:28:59.190] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m4 s[29m)[39m
+[2018-03-01T20:28:59.192] [INFO] result - 
+[2018-03-01T20:28:59.193] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-01T20:28:59.193] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-01T20:28:59.882] [INFO] default - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-03-01T20:29:01.414] [INFO] default - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-03-01T20:29:01.445] [INFO] result - 		[32m[9m✓  [29m[39mshouldnt have search bar[90m ([9m2 s[29m)[39m
+[2018-03-01T20:29:01.445] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-01T20:29:02.110] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-01T20:29:03.632] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-03-01T20:29:03.632] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m2 s[29m)[39m
+[2018-03-01T20:29:03.632] [INFO] result - 
+[2018-03-01T20:29:03.648] [INFO] result - 
+[2018-03-01T20:29:03.653] [INFO] result - **************************************************
+[2018-03-01T20:29:03.653] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-01T20:29:03.654] [INFO] result - **************************************************
+[2018-03-01T20:29:03.654] [INFO] result - 
+[2018-03-01T20:29:03.654] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m29 s[29m[39m[23m
+[2018-03-01T20:29:03.655] [INFO] result - 
+[2018-03-01T20:29:03.655] [INFO] result - 	[32mPASSED   8 ( 100% )[39m
+[2018-03-01T20:29:03.655] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-03-01T20:29:03.656] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-03-01T20:29:03.656] [INFO] result - 
+[2018-03-01T20:29:03.853] [INFO] result - [[90m20:29:03[39m] I/launcher -
+[2018-03-01T20:29:19.281] [INFO] default - On prepare started
+[2018-03-01T20:29:20.544] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-01T20:29:20.544] [INFO] result - 
+[2018-03-01T20:29:20.544] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-01T20:29:20.544] [INFO] result - 
+[2018-03-01T20:29:20.544] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-01T20:29:20.544] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-01T20:29:27.329] [INFO] default - Начало теста на проверку названия фильма
+[2018-03-01T20:29:29.572] [INFO] default - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-03-01T20:29:29.577] [INFO] result - 		[32m[9m✓  [29m[39mshould have movie name as header[90m ([9m9 s[29m)[39m
+[2018-03-01T20:29:29.578] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-01T20:29:30.543] [INFO] default - Начало теста на проверку рейтинга
+[2018-03-01T20:29:32.332] [INFO] default - The raiting of film is 8
+[2018-03-01T20:29:32.336] [INFO] result - 		[32m[9m✓  [29m[39mshould have raiting[90m ([9m3 s[29m)[39m
+[2018-03-01T20:29:32.336] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-01T20:29:33.313] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-03-01T20:29:34.727] [INFO] default - Number of similar movies is 12
+[2018-03-01T20:29:35.286] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-03-01T20:29:37.307] [INFO] default - Подобный фильм включает такие жанры Action,Adventure,Science Fiction,Fantasy
+[2018-03-01T20:29:37.309] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-03-01T20:29:37.314] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m5 s[29m)[39m
+[2018-03-01T20:29:37.319] [INFO] result - 
+[2018-03-01T20:29:37.321] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-01T20:29:37.322] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-01T20:29:38.176] [INFO] default - Начало теста на наличие фото актеров на странице фильма
+[2018-03-01T20:29:40.355] [INFO] default - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-03-01T20:29:40.359] [INFO] result - 		[32m[9m✓  [29m[39mshould show atleast one actor[90m ([9m3 s[29m)[39m
+[2018-03-01T20:29:40.359] [INFO] result - 
+[2018-03-01T20:29:40.360] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-01T20:29:40.360] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-01T20:29:41.201] [INFO] default - Начало теста на наличие ревью на странице фильма
+[2018-03-01T20:29:43.158] [INFO] default - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-03-01T20:29:43.162] [INFO] result - 		[32m[9m✓  [29m[39mshould be atleast one review[90m ([9m3 s[29m)[39m
+[2018-03-01T20:29:43.162] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-01T20:29:44.034] [INFO] default - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-03-01T20:29:46.762] [INFO] default - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: First I want to say I liked this movie. I was surprised, I've been hearing bad reviews but I can't see big problem. The only issues was with the story. Apart from that the graphics where very good. The actors where okay (no major actors) and the baddies (no spoilers) where well thought out and graphically impressive (same for the robots).
+[2018-03-01T20:29:46.787] [INFO] result - 		[32m[9m✓  [29m[39mshould have reviewer name as link to source[90m ([9m4 s[29m)[39m
+[2018-03-01T20:29:46.788] [INFO] result - 
+[2018-03-01T20:29:46.791] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-01T20:29:46.792] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-01T20:29:47.504] [INFO] default - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-03-01T20:29:49.041] [INFO] default - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-03-01T20:29:49.072] [INFO] result - 		[32m[9m✓  [29m[39mshouldnt have search bar[90m ([9m2 s[29m)[39m
+[2018-03-01T20:29:49.072] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-01T20:29:49.710] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-01T20:29:51.260] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-03-01T20:29:51.260] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m2 s[29m)[39m
+[2018-03-01T20:29:51.260] [INFO] result - 
+[2018-03-01T20:29:51.275] [INFO] result - 
+[2018-03-01T20:29:51.275] [INFO] result - **************************************************
+[2018-03-01T20:29:51.275] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-01T20:29:51.275] [INFO] result - **************************************************
+[2018-03-01T20:29:51.275] [INFO] result - 
+[2018-03-01T20:29:51.275] [INFO] result - [3m[90mExecuted [39m[9m8[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m31 s[29m[39m[23m
+[2018-03-01T20:29:51.275] [INFO] result - 
+[2018-03-01T20:29:51.275] [INFO] result - 	[32mPASSED   8 ( 100% )[39m
+[2018-03-01T20:29:51.275] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-03-01T20:29:51.275] [INFO] result - 	[33mSKIPPED  0 ( 0% )[39m
+[2018-03-01T20:29:51.275] [INFO] result - 
+[2018-03-01T20:29:51.463] [INFO] result - [[90m20:29:51[39m] I/launcher -

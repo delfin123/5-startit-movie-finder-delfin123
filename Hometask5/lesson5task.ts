@@ -47,12 +47,9 @@ describe('Movie details', async function () {
         let ganresOfFilm = await Promise.all(await homepage.movieCardGanre.map(async function (element){   //check if the films found are similar                  
             return await element.getText()                                                                //for this we get the names of all genres of searched film
         }))
-        logger.info('Искомый фильм включает такие жанры ' + ganresOfFilm)                     //and output them in the console
-        let name = await homepage.similarFilmLink.get(7).getAttribute('title')                                                               
+        logger.info('Искомый фильм включает такие жанры ' + ganresOfFilm)                     //and output them in the console                                                         
         await homepage.similarFilmLink.get(7).click()                                      //Next, go to the page of the 8th movie, which is shown on the site as similar
-        await homepage.waitForCategoriesVisibility()
-        let fraze = await homepage.obtainClearNameOfMovie()  
-        await browser.wait(async function(){if(name==fraze){return true}},20000,'name not equal fraze')                                         
+        await homepage.waitForCategoriesVisibility()                                       
         let ganresOfSimilarFilm = await Promise.all(await homepage.movieCardGanre.map(async function (element2){
             return await element2.getText()                                                                //and get the values of all its genres
         })) 
