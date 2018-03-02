@@ -78,8 +78,7 @@ export class HomePage {
         await browser.wait(EC.visibilityOf(this.movieCardTitle),20000, 'not appeared')
         let frazefordelete = (await this.movieCardRaiting.getText()).trim().length
         let fullfraze = (await this.movieCardTitle.getText()).trim()
-        let fraze = await fullfraze.slice(0,-frazefordelete - 1)
-        return await fraze;
+        return await fullfraze.slice(0,-frazefordelete - 1)
     }
     async waitForCategoriesVisibility(){
         await browser.wait(EC.and(
