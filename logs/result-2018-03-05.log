@@ -1,0 +1,557 @@
+[2018-03-05T18:05:43.753] [INFO] default - On prepare started
+[2018-03-05T18:05:46.055] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-05T18:05:46.058] [INFO] result - 
+[2018-03-05T18:05:46.059] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-05T18:05:46.060] [INFO] result - 
+[2018-03-05T18:05:46.061] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-05T18:05:46.062] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:05:52.994] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-05T18:05:54.197] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-03-05T18:05:54.205] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m8 s[29m)[39m
+[2018-03-05T18:05:54.205] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-05T18:05:54.205] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-05T18:05:54.205] [INFO] result - 
+[2018-03-05T18:05:54.205] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-05T18:05:54.205] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-05T18:05:54.205] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-05T18:05:54.205] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-05T18:05:54.210] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-05T18:05:54.210] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:05:54.210] [INFO] result - 		[90m[9m#  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:05:54.210] [INFO] result - 
+[2018-03-05T18:05:54.210] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-05T18:05:54.210] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-05T18:05:54.210] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-05T18:05:54.215] [INFO] result - 
+[2018-03-05T18:05:54.215] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-05T18:05:54.216] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-05T18:05:54.218] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-05T18:05:54.219] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:05:54.220] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:05:54.220] [INFO] result - 
+[2018-03-05T18:05:54.224] [INFO] result - 
+[2018-03-05T18:05:54.224] [INFO] result - **************************************************
+[2018-03-05T18:05:54.224] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-05T18:05:54.225] [INFO] result - **************************************************
+[2018-03-05T18:05:54.225] [INFO] result - 
+[2018-03-05T18:05:54.225] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m8 s[29m[39m[23m
+[2018-03-05T18:05:54.226] [INFO] result - 
+[2018-03-05T18:05:54.226] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-03-05T18:05:54.226] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-03-05T18:05:54.227] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-05T18:05:54.227] [INFO] result - 
+[2018-03-05T18:05:54.503] [INFO] result - [[90m18:05:54[39m] I/launcher -
+[2018-03-05T18:15:06.557] [INFO] default - On prepare started
+[2018-03-05T18:15:08.262] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-05T18:15:08.267] [INFO] result - 
+[2018-03-05T18:15:08.267] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-05T18:15:08.267] [INFO] result - 
+[2018-03-05T18:15:08.267] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-05T18:15:08.267] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:15:12.482] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-03-05T18:15:14.799] [INFO] default - Number of similar movies is 12
+[2018-03-05T18:15:15.359] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-03-05T18:15:16.166] [INFO] default - Подобный фильм включает такие жанры Action,Adventure,Science Fiction,Fantasy
+[2018-03-05T18:15:16.234] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-03-05T18:15:16.244] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m8 s[29m)[39m
+[2018-03-05T18:15:16.246] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-05T18:15:16.247] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-05T18:15:16.248] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-05T18:15:16.249] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-05T18:15:16.251] [INFO] result - 
+[2018-03-05T18:15:16.252] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-05T18:15:16.253] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-05T18:15:16.254] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-05T18:15:16.255] [INFO] result - 
+[2018-03-05T18:15:16.256] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-05T18:15:16.257] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-05T18:15:16.258] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-05T18:15:16.259] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:15:16.260] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:15:16.263] [INFO] result - 
+[2018-03-05T18:15:16.263] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-05T18:15:16.264] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-05T18:15:16.267] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-05T18:15:16.268] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:15:16.268] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:15:16.269] [INFO] result - 
+[2018-03-05T18:15:16.272] [INFO] result - 
+[2018-03-05T18:15:16.273] [INFO] result - **************************************************
+[2018-03-05T18:15:16.273] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-05T18:15:16.273] [INFO] result - **************************************************
+[2018-03-05T18:15:16.274] [INFO] result - 
+[2018-03-05T18:15:16.274] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m8 s[29m[39m[23m
+[2018-03-05T18:15:16.274] [INFO] result - 
+[2018-03-05T18:15:16.274] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-03-05T18:15:16.275] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-03-05T18:15:16.275] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-05T18:15:16.275] [INFO] result - 
+[2018-03-05T18:15:16.468] [INFO] result - [[90m18:15:16[39m] I/launcher -
+[2018-03-05T18:15:38.794] [INFO] default - On prepare started
+[2018-03-05T18:15:40.210] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-05T18:15:40.215] [INFO] result - 
+[2018-03-05T18:15:40.215] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-05T18:15:40.215] [INFO] result - 
+[2018-03-05T18:15:40.215] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-05T18:15:40.215] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:15:46.382] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-05T18:15:48.015] [INFO] result - 		[31m[9m✗  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m8 s[29m)[39m
+[2018-03-05T18:15:48.015] [INFO] result - 			[31m- [39m[31mFailed: ECONNREFUSED connect ECONNREFUSED 127.0.0.1:63999[39m
+[2018-03-05T18:15:48.016] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-05T18:15:48.017] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-05T18:15:48.018] [INFO] result - 
+[2018-03-05T18:15:48.018] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-05T18:15:48.019] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-05T18:15:48.019] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-05T18:15:48.020] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-05T18:15:48.020] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-05T18:15:48.020] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:15:48.021] [INFO] result - 		[90m[9m#  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:15:48.021] [INFO] result - 
+[2018-03-05T18:15:48.022] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-05T18:15:48.022] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-05T18:15:48.022] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-05T18:15:48.024] [INFO] result - 
+[2018-03-05T18:15:48.024] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-05T18:15:48.024] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-05T18:15:48.025] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-05T18:15:48.025] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:15:48.026] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:15:48.026] [INFO] result - 
+[2018-03-05T18:15:48.034] [INFO] result - 
+[2018-03-05T18:15:48.035] [INFO] result - **************************************************
+[2018-03-05T18:15:48.036] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-05T18:15:48.036] [INFO] result - **************************************************
+[2018-03-05T18:15:48.037] [INFO] result - 
+[2018-03-05T18:15:48.037] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m8 s[29m[39m[23m
+[2018-03-05T18:15:48.038] [INFO] result - 
+[2018-03-05T18:15:48.038] [INFO] result - 	[32mPASSED   0 ( 0% )[39m
+[2018-03-05T18:15:48.038] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-03-05T18:15:48.040] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-05T18:15:48.041] [INFO] result - 
+[2018-03-05T18:15:48.042] [INFO] result - 
+[2018-03-05T18:15:48.043] [INFO] result - **************************************************
+[2018-03-05T18:15:48.043] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-03-05T18:15:48.043] [INFO] result - **************************************************
+[2018-03-05T18:15:48.044] [INFO] result - 
+[2018-03-05T18:15:48.044] [INFO] result - 1) [1mmovie-finders tests Popular series should have "First Air Date" instead "Release Date"[22m
+[2018-03-05T18:15:48.044] [INFO] result - 	[31m- [39m[31mFailed: ECONNREFUSED connect ECONNREFUSED 127.0.0.1:63999[39m
+[2018-03-05T18:15:48.045] [INFO] result - 	[31m    at ClientRequest.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\selenium-webdriver\http\index.js:238:15)
+    at ClientRequest.emit (events.js:160:13)
+    at Socket.socketErrorListener (_http_client.js:389:9)
+    at Socket.emit (events.js:160:13)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at process._tickCallback (internal/process/next_tick.js:152:19)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:831:22)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:112:42
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:3:12)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\pages\homepage.ts:111:24
+    at arr.map (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\node_modules\protractor\built\element.js:628:33)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:136:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:125:20)[39m
+[2018-03-05T18:15:48.045] [INFO] result - 
+[2018-03-05T18:15:48.252] [INFO] result - [[90m18:15:48[39m] I/launcher -
+[2018-03-05T18:17:51.530] [INFO] default - On prepare started
+[2018-03-05T18:17:53.029] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-05T18:17:53.029] [INFO] result - 
+[2018-03-05T18:17:53.034] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-05T18:17:53.034] [INFO] result - 
+[2018-03-05T18:17:53.034] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-05T18:17:53.034] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:17:59.687] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-05T18:18:01.443] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-03-05T18:18:01.452] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m8 s[29m)[39m
+[2018-03-05T18:18:01.452] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-05T18:18:01.453] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-05T18:18:01.454] [INFO] result - 
+[2018-03-05T18:18:01.455] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-05T18:18:01.455] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-05T18:18:01.456] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-05T18:18:01.456] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-05T18:18:01.457] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-05T18:18:01.458] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:18:01.458] [INFO] result - 		[90m[9m#  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:18:01.459] [INFO] result - 
+[2018-03-05T18:18:01.459] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-05T18:18:01.459] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-05T18:18:01.460] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-05T18:18:01.460] [INFO] result - 
+[2018-03-05T18:18:01.461] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-05T18:18:01.461] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-05T18:18:01.463] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-05T18:18:01.463] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:18:01.464] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:18:01.465] [INFO] result - 
+[2018-03-05T18:18:01.471] [INFO] result - 
+[2018-03-05T18:18:01.471] [INFO] result - **************************************************
+[2018-03-05T18:18:01.471] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-05T18:18:01.472] [INFO] result - **************************************************
+[2018-03-05T18:18:01.472] [INFO] result - 
+[2018-03-05T18:18:01.472] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m8 s[29m[39m[23m
+[2018-03-05T18:18:01.473] [INFO] result - 
+[2018-03-05T18:18:01.473] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-03-05T18:18:01.473] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-03-05T18:18:01.474] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-05T18:18:01.474] [INFO] result - 
+[2018-03-05T18:18:01.631] [INFO] result - [[90m18:18:01[39m] I/launcher -
+[2018-03-05T18:18:17.705] [INFO] default - On prepare started
+[2018-03-05T18:18:18.961] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-05T18:18:18.961] [INFO] result - 
+[2018-03-05T18:18:18.961] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-05T18:18:18.961] [INFO] result - 
+[2018-03-05T18:18:18.966] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-05T18:18:18.966] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:18:28.279] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-05T18:18:30.946] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-03-05T18:18:30.956] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m12 s[29m)[39m
+[2018-03-05T18:18:30.956] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-05T18:18:30.957] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-05T18:18:30.958] [INFO] result - 
+[2018-03-05T18:18:30.959] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-05T18:18:30.959] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-05T18:18:30.959] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-05T18:18:30.960] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-05T18:18:30.961] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-05T18:18:30.961] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:18:30.962] [INFO] result - 		[90m[9m#  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:18:30.962] [INFO] result - 
+[2018-03-05T18:18:30.962] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-05T18:18:30.963] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-05T18:18:30.963] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-05T18:18:30.965] [INFO] result - 
+[2018-03-05T18:18:30.966] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-05T18:18:30.966] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-05T18:18:30.969] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-05T18:18:30.970] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:18:30.972] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:18:30.972] [INFO] result - 
+[2018-03-05T18:18:30.980] [INFO] result - 
+[2018-03-05T18:18:30.980] [INFO] result - **************************************************
+[2018-03-05T18:18:30.981] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-05T18:18:30.981] [INFO] result - **************************************************
+[2018-03-05T18:18:30.981] [INFO] result - 
+[2018-03-05T18:18:30.982] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m12 s[29m[39m[23m
+[2018-03-05T18:18:30.982] [INFO] result - 
+[2018-03-05T18:18:30.982] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-03-05T18:18:30.983] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-03-05T18:18:30.983] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-05T18:18:30.983] [INFO] result - 
+[2018-03-05T18:18:31.455] [INFO] result - [[90m18:18:31[39m] I/launcher -
+[2018-03-05T18:18:40.595] [INFO] default - On prepare started
+[2018-03-05T18:18:41.849] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-05T18:18:41.849] [INFO] result - 
+[2018-03-05T18:18:41.849] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-05T18:18:41.854] [INFO] result - 
+[2018-03-05T18:18:41.854] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-05T18:18:41.854] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:18:46.377] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-05T18:18:47.606] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-03-05T18:18:47.611] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m6 s[29m)[39m
+[2018-03-05T18:18:47.611] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-05T18:18:47.611] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-05T18:18:47.611] [INFO] result - 
+[2018-03-05T18:18:47.616] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-05T18:18:47.616] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-05T18:18:47.617] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-05T18:18:47.617] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-05T18:18:47.618] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-05T18:18:47.618] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:18:47.619] [INFO] result - 		[90m[9m#  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:18:47.619] [INFO] result - 
+[2018-03-05T18:18:47.619] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-05T18:18:47.620] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-05T18:18:47.620] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-05T18:18:47.620] [INFO] result - 
+[2018-03-05T18:18:47.620] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-05T18:18:47.621] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-05T18:18:47.623] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-05T18:18:47.623] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:18:47.624] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:18:47.624] [INFO] result - 
+[2018-03-05T18:18:47.628] [INFO] result - 
+[2018-03-05T18:18:47.628] [INFO] result - **************************************************
+[2018-03-05T18:18:47.628] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-05T18:18:47.628] [INFO] result - **************************************************
+[2018-03-05T18:18:47.629] [INFO] result - 
+[2018-03-05T18:18:47.629] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m6 s[29m[39m[23m
+[2018-03-05T18:18:47.629] [INFO] result - 
+[2018-03-05T18:18:47.629] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-03-05T18:18:47.630] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-03-05T18:18:47.630] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-05T18:18:47.630] [INFO] result - 
+[2018-03-05T18:18:47.838] [INFO] result - [[90m18:18:47[39m] I/launcher -
+[2018-03-05T18:19:00.462] [INFO] default - On prepare started
+[2018-03-05T18:19:01.887] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-05T18:19:01.888] [INFO] result - 
+[2018-03-05T18:19:01.888] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-05T18:19:01.888] [INFO] result - 
+[2018-03-05T18:19:01.888] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-05T18:19:01.888] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:19:07.291] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-05T18:19:08.513] [INFO] result - 		[31m[9m✗  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m7 s[29m)[39m
+[2018-03-05T18:19:08.513] [INFO] result - 			[31m- [39m[31mFailed: expected 20 to equal 0[39m
+[2018-03-05T18:19:08.518] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-05T18:19:08.518] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-05T18:19:08.518] [INFO] result - 
+[2018-03-05T18:19:08.518] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-05T18:19:08.518] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-05T18:19:08.518] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-05T18:19:08.518] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-05T18:19:08.518] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-05T18:19:08.523] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:19:08.523] [INFO] result - 		[90m[9m#  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:19:08.523] [INFO] result - 
+[2018-03-05T18:19:08.523] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-05T18:19:08.526] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-05T18:19:08.527] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-05T18:19:08.527] [INFO] result - 
+[2018-03-05T18:19:08.528] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-05T18:19:08.528] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-05T18:19:08.530] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-05T18:19:08.530] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:19:08.531] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:19:08.531] [INFO] result - 
+[2018-03-05T18:19:08.537] [INFO] result - 
+[2018-03-05T18:19:08.537] [INFO] result - **************************************************
+[2018-03-05T18:19:08.537] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-05T18:19:08.537] [INFO] result - **************************************************
+[2018-03-05T18:19:08.538] [INFO] result - 
+[2018-03-05T18:19:08.538] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m7 s[29m[39m[23m
+[2018-03-05T18:19:08.538] [INFO] result - 
+[2018-03-05T18:19:08.539] [INFO] result - 	[32mPASSED   0 ( 0% )[39m
+[2018-03-05T18:19:08.539] [INFO] result - 	[31mFAILED   1 ( 12.5% )[39m
+[2018-03-05T18:19:08.539] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-05T18:19:08.540] [INFO] result - 
+[2018-03-05T18:19:08.540] [INFO] result - 
+[2018-03-05T18:19:08.541] [INFO] result - **************************************************
+[2018-03-05T18:19:08.541] [INFO] result - *                   [7m[1m Failures [22m[27m                   *
+[2018-03-05T18:19:08.541] [INFO] result - **************************************************
+[2018-03-05T18:19:08.542] [INFO] result - 
+[2018-03-05T18:19:08.542] [INFO] result - 1) [1mmovie-finders tests Popular series should have "First Air Date" instead "Release Date"[22m
+[2018-03-05T18:19:08.542] [INFO] result - 	[31m- [39m[31mFailed: expected 20 to equal 0[39m
+[2018-03-05T18:19:08.543] [INFO] result - 	[31m    at UserContext.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:144:58)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:4:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:136:17)
+    at Generator.next (<anonymous>)
+    at C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:3:12)
+    at Suite.<anonymous> (C:\Users\Alek\Documents\GitHub\5-startit-movie-finder-delfin123\Hometask5\lesson5task.ts:125:20)[39m
+[2018-03-05T18:19:08.544] [INFO] result - 
+[2018-03-05T18:19:08.701] [INFO] result - [[90m18:19:08[39m] I/launcher -
+[2018-03-05T18:19:54.355] [INFO] default - On prepare started
+[2018-03-05T18:19:55.861] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-05T18:19:55.867] [INFO] result - 
+[2018-03-05T18:19:55.867] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-05T18:19:55.868] [INFO] result - 
+[2018-03-05T18:19:55.869] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-05T18:19:55.870] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:20:01.351] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-05T18:20:02.990] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-03-05T18:20:02.998] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m7 s[29m)[39m
+[2018-03-05T18:20:02.999] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-05T18:20:03.000] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-05T18:20:03.000] [INFO] result - 
+[2018-03-05T18:20:03.001] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-05T18:20:03.001] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-05T18:20:03.002] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-05T18:20:03.003] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-05T18:20:03.003] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-05T18:20:03.004] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:20:03.004] [INFO] result - 		[90m[9m#  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:20:03.005] [INFO] result - 
+[2018-03-05T18:20:03.005] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-05T18:20:03.006] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-05T18:20:03.006] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-05T18:20:03.008] [INFO] result - 
+[2018-03-05T18:20:03.008] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-05T18:20:03.008] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-05T18:20:03.010] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-05T18:20:03.011] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:20:03.012] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:20:03.013] [INFO] result - 
+[2018-03-05T18:20:03.017] [INFO] result - 
+[2018-03-05T18:20:03.017] [INFO] result - **************************************************
+[2018-03-05T18:20:03.018] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-05T18:20:03.018] [INFO] result - **************************************************
+[2018-03-05T18:20:03.018] [INFO] result - 
+[2018-03-05T18:20:03.019] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m7 s[29m[39m[23m
+[2018-03-05T18:20:03.019] [INFO] result - 
+[2018-03-05T18:20:03.020] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-03-05T18:20:03.020] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-03-05T18:20:03.020] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-05T18:20:03.020] [INFO] result - 
+[2018-03-05T18:20:03.313] [INFO] result - [[90m18:20:03[39m] I/launcher -
+[2018-03-05T18:20:13.245] [INFO] default - On prepare started
+[2018-03-05T18:20:14.494] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-05T18:20:14.494] [INFO] result - 
+[2018-03-05T18:20:14.494] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-05T18:20:14.494] [INFO] result - 
+[2018-03-05T18:20:14.494] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-05T18:20:14.499] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:20:19.483] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-03-05T18:20:21.171] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-03-05T18:20:21.176] [INFO] result - 		[32m[9m✓  [29m[39mshould have "First Air Date" instead "Release Date"[90m ([9m7 s[29m)[39m
+[2018-03-05T18:20:21.177] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-05T18:20:21.178] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-05T18:20:21.179] [INFO] result - 
+[2018-03-05T18:20:21.179] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-05T18:20:21.180] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-05T18:20:21.181] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-05T18:20:21.181] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-05T18:20:21.182] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-05T18:20:21.182] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:20:21.183] [INFO] result - 		[90m[9m#  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:20:21.183] [INFO] result - 
+[2018-03-05T18:20:21.184] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-05T18:20:21.184] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-05T18:20:21.185] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-05T18:20:21.185] [INFO] result - 
+[2018-03-05T18:20:21.186] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-05T18:20:21.186] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-05T18:20:21.188] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-05T18:20:21.188] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:20:21.188] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:20:21.189] [INFO] result - 
+[2018-03-05T18:20:21.192] [INFO] result - 
+[2018-03-05T18:20:21.192] [INFO] result - **************************************************
+[2018-03-05T18:20:21.192] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-05T18:20:21.192] [INFO] result - **************************************************
+[2018-03-05T18:20:21.192] [INFO] result - 
+[2018-03-05T18:20:21.193] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m7 s[29m[39m[23m
+[2018-03-05T18:20:21.193] [INFO] result - 
+[2018-03-05T18:20:21.193] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-03-05T18:20:21.193] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-03-05T18:20:21.194] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-05T18:20:21.194] [INFO] result - 
+[2018-03-05T18:20:21.376] [INFO] result - [[90m18:20:21[39m] I/launcher -
+[2018-03-05T18:21:37.484] [INFO] default - On prepare started
+[2018-03-05T18:21:39.497] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-05T18:21:39.502] [INFO] result - 
+[2018-03-05T18:21:39.502] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-05T18:21:39.502] [INFO] result - 
+[2018-03-05T18:21:39.502] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-05T18:21:39.502] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:21:44.252] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-03-05T18:21:46.204] [INFO] default - Number of similar movies is 12
+[2018-03-05T18:21:46.759] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-03-05T18:21:47.779] [INFO] default - Подобный фильм включает такие жанры Action,Adventure,Science Fiction,Fantasy
+[2018-03-05T18:21:47.779] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-03-05T18:21:47.784] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m8 s[29m)[39m
+[2018-03-05T18:21:47.784] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-05T18:21:47.789] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-05T18:21:47.789] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-05T18:21:47.789] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-05T18:21:47.789] [INFO] result - 
+[2018-03-05T18:21:47.789] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-05T18:21:47.789] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-05T18:21:47.789] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-05T18:21:47.789] [INFO] result - 
+[2018-03-05T18:21:47.794] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-05T18:21:47.794] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-05T18:21:47.794] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-05T18:21:47.794] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:21:47.794] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:21:47.794] [INFO] result - 
+[2018-03-05T18:21:47.794] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-05T18:21:47.794] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-05T18:21:47.799] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-05T18:21:47.799] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:21:47.799] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:21:47.799] [INFO] result - 
+[2018-03-05T18:21:47.799] [INFO] result - 
+[2018-03-05T18:21:47.799] [INFO] result - **************************************************
+[2018-03-05T18:21:47.799] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-05T18:21:47.799] [INFO] result - **************************************************
+[2018-03-05T18:21:47.804] [INFO] result - 
+[2018-03-05T18:21:47.804] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m8 s[29m[39m[23m
+[2018-03-05T18:21:47.804] [INFO] result - 
+[2018-03-05T18:21:47.804] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-03-05T18:21:47.804] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-03-05T18:21:47.804] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-05T18:21:47.804] [INFO] result - 
+[2018-03-05T18:21:47.956] [INFO] result - [[90m18:21:47[39m] I/launcher -
+[2018-03-05T18:22:06.817] [INFO] default - On prepare started
+[2018-03-05T18:22:08.079] [INFO] result - [7m[1m
+ JASMINE STARTING: 
+[22m[27m
+[2018-03-05T18:22:08.084] [INFO] result - 
+[2018-03-05T18:22:08.084] [INFO] result - [36m[9m» [29m[39m[1mmovie-finders tests[22m
+[2018-03-05T18:22:08.084] [INFO] result - 
+[2018-03-05T18:22:08.084] [INFO] result - 	[36m[9m» [29m[39m[1mMovie details[22m
+[2018-03-05T18:22:08.084] [INFO] result - 		[90m[9m▻  [29m[39mshould have simular movies block with atleast one movie
+[2018-03-05T18:22:12.879] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-03-05T18:22:14.815] [INFO] default - Number of similar movies is 12
+[2018-03-05T18:22:15.355] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-03-05T18:22:16.479] [INFO] default - Подобный фильм включает такие жанры Action,Adventure,Science Fiction,Fantasy
+[2018-03-05T18:22:16.479] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-03-05T18:22:16.484] [INFO] result - 		[32m[9m✓  [29m[39mshould have simular movies block with atleast one movie[90m ([9m8 s[29m)[39m
+[2018-03-05T18:22:16.489] [INFO] result - 		[90m[9m▻  [29m[39mshould have movie name as header
+[2018-03-05T18:22:16.489] [INFO] result - 		[90m[9m#  [29m[39mshould have movie name as header
+[2018-03-05T18:22:16.489] [INFO] result - 		[90m[9m▻  [29m[39mshould have raiting
+[2018-03-05T18:22:16.489] [INFO] result - 		[90m[9m#  [29m[39mshould have raiting
+[2018-03-05T18:22:16.489] [INFO] result - 
+[2018-03-05T18:22:16.489] [INFO] result - 	[36m[9m» [29m[39m[1mcast block[22m
+[2018-03-05T18:22:16.489] [INFO] result - 		[90m[9m▻  [29m[39mshould show atleast one actor
+[2018-03-05T18:22:16.489] [INFO] result - 		[90m[9m#  [29m[39mshould show atleast one actor
+[2018-03-05T18:22:16.489] [INFO] result - 
+[2018-03-05T18:22:16.489] [INFO] result - 	[36m[9m» [29m[39m[1mreviews block[22m
+[2018-03-05T18:22:16.494] [INFO] result - 		[90m[9m▻  [29m[39mshould be atleast one review
+[2018-03-05T18:22:16.494] [INFO] result - 		[90m[9m#  [29m[39mshould be atleast one review
+[2018-03-05T18:22:16.494] [INFO] result - 		[90m[9m▻  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:22:16.494] [INFO] result - 		[90m[9m#  [29m[39mshould have reviewer name as link to source
+[2018-03-05T18:22:16.497] [INFO] result - 
+[2018-03-05T18:22:16.497] [INFO] result - 	[36m[9m» [29m[39m[1mPopular series[22m
+[2018-03-05T18:22:16.498] [INFO] result - 		[90m[9m▻  [29m[39mshouldnt have search bar
+[2018-03-05T18:22:16.499] [INFO] result - 		[90m[9m#  [29m[39mshouldnt have search bar
+[2018-03-05T18:22:16.500] [INFO] result - 		[90m[9m▻  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:22:16.500] [INFO] result - 		[90m[9m#  [29m[39mshould have "First Air Date" instead "Release Date"
+[2018-03-05T18:22:16.501] [INFO] result - 
+[2018-03-05T18:22:16.505] [INFO] result - 
+[2018-03-05T18:22:16.505] [INFO] result - **************************************************
+[2018-03-05T18:22:16.505] [INFO] result - *                   [7m[1m Summary [22m[27m                    *
+[2018-03-05T18:22:16.506] [INFO] result - **************************************************
+[2018-03-05T18:22:16.506] [INFO] result - 
+[2018-03-05T18:22:16.506] [INFO] result - [3m[90mExecuted [39m[9m1[29m[90m out of [39m[9m8[29m[90m specs [39m[90min [39m[90m[9m8 s[29m[39m[23m
+[2018-03-05T18:22:16.507] [INFO] result - 
+[2018-03-05T18:22:16.507] [INFO] result - 	[32mPASSED   1 ( 12.5% )[39m
+[2018-03-05T18:22:16.508] [INFO] result - 	[31mFAILED   0 ( 0% )[39m
+[2018-03-05T18:22:16.508] [INFO] result - 	[33mSKIPPED  7 ( 87.5% )[39m
+[2018-03-05T18:22:16.508] [INFO] result - 
+[2018-03-05T18:22:16.683] [INFO] result - [[90m18:22:16[39m] I/launcher -

@@ -36,33 +36,21 @@ describe('Movie details', async function () {
             logger.info('The raiting of film is '+ await raiting)            //Output the received value of the rating in the console    
     })
 
-    it('should have simular movies block with atleast one movie', async function () {
+    fit('should have simular movies block with atleast one movie', async function () {
         logger.info('Начало теста на проверку наличия подобных фильмов')
         let search_request = 'Wing Commander'
         await homepage.searchOfMovie(search_request)
         await homepage.chooseFilmAtSearchResult(0)
         expect(await homepage.similarFilmsMovie.count()).to.be.above(0)                              //received number of films that are similar to the one found must be greater than 0
         logger.info("Number of similar movies is" +' '+ await homepage.similarFilmsMovie.count())    //output to a console the quantity of similar films to the searched film on a site                        
-        let ganresoffilm = await Promise.all(await homepage.movieCardGanre.map(async function (element){   //check if the films found are similar                  
-            return await element.getText()                                                                //for this we get the names of all genres of searched film
-        }))
+        let ganresoffilm = await homepage.massiveOfElementsTexts(homepage.movieCardGanre)
         logger.info('Искомый фильм включает такие жанры ' + ganresoffilm)                     //and output them in the console                                                                
         await homepage.similarFilmLink.get(7).click()                                      //Next, go to the page of the 8th movie, which is shown on the site as similar
         await homepage.waitForCategoriesVisibility()                                              
-        let ganresofsimilarfilm = await Promise.all(await homepage.movieCardGanre.map(async function (element2){
-            return await element2.getText()                                                                //and get the values of all its genres
-        })) 
+        let ganresofsimilarfilm = await homepage.massiveOfElementsTexts(homepage.movieCardGanre)
         logger.info('Подобный фильм включает такие жанры '+ ganresofsimilarfilm)                      //and output them to the console                                                                             
-        async function Intersec(arr1,arr2){                                                           //create a function that compares the values of two arrays
-            let idx = 0, arr3 = [];                                                                   //and the same values of genres of both films are enter into a separate array of arr3
-            for (let i = 0; i < arr2.length; i++){
-                idx = arr1.indexOf(arr2[i]);
-                if (await idx >= 0) arr3.push(arr2[i]);
-            }
-            return arr3;
-        }
-        expect(await Intersec(ganresoffilm,ganresofsimilarfilm)).not.to.be.empty                                //received arr 3 must not be empty              
-        logger.info('Фильмы совпадают по таким жанрам: '+ await Intersec(ganresoffilm,ganresofsimilarfilm))     //and bring to the console genres for which the movies match
+        expect(await homepage.compare2Massives(ganresoffilm,ganresofsimilarfilm)).not.to.be.empty                                //received arr 3 must not be empty              
+        logger.info('Фильмы совпадают по таким жанрам: '+ await homepage.compare2Massives(ganresoffilm,ganresofsimilarfilm))     //and bring to the console genres for which the movies match
     })
    
 })
@@ -130,17 +118,8 @@ describe('Popular series', async function () {
         let fraze = "First Air Date"
         await homepage.popularMoviesButton.click()
         await homepage.waitForPopularMoviesVisibility()
-        let massive = await Promise.all(await $$(`.text-ellipsis+p strong`).map(async function(element){
-            return await element.getText()
-        }))
-        async function compare(a,b){
-            let arr1 =[]
-            for(let i = 0; i < a.length; i++){
-            if(a[i].indexOf(b)>=0) arr1.push(a[i])
-            }
-            return arr1;
-            }
-        let massive2 =await Promise.all(await compare(massive,fraze))
+        let massive = await homepage.massiveOfElementsTexts(homepage.popularSeriesMovieAir)
+        let massive2 =await Promise.all(await homepage.compareMassiveWithFraze(massive,fraze))
         expect(massive.length).to.equal(massive2.length)
         logger.info('Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -'+ await homepage.popularSeriesMovieAir.count())     //display in the console the number of popular movies on this page
     })

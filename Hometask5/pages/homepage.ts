@@ -102,6 +102,26 @@ export class HomePage {
         EC.visibilityOf(this.popularSeriesBlock),
         EC.visibilityOf(this.categoryOfFilmsTitle)),20000,'4 Elements not appeared')
     }
+    async compareMassiveWithFraze(massive,fraze){
+            let arr1 =[]
+            for(let i = 0; i < massive.length; i++){
+            if(await massive[i].indexOf(fraze)>=0) await arr1.push(massive[i])
+            }
+            return await arr1;
+            }
+    async massiveOfElementsTexts(selector){
+        return await Promise.all(await selector.map(async function(element){
+            return await element.getText()
+        }))
+    }
+    async compare2Massives(arr1,arr2){                                                  
+            let idx = 0, arr3 = [];                                                                  
+            for (let i = 0; i < arr2.length; i++){
+                idx = arr1.indexOf(arr2[i]);
+                if (await idx >= 0) await arr3.push(arr2[i]);
+            }
+            return await arr3;
+        }
 }
 
 export class Navigation {
