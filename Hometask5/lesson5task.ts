@@ -36,7 +36,7 @@ describe('Movie details', async function () {
             logger.info('The raiting of film is '+ await raiting)            //Output the received value of the rating in the console    
     })
 
-    fit('should have simular movies block with atleast one movie', async function () {
+    it('should have simular movies block with atleast one movie', async function () {
         logger.info('Начало теста на проверку наличия подобных фильмов')
         let search_request = 'Wing Commander'
         await homepage.searchOfMovie(search_request)
