@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/StartITProtractorJS/5-startit-movie-finder.svg?branch=master)](https://travis-ci.org/StartITProtractorJS/5-startit-movie-finder)
 # startit movie finder
 
-ProtractorJS+cucumber project
+ProtractorJS+Typescript+Cucumber project
 
 To make sure everything works in this initial repo:
 - clone
