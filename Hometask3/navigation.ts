@@ -1,7 +1,7 @@
 import { browser, $, $$, element, by} from 'protractor'
 import {HomePage} from '../Hometask5/pages/homepage'
 import * as log4js from 'log4js'
-import {Navigation} from '../Hometask5/pages/homepage'
+import {Navigation} from '../Hometask5/pages/navigation'
 const homepage = new HomePage()
 const navigation = new Navigation()
 const logger = log4js.getLogger('default')

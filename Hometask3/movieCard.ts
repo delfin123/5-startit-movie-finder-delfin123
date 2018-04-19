@@ -17,12 +17,12 @@ describe('Movie card ', async function(){
         logger.info("Тест пройден и название фильма "+ await homepage.homepageMovie.get(7).getText())
     })
 
-    it('should have "raiting" pointer', async function(){
+    it('should have "rating" pointer', async function(){
         logger.info('Начало теста на наличие рейтинга у фильма')
         let movies = await homepage.homepagePopularMoviesFilm.count()
-        let raitings = await homepage.homepagePopularMoviesFilmRaiting.count()
-        expect(movies).to.equal(raitings)        
-        logger.info('Тест пройден, количество фильмов - '+ movies+' совпадает с количеством рейтингов фильмов - '+ raitings)   
+        let ratings = await homepage.homepagePopularMoviesFilmRaiting.count()
+        expect(movies).to.equal(ratings)        
+        logger.info('Тест пройден, количество фильмов - '+ movies+' совпадает с количеством рейтингов фильмов - '+ ratings)   
     })
 
     it('should open appropriate "movie details" page, after click on "name" field', async function(){

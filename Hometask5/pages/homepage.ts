@@ -105,7 +105,7 @@ export class HomePage {
     async compareMassiveWithFraze(massive,fraze){
             let arr1 =[]
             for(let i = 0; i < massive.length; i++){
-            if(await massive[i].indexOf(fraze)>=0) await arr1.push(massive[i])
+            if(massive[i].indexOf(fraze)>=0) await arr1.push(massive[i])
             }
             return await arr1;
             }
@@ -121,31 +121,5 @@ export class HomePage {
                 if (await idx >= 0) await arr3.push(arr2[i]);
             }
             return await arr3;
-        }
-}
-
-export class Navigation {
-    
-    private upcomingMoviesBlock = element(By.xpath(`//div[child::h3[contains(.,'Up Coming Movies')]]`))
-    private search = $(`[name="searchStr"]`)
-    private upcomingOrActionMoviesFilm = $$('.col-sm-6>movie-card')
-    private upcomingMoviesTitle =element(By.xpath(`//h3[contains(.,'Up Coming Movies')]`))
-    private actionFilmsTitle = element(By.xpath(`//h3[contains(.,'Action')]`))
-    private ationFilmsBlock = element(By.xpath(`//div[child::h3[contains(.,'Action')]]`))
-
-    async waitforvisibleUpcomingmovies(){
-    await browser.wait(EC.and(
-        EC.visibilityOf(this.upcomingMoviesBlock),
-        EC.visibilityOf(this.search),
-        EC.visibilityOf(this.upcomingOrActionMoviesFilm.first()),
-        EC.visibilityOf(this.upcomingMoviesTitle),
-        EC.visibilityOf(this.upcomingOrActionMoviesFilm.last())),20000, "5 elements should appear")
-    }
-    async waitforvisibleActioncategories(){
-        await browser.wait(EC.and(
-        EC.visibilityOf(this.actionFilmsTitle),
-        EC.visibilityOf(this.ationFilmsBlock),
-        EC.visibilityOf(this.upcomingOrActionMoviesFilm.first()),
-        EC.visibilityOf(this.upcomingOrActionMoviesFilm.last())),20000, 'Should appear 4 elements')
         }
 }
