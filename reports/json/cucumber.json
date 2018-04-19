@@ -1,0 +1,160 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search",
+    "line": 1,
+    "id": "search",
+    "tags": [],
+    "uri": "cucumber\\features\\search.feature",
+    "elements": [
+      {
+        "id": "search;by-exisiting-name,-should-show-first-movie-with-complete-name-match",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "by exisiting name, should show first movie with complete name match",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for film \"Pacific Rim\" on the page",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 855000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Name of the first found film completely match with the name of film \"Pacific Rim\"",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search;results(all-of-them)-should-contain-search-request",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "results(all of them) should contain search request",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on home page",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 771000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I search for film \"Lord of the Rings\" on the page",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 742000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "All search results contains the name \"Lord of the Rings\"",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:91"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1045000000,
+              "error_message": "AssertionError: expected 'The Hunt for Gollum' to include 'Lord of the Rings'\n    at titles.forEach.title (C:\\Users\\Alek\\Documents\\GitHub\\5-startit-movie-finder-delfin123\\cucumber\\step_definitions\\stepDefinitions.ts:94:57)\n    at Array.forEach (<anonymous>)\n    at World.<anonymous> (C:\\Users\\Alek\\Documents\\GitHub\\5-startit-movie-finder-delfin123\\cucumber\\step_definitions\\stepDefinitions.ts:94:16)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Alek\\Documents\\GitHub\\5-startit-movie-finder-delfin123\\cucumber\\step_definitions\\stepDefinitions.ts:4:58)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search;result-should-be-empty,-after-request-for-nonexistent-movie",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "result should be empty, after request for nonexistent movie",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on home page",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 690000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I search for film \"dhcr\" on the page",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1570000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Search  results should be empty",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1016000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

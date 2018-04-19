@@ -1,7 +1,9 @@
 import { browser, element, By, by, until, $, $$, Key, ExpectedConditions as EC } from 'protractor'
 
+
 export class HomePage {
     public search = $(`[name="searchStr"]`)
+    public movieCard = $$('movie-card')
     private topRaitingPopularMoviesBlock = element.all(By.xpath(`//*[@class='row is-flex']`))
     private popularMoviesBlock = $$('.col-sm-3 movie-card img')
     private searchResultName = $('[_ngcontent-c1] .orange-text')
@@ -34,11 +36,10 @@ export class HomePage {
     public movieCardFilmDetails = $$('app-movie .col-md-8 p').get(2)
     public upcomingMoviesButton = $('[routerlink*="upcoming"]')
     public actionCategoryMoviesButton = $(`[href*="Action"]`)
+    public movieDetailsLink = element.all(by.xpath('//div[child::h3]//a[contains(.,"View details")]'))
     
 
     async open(){
-        let originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
-        jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
         await browser.get('/')
         await browser.wait(EC.and(
         EC.visibilityOf(this.search),
@@ -74,6 +75,10 @@ export class HomePage {
         await this.searchResultMovieLink.get(number_of_film).click()
         await this.waitforloadingpagewithfilm()
     }
+    async chooseViewDetailsOfFilm(number_of_film:number){
+        await this.movieDetailsLink.get(number_of_film).click()
+        await this.waitforloadingpagewithfilm()
+    }
     async obtainClearNameOfMovie(){
         await browser.wait(EC.visibilityOf(this.movieCardTitle),20000, 'not appeared')
         let frazefordelete = (await this.movieCardRaiting.getText()).trim().length
@@ -105,7 +110,7 @@ export class HomePage {
     async compareMassiveWithFraze(massive,fraze){
             let arr1 =[]
             for(let i = 0; i < massive.length; i++){
-            if(await massive[i].indexOf(fraze)>=0) await arr1.push(massive[i])
+            if(massive[i].indexOf(fraze)>=0) await arr1.push(massive[i])
             }
             return await arr1;
             }
@@ -121,31 +126,5 @@ export class HomePage {
                 if (await idx >= 0) await arr3.push(arr2[i]);
             }
             return await arr3;
-        }
-}
-
-export class Navigation {
-    
-    private upcomingMoviesBlock = element(By.xpath(`//div[child::h3[contains(.,'Up Coming Movies')]]`))
-    private search = $(`[name="searchStr"]`)
-    private upcomingOrActionMoviesFilm = $$('.col-sm-6>movie-card')
-    private upcomingMoviesTitle =element(By.xpath(`//h3[contains(.,'Up Coming Movies')]`))
-    private actionFilmsTitle = element(By.xpath(`//h3[contains(.,'Action')]`))
-    private ationFilmsBlock = element(By.xpath(`//div[child::h3[contains(.,'Action')]]`))
-
-    async waitforvisibleUpcomingmovies(){
-    await browser.wait(EC.and(
-        EC.visibilityOf(this.upcomingMoviesBlock),
-        EC.visibilityOf(this.search),
-        EC.visibilityOf(this.upcomingOrActionMoviesFilm.first()),
-        EC.visibilityOf(this.upcomingMoviesTitle),
-        EC.visibilityOf(this.upcomingOrActionMoviesFilm.last())),20000, "5 elements should appear")
-    }
-    async waitforvisibleActioncategories(){
-        await browser.wait(EC.and(
-        EC.visibilityOf(this.actionFilmsTitle),
-        EC.visibilityOf(this.ationFilmsBlock),
-        EC.visibilityOf(this.upcomingOrActionMoviesFilm.first()),
-        EC.visibilityOf(this.upcomingOrActionMoviesFilm.last())),20000, 'Should appear 4 elements')
         }
 }

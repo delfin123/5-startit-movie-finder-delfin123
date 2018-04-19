@@ -9,6 +9,8 @@
     "test2": "protractor ./Hometask3/protractor.conf.js --directConnect=true",
     "test-travis": "protractor ./Hometask5/protractor.conf.js --seleniumAddress=\"http://ip-5236.sunline.net.ua:4444/wd/hub\"",
     "test-cucumber": "protractor ./cucumber/protractor.conf.js",
+    "report": "node index.js",
+    "test-cucumber2": "npm-run-all test-cucumber report --continue-on-error",
     "test-mocha": "protractor ./mochajs/protractor.conf.js"
   },
   "dependencies": {
@@ -30,6 +32,9 @@
     "protractor": "5.3.0",
     "protractor-cucumber-framework": "^4.2.0",
     "ts-node": "5.0.0",
-    "typescript": "^2.6.2"
+    "typescript": "^2.6.2",
+    "cucumber-html-reporter": "4.0.2",
+    "npm-run-all": "4.1.2",
+    "tslint": "^5.9.1"
   }
 }

@@ -1,16 +1,14 @@
 [![Build Status](https://travis-ci.org/StartITProtractorJS/5-startit-movie-finder.svg?branch=master)](https://travis-ci.org/StartITProtractorJS/5-startit-movie-finder)
 # startit movie finder
-Working project for startit students
 
+ProtractorJS+cucumber project
 
 To make sure everything works in this initial repo:
 - clone
 - do `npm install` in root of this repo
-- do `npm test` for run Homatask 5
-- do `npm run test2` for run Hometask 3
-- do `npm run test-travis` for run Hometask 5 using Travis CI
-- do `npm run test-cucumber` for running tests which use cucumber
-- do `npm run test-mocha` for running test which use mocha
+- do `npm run test-cucumber2` for run tests with html report
+- do `npm run test-cucumber` for run tests without html report
+
 
 - you should see chrome browser blinking, and something like this in console:
 ```
