@@ -12,5 +12,5 @@ Scenario: Movie card should have "rating" pointer
 
 Scenario: Should open appropriate "movie details" page after click on "name" field of the movie card
     Given user on home page
-    Then user is searching for the movie "Spirited Away" on the page
+    Then user searches for the movie "Spirited Away" on the page
     Then after click on movie details user expects that appropriate "movie details" page for this movie is opened

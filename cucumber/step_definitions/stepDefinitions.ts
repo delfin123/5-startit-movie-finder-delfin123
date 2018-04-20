@@ -27,7 +27,7 @@ Then(/^user expects that movie cards have rating pointer$/, async function () {
     expect(movies).to.equal(raitings)        
 });
 
-Then(/^user is searching for the movie "(.*?)" on the page$/, async function(requested_film){
+Then(/^user searches for the movie "(.*?)" on the page$/, async function(requested_film){
     await homepage.searchOfMovie(requested_film)
 });
 
