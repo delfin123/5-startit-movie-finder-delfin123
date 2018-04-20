@@ -19,52 +19,52 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 3898000000
+              "duration": 4501000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I search for film \"Lord of the Rings\" on the page",
+            "name": "user is searching for the movie \"The Lord of the Rings\" on the page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 790000000
+              "duration": 825000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "I choose 1 film at search results",
+            "name": "user chooses the 1 in a block movie in search results",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:102"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:92"
             },
             "result": {
               "status": "passed",
-              "duration": 1298000000
+              "duration": 1180000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 7,
-            "name": "I see that images of actors on the page more than 0",
+            "name": "user expects that images of actors are present on the page in quantity more than 0",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:133"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:123"
             },
             "result": {
               "status": "passed",
-              "duration": 21000000
+              "duration": 16000000
             }
           }
         ]
@@ -81,52 +81,52 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 10,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 846000000
+              "duration": 973000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "I search for film \"Thor 3\" on the page",
+            "name": "user is searching for the movie \"Thor 3\" on the page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 589000000
+              "duration": 677000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "I choose 2 film at search results",
+            "name": "user chooses the 2 in a block movie in search results",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:102"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:92"
             },
             "result": {
               "status": "passed",
-              "duration": 1003000000
+              "duration": 998000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 13,
-            "name": "I see that review block contains at least 1 review and has some text",
+            "name": "user expects that review block contains at least 1 review and has some text",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:138"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:128"
             },
             "result": {
               "status": "passed",
-              "duration": 55000000
+              "duration": 43000000
             }
           }
         ]
@@ -143,65 +143,65 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 16,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 823000000
+              "duration": 701000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 17,
-            "name": "I search for film \"Pacific Rim\" on the page",
+            "name": "user is searching for the movie \"Pacific Rim\" on the page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 1002000000
+              "duration": 595000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "I choose 1 film at search results",
+            "name": "user chooses the 1 in a block movie in search results",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:102"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:92"
             },
             "result": {
               "status": "passed",
-              "duration": 754000000
+              "duration": 725000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 19,
-            "name": "I see that review block contains at least 1 review and the first review contain outer link",
+            "name": "user expects that review block contains at least 1 review and the first review contain outer link",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:144"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:134"
             },
             "result": {
               "status": "passed",
-              "duration": 54000000
+              "duration": 34000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 20,
-            "name": "I can follow this outer link and verify that it works and has some content",
+            "name": "user follows this outer link and verify that it works and has some content",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:150"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:140"
             },
             "result": {
               "status": "passed",
-              "duration": 1215000000
+              "duration": 1240000000
             }
           }
         ]
@@ -228,52 +228,52 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 691000000
+              "duration": 682000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I search for film \"The Maze Runner\" on the page",
+            "name": "user is searching for the movie \"The Maze Runner\" on the page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 593000000
+              "duration": 689000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "I choose 1 film at search results",
+            "name": "user chooses the 1 in a block movie in search results",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:102"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:92"
             },
             "result": {
               "status": "passed",
-              "duration": 662000000
+              "duration": 740000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 7,
-            "name": "The name of film \"The Maze Runner\" should be as a header",
+            "name": "user expects that the name of film \"The Maze Runner\" should be as a header",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:107"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:97"
             },
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 76000000
             }
           }
         ]
@@ -290,52 +290,52 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 10,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 685000000
+              "duration": 672000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "I search for film \"Matrix\" on the page",
+            "name": "user is searching for the movie \"Matrix\" on the page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 567000000
+              "duration": 579000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "I choose 1 film at search results",
+            "name": "user chooses the 1 in a block movie in search results",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:102"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:92"
             },
             "result": {
               "status": "passed",
-              "duration": 842000000
+              "duration": 784000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 13,
-            "name": "I see the rating of film",
+            "name": "user expects that rating of film is present on the page",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:113"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:103"
             },
             "result": {
               "status": "passed",
-              "duration": 26000000
+              "duration": 22000000
             }
           }
         ]
@@ -352,48 +352,48 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 16,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 770000000
+              "duration": 710000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 17,
-            "name": "I search for film \"Wing Commander\" on the page",
+            "name": "user is searching for the movie \"Wing Commander\" on the page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 607000000
+              "duration": 608000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "I choose 1 film at search results",
+            "name": "user chooses the 1 in a block movie in search results",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:102"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:92"
             },
             "result": {
               "status": "passed",
-              "duration": 800000000
+              "duration": 774000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 19,
-            "name": "Count of similar movies more than 0",
+            "name": "user expects that count of similar movies more than 0",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:119"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:109"
             },
             "result": {
               "status": "passed",
@@ -404,13 +404,13 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 20,
-            "name": "I see that genres of 8 film at \"Similar films\" block includes 1 or more genres of requested film",
+            "name": "user expects that genres of 8 film at \"Similar films\" block includes 1 or more genres of requested film",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:124"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:114"
             },
             "result": {
               "status": "passed",
-              "duration": 1207000000
+              "duration": 1503000000
             }
           }
         ]
@@ -426,10 +426,10 @@
     "uri": "cucumber\\features\\moviecard.feature",
     "elements": [
       {
-        "id": "movie-card;should-have-name",
+        "id": "movie-card;movie-card-should-have-name",
         "keyword": "Scenario",
         "line": 3,
-        "name": "should have name",
+        "name": "Movie card should have name",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -437,48 +437,48 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 728000000
+              "duration": 703000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 5,
-            "name": "I see movie cards loaded",
+            "name": "user expects movie cards are present on the page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:25"
             },
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 16000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "Movie Card should have name",
+            "name": "user expects that movie cards have name",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 39000000
+              "duration": 31000000
             }
           }
         ]
       },
       {
-        "id": "movie-card;should-have-\"raiting\"-pointer",
+        "id": "movie-card;movie-card-should-have-\"rating\"-pointer",
         "keyword": "Scenario",
         "line": 8,
-        "name": "should have \"raiting\" pointer",
+        "name": "Movie card should have \"rating\" pointer",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -486,20 +486,20 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 9,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 725000000
+              "duration": 718000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 10,
-            "name": "I see movie cards loaded",
+            "name": "user expects movie cards are present on the page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:25"
             },
@@ -511,23 +511,23 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "Movie Card should have raiting pointer",
+            "name": "user expects that movie cards have rating pointer",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:35"
             },
             "result": {
               "status": "failed",
-              "duration": 42000000,
+              "duration": 32000000,
               "error_message": "AssertionError\n    + expected - actual\n\n    -20\n    +19\n\n    at World.<anonymous> (C:\\Users\\Alek\\Documents\\GitHub\\5-startit-movie-finder-delfin123\\cucumber\\step_definitions\\stepDefinitions.ts:39:34)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Alek\\Documents\\GitHub\\5-startit-movie-finder-delfin123\\cucumber\\step_definitions\\stepDefinitions.ts:4:58)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
             }
           }
         ]
       },
       {
-        "id": "movie-card;should-open-appropriate-\"movie-details\"-page,-after-click-on-\"name\"-field",
+        "id": "movie-card;should-open-appropriate-\"movie-details\"-page-after-click-on-\"name\"-field-of-the-movie-card",
         "keyword": "Scenario",
         "line": 13,
-        "name": "should open appropriate \"movie details\" page, after click on \"name\" field",
+        "name": "Should open appropriate \"movie details\" page after click on \"name\" field of the movie card",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -535,39 +535,39 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 14,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 725000000
+              "duration": 686000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 15,
-            "name": "I search for film \"Spirited Away\" on the page",
+            "name": "user is searching for the movie \"Spirited Away\" on the page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 550000000
+              "duration": 699000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 16,
-            "name": "After click on movie details i see appropriate \"movie details\" page",
+            "name": "after click on movie details user expects that appropriate \"movie details\" page for this movie is opened",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 936000000
+              "duration": 944000000
             }
           }
         ]
@@ -583,10 +583,10 @@
     "uri": "cucumber\\features\\navigation.feature",
     "elements": [
       {
-        "id": "navigation;should-open-\"upcoming-movies\"-section'",
+        "id": "navigation;should-open-\"upcoming-movies\"-section",
         "keyword": "Scenario",
         "line": 3,
-        "name": "should open \"Upcoming movies\" section'",
+        "name": "Should open \"Upcoming movies\" section",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -594,48 +594,48 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 734000000
+              "duration": 802000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I open \"Upcoming movies\" section",
+            "name": "user opens \"Upcoming movies\" section",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:53"
             },
             "result": {
               "status": "passed",
-              "duration": 495000000
+              "duration": 534000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "I see appropriate to \"Upcoming movies\" section movies",
+            "name": "user expects appropriate to \"Up Coming Movies\" section movies are present on the page",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:59"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:65"
             },
             "result": {
               "status": "passed",
-              "duration": 45000000
+              "duration": 31000000
             }
           }
         ]
       },
       {
-        "id": "navigation;should-open-\"popular-series\"-section'",
+        "id": "navigation;should-open-\"popular-series\"-section",
         "keyword": "Scenario",
         "line": 8,
-        "name": "should open \"Popular Series\" section'",
+        "name": "Should open \"Popular Series\" section",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -643,56 +643,7 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 9,
-            "name": "I am on home page",
-            "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 721000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 10,
-            "name": "I open \"Popular series\" section",
-            "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:64"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 510000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 11,
-            "name": "I see appropriate to \"Popular series\" section movies",
-            "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:70"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 38000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "navigation;'should-open-\"action\"-category'",
-        "keyword": "Scenario",
-        "line": 13,
-        "name": "'should open \"Action\" category'",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 14,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
@@ -704,27 +655,76 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 15,
-            "name": "I open \"Action\" section",
+            "line": 10,
+            "name": "user opens \"Popular series\" section",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:75"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:59"
             },
             "result": {
               "status": "passed",
-              "duration": 461000000
+              "duration": 484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user expects appropriate to \"Popular Series\" section movies are present on the page",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation;should-open-\"action\"-category",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Should open \"Action\" category",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user on home page",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 700000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user opens \"Action\" section",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 466000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 16,
-            "name": "I see appropriate to \"Action\" section movies",
+            "name": "user expects appropriate to \"Action\" section movies are present on the page",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:81"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:65"
             },
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 31000000
             }
           }
         ]
@@ -740,10 +740,10 @@
     "uri": "cucumber\\features\\popular_movies.feature",
     "elements": [
       {
-        "id": "popular-movies;shouldn't-have-search-bar",
+        "id": "popular-movies;\"popular-series\"-section-shouldn't-have-search-bar",
         "keyword": "Scenario",
         "line": 3,
-        "name": "shouldn't have search bar",
+        "name": "\"Popular series\" section shouldn't have search bar",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -751,61 +751,61 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 809000000
+              "duration": 687000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I open \"Popular series\" section",
+            "name": "user opens \"Popular series\" section",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:64"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:59"
             },
             "result": {
               "status": "passed",
-              "duration": 440000000
+              "duration": 464000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "I see appropriate to \"Popular series\" section movies",
+            "name": "user expects appropriate to \"Popular Series\" section movies are present on the page",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:70"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:65"
             },
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 32000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 7,
-            "name": "I see that search bar is absent",
+            "name": "user expects that search bar is absent on the page",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:168"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:158"
             },
             "result": {
               "status": "passed",
-              "duration": 1001000000
+              "duration": 1058000000
             }
           }
         ]
       },
       {
-        "id": "popular-movies;should-have-\"first-air-date\"-instead-\"release-date\"",
+        "id": "popular-movies;\"popular-series\"-section-should-have-\"first-air-date\"-instead-\"release-date\"",
         "keyword": "Scenario",
         "line": 9,
-        "name": "should have \"First Air Date\" instead \"Release Date\"",
+        "name": "\"Popular series\" section should have \"First Air Date\" instead \"Release Date\"",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -813,39 +813,39 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 10,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 721000000
+              "duration": 712000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "I open \"Popular series\" section",
+            "name": "user opens \"Popular series\" section",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:64"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:59"
             },
             "result": {
               "status": "passed",
-              "duration": 447000000
+              "duration": 482000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "I see that movie cards of films of this section contain \"First Air Date\" fraze",
+            "name": "user expects that movie cards of films of this section contain \"First Air Date\" fraze",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:173"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:163"
             },
             "result": {
               "status": "passed",
-              "duration": 1100000000
+              "duration": 1090000000
             }
           }
         ]
@@ -861,10 +861,10 @@
     "uri": "cucumber\\features\\search.feature",
     "elements": [
       {
-        "id": "search;by-exisiting-name,-should-show-first-movie-with-complete-name-match",
+        "id": "search;searching-by-existing-name,-should-show-first-movie-with-complete-name-match",
         "keyword": "Scenario",
         "line": 3,
-        "name": "by exisiting name, should show first movie with complete name match",
+        "name": "Searching by existing name, should show first movie with complete name match",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -872,48 +872,48 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 670000000
+              "duration": 641000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I search for film \"Pacific Rim\" on the page",
+            "name": "user is searching for the movie \"Pacific Rim\" on the page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 505000000
+              "duration": 481000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "Name of the first found film completely match with the name of film \"Pacific Rim\"",
+            "name": "user expects that name of the first found film completely match with the name of film \"Pacific Rim\"",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:86"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:76"
             },
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 15000000
             }
           }
         ]
       },
       {
-        "id": "search;results(all-of-them)-should-contain-search-request",
+        "id": "search;search-results(all-of-them)-should-contain-search-request",
         "keyword": "Scenario",
         "line": 8,
-        "name": "results(all of them) should contain search request",
+        "name": "Search results(all of them) should contain search request",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -921,49 +921,49 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 9,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 662000000
+              "duration": 647000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 10,
-            "name": "I search for film \"Lord of the Rings\" on the page",
+            "name": "user is searching for the movie \"Lord of the Rings\" on the page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 485000000
+              "duration": 635000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "All search results contains the name \"Lord of the Rings\"",
+            "name": "user expects that all movie names in search results contain the name \"Lord of the Rings\"",
             "match": {
-              "location": "cucumber\\step_definitions\\stepDefinitions.ts:91"
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:81"
             },
             "result": {
               "status": "failed",
-              "duration": 1020000000,
-              "error_message": "AssertionError: expected 'The Hunt for Gollum' to include 'Lord of the Rings'\n    at titles.forEach.title (C:\\Users\\Alek\\Documents\\GitHub\\5-startit-movie-finder-delfin123\\cucumber\\step_definitions\\stepDefinitions.ts:94:57)\n    at Array.forEach (<anonymous>)\n    at World.<anonymous> (C:\\Users\\Alek\\Documents\\GitHub\\5-startit-movie-finder-delfin123\\cucumber\\step_definitions\\stepDefinitions.ts:94:16)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Alek\\Documents\\GitHub\\5-startit-movie-finder-delfin123\\cucumber\\step_definitions\\stepDefinitions.ts:4:58)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+              "duration": 47000000,
+              "error_message": "AssertionError: expected 'The Hunt for Gollum' to include 'Lord of the Rings'\n    at titles.forEach.title (C:\\Users\\Alek\\Documents\\GitHub\\5-startit-movie-finder-delfin123\\cucumber\\step_definitions\\stepDefinitions.ts:84:57)\n    at Array.forEach (<anonymous>)\n    at World.<anonymous> (C:\\Users\\Alek\\Documents\\GitHub\\5-startit-movie-finder-delfin123\\cucumber\\step_definitions\\stepDefinitions.ts:84:16)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Alek\\Documents\\GitHub\\5-startit-movie-finder-delfin123\\cucumber\\step_definitions\\stepDefinitions.ts:4:58)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
             }
           }
         ]
       },
       {
-        "id": "search;result-should-be-empty,-after-request-for-nonexistent-movie",
+        "id": "search;search-results-should-be-empty-after-request-for-nonexistent-movie",
         "keyword": "Scenario",
         "line": 13,
-        "name": "result should be empty, after request for nonexistent movie",
+        "name": "Search results should be empty after request for nonexistent movie",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -971,35 +971,39 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 14,
-            "name": "I am on home page",
+            "name": "user on home page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 674000000
+              "duration": 694000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 15,
-            "name": "I search for film \"dhcr\" on the page",
+            "name": "user is searching for the movie \"dhcr\" on the page",
             "match": {
               "location": "cucumber\\step_definitions\\stepDefinitions.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 1421000000
+              "duration": 1484000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 16,
-            "name": "I see that search  results is empty",
+            "name": "user expects that search results are empty",
+            "match": {
+              "location": "cucumber\\step_definitions\\stepDefinitions.ts:87"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1019000000
             }
           }
         ]

@@ -1,16 +1,16 @@
 Feature: Movie card
 
-Scenario: should have name
-    Given I am on home page
-    Then I see movie cards loaded
-    Then Movie Card should have name
+Scenario: Movie card should have name
+    Given user on home page
+    Then user expects movie cards are present on the page
+    Then user expects that movie cards have name
 
-Scenario: should have "raiting" pointer
-    Given I am on home page
-    Then I see movie cards loaded
-    Then Movie Card should have raiting pointer
+Scenario: Movie card should have "rating" pointer
+    Given user on home page
+    Then user expects movie cards are present on the page
+    Then user expects that movie cards have rating pointer
 
-Scenario: should open appropriate "movie details" page, after click on "name" field
-    Given I am on home page
-    Then I search for film "Spirited Away" on the page
-    Then After click on movie details i see appropriate "movie details" page
+Scenario: Should open appropriate "movie details" page after click on "name" field of the movie card
+    Given user on home page
+    Then user is searching for the movie "Spirited Away" on the page
+    Then after click on movie details user expects that appropriate "movie details" page for this movie is opened

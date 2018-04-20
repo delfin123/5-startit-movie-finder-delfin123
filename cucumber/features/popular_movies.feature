@@ -1,12 +1,12 @@
 Feature: Popular movies
 
-  Scenario: shouldn't have search bar
-    Given I am on home page
-    When I open "Popular series" section
-    Then I see appropriate to "Popular series" section movies
-    Then I see that search bar is absent
+  Scenario: "Popular series" section shouldn't have search bar
+    Given user on home page
+    When user opens "Popular series" section
+    Then user expects appropriate to "Popular Series" section movies are present on the page
+    Then user expects that search bar is absent on the page
 
-  Scenario: should have "First Air Date" instead "Release Date"
-    Given I am on home page
-    When I open "Popular series" section
-    Then I see that movie cards of films of this section contain "First Air Date" fraze
+  Scenario: "Popular series" section should have "First Air Date" instead "Release Date"
+    Given user on home page
+    When user opens "Popular series" section
+    Then user expects that movie cards of films of this section contain "First Air Date" fraze
