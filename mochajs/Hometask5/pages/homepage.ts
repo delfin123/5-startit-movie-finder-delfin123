@@ -37,8 +37,6 @@ export class HomePage {
     
 
     async open(){
-        let originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
-        jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
         await browser.get('/')
         await browser.wait(EC.and(
         EC.visibilityOf(this.search),

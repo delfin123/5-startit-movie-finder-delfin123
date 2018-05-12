@@ -11,6 +11,9 @@ describe('movie-finders tests',async function(){
     beforeEach(async function(){          
     await homepage.open()               //browser should open on the given page before each test
     })
+    afterEach(async function () {
+    await browser.manage().timeouts().implicitlyWait(1000)
+    })
 
     describe('Movie details', async function () {
         it('should have movie name as header', async function () {
