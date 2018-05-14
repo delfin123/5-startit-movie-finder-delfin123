@@ -10,7 +10,10 @@ describe('Movie card ', async function(){
     beforeEach(async function(){
         await homepage.open()
     })
-
+    afterEach(async function () {
+        await browser.manage().timeouts().implicitlyWait(1000)
+      })
+      
     it('should have name', async function(){
         logger.info('Начало теста на наличие названия фильма на странице фильма')
         expect (await homepage.homepageMovie.get(7).getText()).not.to.be.empty

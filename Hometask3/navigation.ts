@@ -10,7 +10,10 @@ describe('Movie card ', async function(){
     beforeEach(async function(){
         await homepage.open()
     })
-    
+    afterEach(async function () {
+        await browser.manage().timeouts().implicitlyWait(1000)
+      })
+      
     it('should open "Upcoming movies" section', async function() {
         logger.info('Начало теста на проверку открытия страницы "Upcoming movies"')
         await homepage.upcomingMoviesButton.click()

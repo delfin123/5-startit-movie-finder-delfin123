@@ -25,6 +25,11 @@ const logger2 = log4js.getLogger('result')
         name: "Alexander Shtanko"
         },
       specs: ['lesson5task.ts'],
+      framework:'mocha',
+      mochaOpts: {
+        timeout: 30000,
+        reporter: 'mocha-allure-reporter'
+    },
       onPrepare: async function() {
         (async function(){
           let oldLog = console.log;
@@ -38,15 +43,5 @@ const logger2 = log4js.getLogger('result')
         await browser.manage().window().maximize();
         // Global implicit wait setup
         await browser.manage().timeouts().implicitlyWait(1000)
-    
-        afterEach(async function () {
-          await browser.manage().timeouts().implicitlyWait(1000)
-        })
-
-        let ConsoleReporter = require('jasmine2-reporter').Jasmine2Reporter
-        let console_reporter_options = {
-          startingSpec: true
         }
-        jasmine.getEnv().addReporter(new ConsoleReporter(console_reporter_options))
-      }
     }

@@ -39,14 +39,7 @@ const logger2 = log4js.getLogger('result')
         // Global implicit wait setup
         await browser.manage().timeouts().implicitlyWait(1000)
     
-        afterEach(async function () {
-          await browser.manage().timeouts().implicitlyWait(1000)
-        })
+        
 
-        let ConsoleReporter = require('jasmine2-reporter').Jasmine2Reporter
-        let console_reporter_options = {
-          startingSpec: true
-        }
-        jasmine.getEnv().addReporter(new ConsoleReporter(console_reporter_options))
-      }
+       }
     }

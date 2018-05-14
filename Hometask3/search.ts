@@ -9,7 +9,10 @@ describe('Movie card ', async function(){
     beforeEach(async function(){
         await homepage.open()
     })
-
+    afterEach(async function () {
+        await browser.manage().timeouts().implicitlyWait(1000)
+      })
+      
     it('by exisiting name, should show first movie with complete name match', async function(){
         logger.info('Начало теста на проверку работы поиска фильма')
         let search_request = 'Pacific Rim'
