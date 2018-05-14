@@ -1,7 +1,9 @@
 import { browser, element, By, by, until, $, $$, Key, ExpectedConditions as EC } from 'protractor'
 
+
 export class HomePage {
     public search = $(`[name="searchStr"]`)
+    public movieCard = $$('movie-card')
     private topRaitingPopularMoviesBlock = element.all(By.xpath(`//*[@class='row is-flex']`))
     private popularMoviesBlock = $$('.col-sm-3 movie-card img')
     private searchResultName = $('[_ngcontent-c1] .orange-text')
@@ -34,11 +36,10 @@ export class HomePage {
     public movieCardFilmDetails = $$('app-movie .col-md-8 p').get(2)
     public upcomingMoviesButton = $('[routerlink*="upcoming"]')
     public actionCategoryMoviesButton = $(`[href*="Action"]`)
+    public movieDetailsLink = element.all(by.xpath('//div[child::h3]//a[contains(.,"View details")]'))
     
 
     async open(){
-        let originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
-        jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
         await browser.get('/')
         await browser.wait(EC.and(
         EC.visibilityOf(this.search),
@@ -72,6 +73,10 @@ export class HomePage {
     }
     async chooseFilmAtSearchResult(number_of_film:number){
         await this.searchResultMovieLink.get(number_of_film).click()
+        await this.waitforloadingpagewithfilm()
+    }
+    async chooseViewDetailsOfFilm(number_of_film:number){
+        await this.movieDetailsLink.get(number_of_film).click()
         await this.waitforloadingpagewithfilm()
     }
     async obtainClearNameOfMovie(){
