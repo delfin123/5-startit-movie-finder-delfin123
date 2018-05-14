@@ -25,17 +25,10 @@ const logger2 = log4js.getLogger('result')
         name: "Alexander Shtanko"
         },
       specs: ['lesson5task.ts'],
-<<<<<<< HEAD:Hometask5/protractor.conf.js
-      framework:'mocha',
-      mochaOpts: {
-        timeout: 30000,
-        reporter: 'mocha-allure-reporter'
-=======
       framework: 'mocha',
     mochaOpts: {
         timeout: 30000,
         reporter: 'nyan'
->>>>>>> 4fb4f6a7b5d5dd088bc664b5c019edfd9bd24580:mochajs/Hometask5/protractor.conf.js
     },
       onPrepare: async function() {
         (async function(){
@@ -50,10 +43,5 @@ const logger2 = log4js.getLogger('result')
         await browser.manage().window().maximize();
         // Global implicit wait setup
         await browser.manage().timeouts().implicitlyWait(1000)
-<<<<<<< HEAD:Hometask5/protractor.conf.js
-        }
-=======
-    
-      }
->>>>>>> 4fb4f6a7b5d5dd088bc664b5c019edfd9bd24580:mochajs/Hometask5/protractor.conf.js
     }
+  }

@@ -12,13 +12,8 @@ describe('Movie card ', async function(){
     })
     afterEach(async function () {
         await browser.manage().timeouts().implicitlyWait(1000)
-<<<<<<< HEAD:Hometask3/search.ts
       })
       
-=======
-    })
-
->>>>>>> 4fb4f6a7b5d5dd088bc664b5c019edfd9bd24580:mochajs/Hometask3/search.ts
     it('by exisiting name, should show first movie with complete name match', async function(){
         logger.info('Начало теста на проверку работы поиска фильма')
         let search_request = 'Pacific Rim'

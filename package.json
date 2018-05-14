@@ -29,7 +29,6 @@
     "protractor-cucumber-framework": "^4.2.0",
     "ts-node": "5.0.0",
     "typescript": "^2.6.2",
-    "tslint": "5.9.1",
-    "mocha-allure-reporter": "1.4.0"
+    "tslint": "5.9.1"
   }
 }

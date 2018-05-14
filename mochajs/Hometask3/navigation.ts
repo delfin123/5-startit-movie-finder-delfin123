@@ -13,13 +13,8 @@ describe('Movie card ', async function(){
     })
     afterEach(async function () {
         await browser.manage().timeouts().implicitlyWait(1000)
-<<<<<<< HEAD:Hometask3/navigation.ts
       })
       
-=======
-    })
-    
->>>>>>> 4fb4f6a7b5d5dd088bc664b5c019edfd9bd24580:mochajs/Hometask3/navigation.ts
     it('should open "Upcoming movies" section', async function() {
         logger.info('Начало теста на проверку открытия страницы "Upcoming movies"')
         await homepage.upcomingMoviesButton.click()

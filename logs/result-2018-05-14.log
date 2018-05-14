@@ -14,3 +14,57 @@
 [2018-05-14T15:52:31.383] [INFO] result - [[90m15:52:31[39m] I/launcher -
 [2018-05-14T15:52:52.637] [INFO] default - On prepare started
 [2018-05-14T15:52:53.889] [INFO] result - [[90m15:52:53[39m] I/launcher -
+[2018-05-14T16:08:06.700] [INFO] default - On prepare started
+[2018-05-14T16:08:13.376] [INFO] default - Начало теста на проверку названия фильма
+[2018-05-14T16:08:15.140] [INFO] default - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-05-14T16:08:15.944] [INFO] default - Начало теста на проверку рейтинга
+[2018-05-14T16:08:17.403] [INFO] default - The rating of film is 8
+[2018-05-14T16:08:18.087] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-05-14T16:08:19.577] [INFO] default - Number of similar movies is 12
+[2018-05-14T16:08:19.639] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-05-14T16:08:20.659] [INFO] default - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-05-14T16:08:20.660] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-05-14T16:08:21.437] [INFO] default - Начало теста на наличие фото актеров на странице фильма
+[2018-05-14T16:08:23.186] [INFO] default - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-05-14T16:08:23.953] [INFO] default - Начало теста на наличие ревью на странице фильма
+[2018-05-14T16:08:25.427] [INFO] default - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-05-14T16:08:26.187] [INFO] default - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-05-14T16:08:28.819] [INFO] default - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: When monstrous, building-sized creatures (dubbed "kaiju") hell-bent on destruction begin pouring out of an extra-dimensional fissure at the bottom of the Pacific Ocean, humanity bands together to build titanic mechas called jaegers, each controlled simultaneously by two pilots whose minds are linked through a neural bond called "The Drift." As the kaiju get stronger and the signs point to an all-out flood of the beasts, the fate of humanity looks bleak, and the surviving jaegers are brought together for one last-ditch attempt at saving the world.
+[2018-05-14T16:08:29.446] [INFO] default - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-05-14T16:08:30.966] [INFO] default - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-05-14T16:08:31.522] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-05-14T16:08:33.034] [INFO] result - undefined
+[2018-05-14T16:08:33.035] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-14T16:08:33.035] [INFO] result - [31m  %d failing[0m
+[2018-05-14T16:08:33.035] [INFO] result - undefined
+[2018-05-14T16:08:33.036] [INFO] result - [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m
+[2018-05-14T16:08:33.036] [INFO] result - undefined
+[2018-05-14T16:08:33.036] [INFO] result - undefined
+[2018-05-14T16:08:33.084] [INFO] result - [[90m16:08:33[39m] I/launcher -
+[2018-05-14T16:34:22.564] [INFO] default - On prepare started
+[2018-05-14T16:34:27.041] [INFO] default - Начало теста на проверку названия фильма
+[2018-05-14T16:34:28.771] [INFO] default - Тест пройден,полученное название фильма The Maze Runner совпадает с ожидаемым названием The Maze Runner
+[2018-05-14T16:34:29.572] [INFO] default - Начало теста на проверку рейтинга
+[2018-05-14T16:34:31.117] [INFO] default - The rating of film is 8
+[2018-05-14T16:34:32.215] [INFO] default - Начало теста на проверку наличия подобных фильмов
+[2018-05-14T16:34:38.698] [INFO] default - Number of similar movies is 12
+[2018-05-14T16:34:39.240] [INFO] default - Искомый фильм включает такие жанры Action,Science Fiction
+[2018-05-14T16:34:45.724] [INFO] default - Подобный фильм включает такие жанры Adventure,Action,Science Fiction
+[2018-05-14T16:34:45.725] [INFO] default - Фильмы совпадают по таким жанрам: Action,Science Fiction
+[2018-05-14T16:34:47.198] [INFO] default - Начало теста на наличие фото актеров на странице фильма
+[2018-05-14T16:34:53.813] [INFO] default - Фото присутствуют в количестве 4 и имя первого актера Elijah Wood
+[2018-05-14T16:34:54.607] [INFO] default - Начало теста на наличие ревью на странице фильма
+[2018-05-14T16:34:56.163] [INFO] default - Ревью присутствуют на странице в количестве 2 и текст первого ревью такой: The movie was not great. I don't like action movies that much but I'm expecting some good fighting scenes since this is a Marvel movie. I was disappointed. It was mostly talking and I don't understand half of what the actors were saying. I should watch this with subtitles next time.
+[2018-05-14T16:34:56.882] [INFO] default - Начало теста на проверку внешней интернет страницы ревьюера
+[2018-05-14T16:34:59.524] [INFO] default - Тест пршел успешно, данная страница доступна и полное ревью фильма с внешней интернет страницы ревьюера такой: When monstrous, building-sized creatures (dubbed "kaiju") hell-bent on destruction begin pouring out of an extra-dimensional fissure at the bottom of the Pacific Ocean, humanity bands together to build titanic mechas called jaegers, each controlled simultaneously by two pilots whose minds are linked through a neural bond called "The Drift." As the kaiju get stronger and the signs point to an all-out flood of the beasts, the fate of humanity looks bleak, and the surviving jaegers are brought together for one last-ditch attempt at saving the world.
+[2018-05-14T16:35:00.133] [INFO] default - Начало теста на отсутствие поисквой строки на странице популярных фильмов
+[2018-05-14T16:35:01.692] [INFO] default - Тест прошел успешно, поисковая строка на странице популярных фильмов отсутствует
+[2018-05-14T16:35:02.265] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
+[2018-05-14T16:35:03.370] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
+[2018-05-14T16:35:03.378] [INFO] result - undefined
+[2018-05-14T16:35:03.379] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-14T16:35:03.379] [INFO] result - undefined
+[2018-05-14T16:35:03.422] [INFO] result - [[90m16:35:03[39m] I/launcher -
