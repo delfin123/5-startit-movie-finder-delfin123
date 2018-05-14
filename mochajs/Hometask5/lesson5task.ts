@@ -12,9 +12,15 @@ describe('movie-finders tests',async function(){
     await homepage.open()               //browser should open on the given page before each test
     })
     afterEach(async function () {
+<<<<<<< HEAD:Hometask5/lesson5task.ts
         await browser.manage().timeouts().implicitlyWait(1000)
       })
       
+=======
+    await browser.manage().timeouts().implicitlyWait(1000)
+    })
+
+>>>>>>> 4fb4f6a7b5d5dd088bc664b5c019edfd9bd24580:mochajs/Hometask5/lesson5task.ts
     describe('Movie details', async function () {
         it('should have movie name as header', async function () {
             logger.info('Начало теста на проверку названия фильма')

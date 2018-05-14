@@ -12,8 +12,13 @@ describe('Movie card ', async function(){
     })
     afterEach(async function () {
         await browser.manage().timeouts().implicitlyWait(1000)
+<<<<<<< HEAD:Hometask3/movieCard.ts
       })
       
+=======
+    })
+
+>>>>>>> 4fb4f6a7b5d5dd088bc664b5c019edfd9bd24580:mochajs/Hometask3/movieCard.ts
     it('should have name', async function(){
         logger.info('Начало теста на наличие названия фильма на странице фильма')
         expect (await homepage.homepageMovie.get(7).getText()).not.to.be.empty

@@ -25,6 +25,11 @@ const logger2 = log4js.getLogger('result')
         name: "Alexander Shtanko"
         },
       specs: ['search.ts','movieCard.ts','navigation.ts'],
+      framework: 'mocha',
+    mochaOpts: {
+        timeout: 60000,
+        reporter: 'nyan'
+    },
       onPrepare: async function() {
         (async function(){
         let oldLog = console.log;
@@ -38,8 +43,12 @@ const logger2 = log4js.getLogger('result')
         await browser.manage().window().maximize();
         // Global implicit wait setup
         await browser.manage().timeouts().implicitlyWait(1000)
+<<<<<<< HEAD:Hometask3/protractor.conf.js
     
         
 
        }
+=======
+        }
+>>>>>>> 4fb4f6a7b5d5dd088bc664b5c019edfd9bd24580:mochajs/Hometask3/protractor.conf.js
     }
