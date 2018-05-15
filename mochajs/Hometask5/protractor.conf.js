@@ -24,12 +24,34 @@ const logger2 = log4js.getLogger('result')
         enableVNC: true,
         name: "Alexander Shtanko"
         },
+        /*browserName: 'internet explorer', 
+        'platform': 'ANY',
+        'version': '11',*/
       specs: ['lesson5task.ts'],
       framework: 'mocha',
-    mochaOpts: {
+      mochaOpts:{
         timeout: 30000,
-        reporter: 'nyan'
+        reporter:'mocha-junit-reporter',
+        reporterOptions: {
+          mochaFile: './report/report.xml'
+      }
+      },
+      /*mochaOpts: {
+        reporter: 'mochawesome-screenshots',
+        reporterOptions: {
+            reportDir: 'customReportDir',
+            reportName: 'customReportName',
+            reportTitle: 'customReportTitle',
+            reportPageTitle: 'customReportPageTitle',
+            takePassedScreenshot: false,
+            clearOldScreenshots: true,
+            shortScrFileNames: false,
+            jsonReport: false,
+            multiReport: false
+        },
+        timeout:30000
     },
+    */
       onPrepare: async function() {
         (async function(){
           let oldLog = console.log;
@@ -43,5 +65,5 @@ const logger2 = log4js.getLogger('result')
         await browser.manage().window().maximize();
         // Global implicit wait setup
         await browser.manage().timeouts().implicitlyWait(1000)
-    }
-  }
+    },
+   }

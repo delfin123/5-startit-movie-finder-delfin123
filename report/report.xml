@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.206" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-05-15T12:54:31" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="movie-finders tests" timestamp="2018-05-15T12:54:31" tests="0" file="D:\delfin123\mochajs\Hometask5\lesson5task.ts" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Movie details" timestamp="2018-05-15T12:54:31" tests="3" file="D:\delfin123\mochajs\Hometask5\lesson5task.ts" failures="0" time="16.502">
+    <testcase name="movie-finders tests Movie details should have movie name as header" time="1.844" classname="should have movie name as header">
+    </testcase>
+    <testcase name="movie-finders tests Movie details should have rating" time="6.577" classname="should have rating">
+    </testcase>
+    <testcase name="movie-finders tests Movie details should have similar movies block with at least one movie" time="8.081" classname="should have similar movies block with at least one movie">
+    </testcase>
+  </testsuite>
+  <testsuite name="cast block" timestamp="2018-05-15T12:54:53" tests="1" file="D:\delfin123\mochajs\Hometask5\lesson5task.ts" failures="0" time="1.475">
+    <testcase name="movie-finders tests cast block should show at least one actor" time="1.475" classname="should show at least one actor">
+    </testcase>
+  </testsuite>
+  <testsuite name="reviews block" timestamp="2018-05-15T12:54:55" tests="2" file="D:\delfin123\mochajs\Hometask5\lesson5task.ts" failures="0" time="4.576">
+    <testcase name="movie-finders tests reviews block should contain at least one review" time="1.668" classname="should contain at least one review">
+    </testcase>
+    <testcase name="movie-finders tests reviews block should have reviewer name as link to source" time="2.908" classname="should have reviewer name as link to source">
+    </testcase>
+  </testsuite>
+  <testsuite name="Popular series" timestamp="2018-05-15T12:55:01" tests="2" file="D:\delfin123\mochajs\Hometask5\lesson5task.ts" failures="0" time="2.653">
+    <testcase name="movie-finders tests Popular series shouldn&apos;t have search bar" time="1.597" classname="shouldn&apos;t have search bar">
+    </testcase>
+    <testcase name="movie-finders tests Popular series should have &quot;First Air Date&quot; instead &quot;Release Date&quot;" time="1.056" classname="should have &quot;First Air Date&quot; instead &quot;Release Date&quot;">
+    </testcase>
+  </testsuite>
+</testsuites>
