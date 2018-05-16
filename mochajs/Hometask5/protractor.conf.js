@@ -17,7 +17,7 @@ const logger = log4js.getLogger('default')
 const logger2 = log4js.getLogger('result')
 
     module.exports.config = {
-      baseUrl: 'https://movies-finder.firebaseapp.com/',
+      baseUrl: 'https://www.ssls.com/',
       SELENIUM_PROMISE_MANAGER: false,
       capabilities: { 
         browserName: 'chrome', 
@@ -30,13 +30,6 @@ const logger2 = log4js.getLogger('result')
       specs: ['lesson5task.ts'],
       framework: 'mocha',
       mochaOpts:{
-        timeout: 30000,
-        reporter:'mocha-junit-reporter',
-        reporterOptions: {
-          mochaFile: './report/report.xml'
-      }
-      },
-      /*mochaOpts: {
         reporter: 'mochawesome-screenshots',
         reporterOptions: {
             reportDir: 'customReportDir',
@@ -51,7 +44,6 @@ const logger2 = log4js.getLogger('result')
         },
         timeout:30000
     },
-    */
       onPrepare: async function() {
         (async function(){
           let oldLog = console.log;

@@ -243,3 +243,375 @@
 [2018-05-15T15:55:04.320] [INFO] default - Начало теста на проверки наличия фразы "First Air Date" в разделе популярынх фильмов в блоке первого выхода на экраны
 [2018-05-15T15:55:05.375] [INFO] default - Тест прошел успешно, данный текст присутствует в каждом блоке первого выхода на экраны и количество популярных фильмов на сайте -20
 [2018-05-15T15:55:05.441] [INFO] result - [[90m15:55:05[39m] I/launcher -
+[2018-05-15T17:20:22.126] [INFO] default - On prepare started
+[2018-05-15T17:20:23.393] [INFO] result - [[90m17:20:23[39m] [31mE[39m[31m/launcher[39m -
+[2018-05-15T17:21:04.126] [INFO] default - On prepare started
+[2018-05-15T17:21:05.421] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T17:21:05.422] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T17:21:05.424] [INFO] result - undefined
+[2018-05-15T17:21:05.425] [INFO] result - undefined
+[2018-05-15T17:21:05.425] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T17:21:05.425] [INFO] result - undefined
+[2018-05-15T17:21:05.433] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T17:21:05.494] [INFO] result - [[90m17:21:05[39m] I/launcher -
+[2018-05-15T17:21:49.093] [INFO] default - On prepare started
+[2018-05-15T17:21:50.362] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T17:21:50.363] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T17:21:50.366] [INFO] result - undefined
+[2018-05-15T17:21:50.366] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:21:50.367] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:21:50.368] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:21:58.964] [INFO] default - Begging the test on login with valid values
+[2018-05-15T17:22:02.471] [INFO] result -     [31m  %d) %s[0m
+[2018-05-15T17:22:02.504] [INFO] result - undefined
+[2018-05-15T17:22:02.505] [INFO] result - undefined
+[2018-05-15T17:22:02.506] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T17:22:02.506] [INFO] result - [31m  %d failing[0m
+[2018-05-15T17:22:02.506] [INFO] result - undefined
+[2018-05-15T17:22:02.507] [INFO] result - [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m
+[2018-05-15T17:22:02.507] [INFO] result - undefined
+[2018-05-15T17:22:02.508] [INFO] result - undefined
+[2018-05-15T17:22:02.528] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T17:22:02.586] [INFO] result - [[90m17:22:02[39m] I/launcher -
+[2018-05-15T17:24:10.673] [INFO] default - On prepare started
+[2018-05-15T17:24:11.933] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T17:24:11.934] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T17:24:11.936] [INFO] result - undefined
+[2018-05-15T17:24:11.936] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:24:11.937] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:24:11.938] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:24:23.651] [INFO] default - Begging the test on login with valid values
+[2018-05-15T17:24:27.153] [INFO] result -     [31m  %d) %s[0m
+[2018-05-15T17:24:27.175] [INFO] result - undefined
+[2018-05-15T17:24:27.176] [INFO] result - undefined
+[2018-05-15T17:24:27.176] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T17:24:27.177] [INFO] result - [31m  %d failing[0m
+[2018-05-15T17:24:27.177] [INFO] result - undefined
+[2018-05-15T17:24:27.178] [INFO] result - [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m
+[2018-05-15T17:24:27.178] [INFO] result - undefined
+[2018-05-15T17:24:27.179] [INFO] result - undefined
+[2018-05-15T17:24:27.200] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T17:24:27.259] [INFO] result - [[90m17:24:27[39m] I/launcher -
+[2018-05-15T17:24:48.186] [INFO] default - On prepare started
+[2018-05-15T17:24:49.459] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T17:24:49.460] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T17:24:49.462] [INFO] result - undefined
+[2018-05-15T17:24:49.462] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:24:49.463] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:24:49.464] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:25:03.749] [INFO] default - Begging the test on login with valid values
+[2018-05-15T17:25:07.522] [INFO] result -     [32m  √[0m[90m %s[0m[31m (%dms)[0m
+[2018-05-15T17:25:07.527] [INFO] result - undefined
+[2018-05-15T17:25:07.528] [INFO] result - undefined
+[2018-05-15T17:25:07.529] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T17:25:07.529] [INFO] result - undefined
+[2018-05-15T17:25:07.547] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T17:25:07.598] [INFO] result - [[90m17:25:07[39m] I/launcher -
+[2018-05-15T17:27:12.139] [INFO] default - On prepare started
+[2018-05-15T17:27:13.422] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T17:27:13.423] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T17:27:13.425] [INFO] result - undefined
+[2018-05-15T17:27:13.425] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:27:13.427] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:27:13.428] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:27:23.672] [INFO] default - Begging the test on login with valid values
+[2018-05-15T17:27:27.569] [INFO] result -     [31m  %d) %s[0m
+[2018-05-15T17:27:27.589] [INFO] result - undefined
+[2018-05-15T17:27:27.591] [INFO] result - undefined
+[2018-05-15T17:27:27.591] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T17:27:27.592] [INFO] result - [31m  %d failing[0m
+[2018-05-15T17:27:27.592] [INFO] result - undefined
+[2018-05-15T17:27:27.593] [INFO] result - [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m
+[2018-05-15T17:27:27.593] [INFO] result - undefined
+[2018-05-15T17:27:27.594] [INFO] result - undefined
+[2018-05-15T17:27:27.614] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T17:27:27.667] [INFO] result - [[90m17:27:27[39m] I/launcher -
+[2018-05-15T17:27:56.752] [INFO] default - On prepare started
+[2018-05-15T17:27:58.017] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T17:27:58.018] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T17:27:58.020] [INFO] result - undefined
+[2018-05-15T17:27:58.021] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:27:58.022] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:27:58.023] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:28:04.945] [INFO] default - Begging the test on login with valid values
+[2018-05-15T17:28:08.608] [INFO] result -     [32m  √[0m[90m %s[0m[31m (%dms)[0m
+[2018-05-15T17:28:08.615] [INFO] result - undefined
+[2018-05-15T17:28:08.616] [INFO] result - undefined
+[2018-05-15T17:28:08.616] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T17:28:08.616] [INFO] result - undefined
+[2018-05-15T17:28:08.635] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T17:28:08.686] [INFO] result - [[90m17:28:08[39m] I/launcher -
+[2018-05-15T17:35:06.061] [INFO] default - On prepare started
+[2018-05-15T17:35:07.357] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T17:35:07.358] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T17:35:07.360] [INFO] result - undefined
+[2018-05-15T17:35:07.361] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:35:07.362] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:35:07.363] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:35:13.193] [INFO] default - Begging the test on login with valid values
+[2018-05-15T17:35:17.277] [INFO] default - Test is passed. Login successful
+[2018-05-15T17:35:17.278] [INFO] result -     [32m  √[0m[90m %s[0m[31m (%dms)[0m
+[2018-05-15T17:35:17.284] [INFO] result - undefined
+[2018-05-15T17:35:17.284] [INFO] result - undefined
+[2018-05-15T17:35:17.285] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T17:35:17.285] [INFO] result - undefined
+[2018-05-15T17:35:17.300] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T17:35:17.356] [INFO] result - [[90m17:35:17[39m] I/launcher -
+[2018-05-15T17:50:46.793] [INFO] default - On prepare started
+[2018-05-15T17:50:48.152] [INFO] result - [[90m17:50:48[39m] [31mE[39m[31m/launcher[39m -
+[2018-05-15T17:51:21.930] [INFO] default - On prepare started
+[2018-05-15T17:51:23.192] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T17:51:23.193] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T17:51:23.195] [INFO] result - undefined
+[2018-05-15T17:51:23.196] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:51:23.197] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:51:23.198] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:51:27.720] [INFO] default - Begging the test on login with valid values
+[2018-05-15T17:51:31.316] [INFO] result -     [32m  √[0m[90m %s[0m[31m (%dms)[0m
+[2018-05-15T17:51:31.322] [INFO] result - undefined
+[2018-05-15T17:51:31.323] [INFO] result - undefined
+[2018-05-15T17:51:31.323] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T17:51:31.323] [INFO] result - undefined
+[2018-05-15T17:51:31.344] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T17:51:31.405] [INFO] result - [[90m17:51:31[39m] I/launcher -
+[2018-05-15T17:59:00.406] [INFO] default - On prepare started
+[2018-05-15T17:59:01.716] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T17:59:01.716] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T17:59:01.718] [INFO] result - undefined
+[2018-05-15T17:59:01.719] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:59:01.720] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:59:01.720] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:59:06.666] [INFO] default - Begging the test on login with valid values
+[2018-05-15T17:59:09.868] [INFO] result -     [32m  √[0m[90m %s[0m[31m (%dms)[0m
+[2018-05-15T17:59:09.874] [INFO] result - [0m%s%s[0m
+[2018-05-15T17:59:31.503] [INFO] result -     [31m  %d) %s[0m
+[2018-05-15T17:59:31.624] [INFO] result - undefined
+[2018-05-15T17:59:31.625] [INFO] result - undefined
+[2018-05-15T17:59:31.627] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T17:59:31.629] [INFO] result - [31m  %d failing[0m
+[2018-05-15T17:59:31.630] [INFO] result - undefined
+[2018-05-15T17:59:31.632] [INFO] result - [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m
+[2018-05-15T17:59:31.633] [INFO] result - undefined
+[2018-05-15T17:59:31.635] [INFO] result - undefined
+[2018-05-15T17:59:31.676] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T17:59:31.706] [INFO] result - [[90m17:59:31[39m] I/launcher -
+[2018-05-15T18:00:36.746] [INFO] default - On prepare started
+[2018-05-15T18:00:38.044] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T18:00:38.044] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T18:00:38.047] [INFO] result - undefined
+[2018-05-15T18:00:38.047] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:00:38.048] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:00:38.049] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:00:42.529] [INFO] default - Begging the test on login with valid values
+[2018-05-15T18:00:49.119] [INFO] result -     [32m  √[0m[90m %s[0m[31m (%dms)[0m
+[2018-05-15T18:00:49.224] [INFO] result -     [31m  %d) %s[0m
+[2018-05-15T18:00:49.227] [INFO] result - undefined
+[2018-05-15T18:00:49.228] [INFO] result - undefined
+[2018-05-15T18:00:49.228] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T18:00:49.229] [INFO] result - [31m  %d failing[0m
+[2018-05-15T18:00:49.229] [INFO] result - undefined
+[2018-05-15T18:00:49.230] [INFO] result - [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m
+[2018-05-15T18:00:49.230] [INFO] result - undefined
+[2018-05-15T18:00:49.230] [INFO] result - undefined
+[2018-05-15T18:00:49.250] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T18:00:49.253] [INFO] result - 
+[[90mmochawesome[39m] Error: Unable to save screenshot - customReportDir\screenshots/1526396449120_authorization_page_after_each_hook_ret.png
+WebDriverError: no such session
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64)
+
+[2018-05-15T18:00:49.257] [INFO] result - [[90m18:00:49[39m] I/launcher -
+[2018-05-15T18:01:10.265] [INFO] default - On prepare started
+[2018-05-15T18:01:11.530] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T18:01:11.531] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T18:01:11.534] [INFO] result - undefined
+[2018-05-15T18:01:11.534] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:01:11.536] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:01:11.537] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:01:15.284] [INFO] default - Begging the test on login with valid values
+[2018-05-15T18:01:18.533] [INFO] result -     [32m  √[0m[90m %s[0m[31m (%dms)[0m
+[2018-05-15T18:01:18.594] [INFO] result -     [31m  %d) %s[0m
+[2018-05-15T18:01:18.598] [INFO] result - undefined
+[2018-05-15T18:01:18.599] [INFO] result - undefined
+[2018-05-15T18:01:18.600] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T18:01:18.600] [INFO] result - [31m  %d failing[0m
+[2018-05-15T18:01:18.600] [INFO] result - undefined
+[2018-05-15T18:01:18.601] [INFO] result - [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m
+[2018-05-15T18:01:18.601] [INFO] result - undefined
+[2018-05-15T18:01:18.602] [INFO] result - undefined
+[2018-05-15T18:01:18.624] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T18:01:18.627] [INFO] result - 
+[[90mmochawesome[39m] Error: Unable to save screenshot - customReportDir\screenshots/1526396478537_authorization_page_after_each_hook_ret.png
+WebDriverError: no such session
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64)
+
+[2018-05-15T18:01:18.630] [INFO] result - [[90m18:01:18[39m] I/launcher -
+[2018-05-15T18:04:22.079] [INFO] default - On prepare started
+[2018-05-15T18:04:23.390] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T18:04:23.390] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T18:04:23.393] [INFO] result - undefined
+[2018-05-15T18:04:23.393] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:04:23.394] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:04:23.395] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:04:27.726] [INFO] default - Begging the test on login with valid values
+[2018-05-15T18:04:31.146] [INFO] result -     [32m  √[0m[90m %s[0m[31m (%dms)[0m
+[2018-05-15T18:04:31.152] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:04:52.338] [INFO] result -     [31m  %d) %s[0m
+[2018-05-15T18:04:52.632] [INFO] result - undefined
+[2018-05-15T18:04:52.633] [INFO] result - undefined
+[2018-05-15T18:04:52.634] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T18:04:52.634] [INFO] result - [31m  %d failing[0m
+[2018-05-15T18:04:52.634] [INFO] result - undefined
+[2018-05-15T18:04:52.635] [INFO] result - [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m
+[2018-05-15T18:04:52.635] [INFO] result - undefined
+[2018-05-15T18:04:52.635] [INFO] result - undefined
+[2018-05-15T18:04:52.656] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T18:04:52.711] [INFO] result - [[90m18:04:52[39m] I/launcher -
+[2018-05-15T18:06:02.669] [INFO] default - On prepare started
+[2018-05-15T18:06:03.939] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T18:06:03.940] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T18:06:03.943] [INFO] result - undefined
+[2018-05-15T18:06:03.944] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:06:03.945] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:06:03.946] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:06:08.977] [INFO] default - Begging the test on login with valid values
+[2018-05-15T18:06:13.489] [INFO] result -     [32m  √[0m[90m %s[0m[31m (%dms)[0m
+[2018-05-15T18:06:13.495] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:06:15.187] [INFO] default - Beginning the test on login with invalid values
+[2018-05-15T18:06:16.460] [INFO] result -     [31m  %d) %s[0m
+[2018-05-15T18:06:16.759] [INFO] result - undefined
+[2018-05-15T18:06:16.759] [INFO] result - undefined
+[2018-05-15T18:06:16.760] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T18:06:16.760] [INFO] result - [31m  %d failing[0m
+[2018-05-15T18:06:16.760] [INFO] result - undefined
+[2018-05-15T18:06:16.761] [INFO] result - [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m
+[2018-05-15T18:06:16.761] [INFO] result - undefined
+[2018-05-15T18:06:16.761] [INFO] result - undefined
+[2018-05-15T18:06:16.784] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T18:06:16.836] [INFO] result - [[90m18:06:16[39m] I/launcher -
+[2018-05-15T18:08:39.148] [INFO] default - On prepare started
+[2018-05-15T18:08:40.448] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T18:08:40.449] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T18:08:40.452] [INFO] result - undefined
+[2018-05-15T18:08:40.453] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:08:40.453] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:08:40.454] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:08:45.356] [INFO] default - Begging the test on login with valid values
+[2018-05-15T18:08:50.337] [INFO] result -     [32m  √[0m[90m %s[0m[31m (%dms)[0m
+[2018-05-15T18:08:50.342] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:08:52.290] [INFO] default - Beginning the test on login with invalid values
+[2018-05-15T18:08:54.139] [INFO] result -     [31m  %d) %s[0m
+[2018-05-15T18:08:54.446] [INFO] result - undefined
+[2018-05-15T18:08:54.446] [INFO] result - undefined
+[2018-05-15T18:08:54.447] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T18:08:54.447] [INFO] result - [31m  %d failing[0m
+[2018-05-15T18:08:54.447] [INFO] result - undefined
+[2018-05-15T18:08:54.448] [INFO] result - [0m  %s) %s:
+[0m[31m     %s[0m[90m
+%s
+[0m
+[2018-05-15T18:08:54.448] [INFO] result - undefined
+[2018-05-15T18:08:54.448] [INFO] result - undefined
+[2018-05-15T18:08:54.474] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T18:08:54.528] [INFO] result - [[90m18:08:54[39m] I/launcher -
+[2018-05-15T18:09:16.732] [INFO] default - On prepare started
+[2018-05-15T18:09:18.015] [INFO] result - Clear old screenshots: Success!
+[2018-05-15T18:09:18.016] [INFO] result - [[90mmochawesome[39m] Generating report files...
+
+[2018-05-15T18:09:18.018] [INFO] result - undefined
+[2018-05-15T18:09:18.019] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:09:18.020] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:09:18.021] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:09:22.515] [INFO] default - Begging the test on login with valid values
+[2018-05-15T18:09:27.100] [INFO] result -     [32m  √[0m[90m %s[0m[31m (%dms)[0m
+[2018-05-15T18:09:27.105] [INFO] result - [0m%s%s[0m
+[2018-05-15T18:09:29.827] [INFO] default - Beginning the test on login with invalid values
+[2018-05-15T18:09:31.705] [INFO] result -     [32m  √[0m[90m %s[0m[31m (%dms)[0m
+[2018-05-15T18:09:31.709] [INFO] result - undefined
+[2018-05-15T18:09:31.710] [INFO] result - undefined
+[2018-05-15T18:09:31.710] [INFO] result - [92m [0m[32m %d passing[0m[90m (%s)[0m
+[2018-05-15T18:09:31.711] [INFO] result - undefined
+[2018-05-15T18:09:31.736] [INFO] result - 
+[[90mmochawesome[39m] Report saved to customReportDir\customReportName.html
+
+
+[2018-05-15T18:09:31.787] [INFO] result - [[90m18:09:31[39m] I/launcher -

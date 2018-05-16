@@ -1,9 +1,12 @@
 import { browser, element, By, by, until, $, $$, Key, ExpectedConditions as EC } from 'protractor'
 import{expect} from 'chai'
+import * as log4js from 'log4js'
 
+const logger = log4js.getLogger('default')
 export class HomePage {
 
 public logInButton = element(By.xpath('//a[contains(.,"Log in")]'))
+public salesBlocks = $$('a[href*="/ssl-certificates/"][ui-sref]')
 private authorizationInscription = element(By.xpath('//h1[contains(.,"Authorization")]'))
 private usernameLoginField = $('input[placeholder="Email"]')
 private passwordLoginField = $('input[placeholder="Enter password"]')
@@ -12,7 +15,9 @@ private loginButtonSubmit = element(By.xpath('//button[contains(.,"Login")]'))
 private limitedTimeOfferInscription = element(By.xpath('//div[contains(.,"LIMITED TIME OFFER") and parent::div[@ng-if]]'))
 private discountBanner = $('div.ev-promo-banner')
 private userIndicator = element(By.xpath('//a[contains(.,"ssls.automation+5@gmail.com")]'))
-private dropdownMenu = $('button[nc-dropdown-trigger]')
+public dropdownMenu = $('button[nc-dropdown-trigger]')
+public invalidLoginErrorMessage = element(By.xpath('//span[contains(.,"Uh oh! Email or password is incorrect")]'))
+public logoutButton = element(By.xpath('//button[contains(.,"Log out")]'))
     /*public search = $(`[name="searchStr"]`)
     private topRaitingPopularMoviesBlock = element.all(By.xpath(`//*[@class='row is-flex']`))
     private popularMoviesBlock = $$('.col-sm-3 movie-card img')
@@ -51,9 +56,10 @@ private dropdownMenu = $('button[nc-dropdown-trigger]')
     async open(){
         await browser.get('/')
         await browser.wait(EC.and(
-        EC.visibilityOf(this.search),
-        EC.visibilityOf(this.topRaitingPopularMoviesBlock.first()),
-        EC.visibilityOf(this.topRaitingPopularMoviesBlock.get(1))),20000,'Site didn\'t open')    
+        EC.visibilityOf(this.discountBanner),
+        EC.visibilityOf(this.logInButton),
+        EC.visibilityOf(this.salesBlocks.first()),
+    EC.visibilityOf(this.salesBlocks.last())),20000,'Site didn\'t open')    
 }
     async authorization(login:string,password:string){
         await this.usernameLoginField.sendKeys(login)
@@ -61,32 +67,6 @@ private dropdownMenu = $('button[nc-dropdown-trigger]')
         await this.showPasswordIcon.click()
         expect(await this.passwordLoginField.getAttribute("value")).to.equal("123456")
         await this.loginButtonSubmit.click()
-        await browser.wait(EC.and(
-        EC.visibilityOf(this.limitedTimeOfferInscription),
-        EC.visibilityOf(this.discountBanner),
-        EC.visibilityOf(this.userIndicator)),20000,'3 elements should appear')
-        expect(this.dropdownMenu.isDisplayed()).to.equal(true)
-      
-    }
-    async waitforloadingpagewithfilm(){
-        await browser.wait(EC.and(
-            EC.visibilityOf(this.movieCardRaiting),
-            EC.visibilityOf(this.movieCardImg),
-            EC.visibilityOf(this.movieCardGanresBlock),
-            EC.visibilityOf(this.movieActorImg.first()),
-            EC.elementToBeClickable(this.similarFilmLink.first()),
-            EC.visibilityOf(this.similarFilmsMovie.first()),
-            EC.visibilityOf(this.similarFilmsBlock)),20000,'7 elements should appear')
-    }
-    async chooseFilmAtSearchResult(number_of_film:number){
-        await this.searchResultMovieLink.get(number_of_film).click()
-        await this.waitforloadingpagewithfilm()
-    }
-    async obtainClearNameOfMovie(){
-        await browser.wait(EC.visibilityOf(this.movieCardTitle),20000, 'not appeared')
-        let frazefordelete = (await this.movieCardRaiting.getText()).trim().length
-        let fullfraze = (await this.movieCardTitle.getText()).trim()
-        return await fullfraze.slice(0,-frazefordelete - 1)
     }
     async waitForLoginVisibility(){
         await browser.wait(EC.and(
@@ -95,31 +75,11 @@ private dropdownMenu = $('button[nc-dropdown-trigger]')
         EC.visibilityOf(this.passwordLoginField),
         EC.elementToBeClickable(this.loginButtonSubmit)),20000,'4 elements should appear')
     }
-    async waitForPopularMoviesVisibility(){
+    async waitForLogining(){
         await browser.wait(EC.and(
-        EC.visibilityOf(this.popularSeriesMovie.first()),
-        EC.visibilityOf(this.popularSeriesMovie.last()),
-        EC.visibilityOf(this.popularSeriesBlock),
-        EC.visibilityOf(this.categoryOfFilmsTitle)),20000,'4 Elements not appeared')
+            EC.visibilityOf(this.limitedTimeOfferInscription),
+            EC.visibilityOf(this.discountBanner),
+            EC.visibilityOf(this.userIndicator),
+            EC.visibilityOf(this.dropdownMenu)),20000,'4 elements should appear')
     }
-    async compareMassiveWithFraze(massive,fraze){
-            let arr1 =[]
-            for(let i = 0; i < massive.length; i++){
-            if(massive[i].indexOf(fraze)>=0) await arr1.push(massive[i])
-            }
-            return await arr1;
-            }
-    async massiveOfElementsTexts(selector){
-        return await Promise.all(await selector.map(async function(element){
-            return await element.getText()
-        }))
-    }
-    async compare2Massives(arr1,arr2){                                                  
-            let idx = 0, arr3 = [];                                                                  
-            for (let i = 0; i < arr2.length; i++){
-                idx = arr1.indexOf(arr2[i]);
-                if (await idx >= 0) await arr3.push(arr2[i]);
-            }
-            return await arr3;
-        }
 }
